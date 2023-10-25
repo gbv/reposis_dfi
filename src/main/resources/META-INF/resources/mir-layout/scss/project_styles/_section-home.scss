@@ -6,7 +6,39 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+body.mir-start_page {
+  .splash {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .page-figure {
+    position:relative;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .figure-overlay {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 80%;
+      min-height: 60%;
+      background-color: rgba(255,255,255,0.8);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  #project-searchMainPage {
+    padding: 0 3rem;
+  }
+  #project-searchInput {
+    border: 1px solid black;
+  }
+  .search-button {
+    display: none;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

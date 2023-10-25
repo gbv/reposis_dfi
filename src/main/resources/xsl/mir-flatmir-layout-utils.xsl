@@ -10,138 +10,166 @@
 
   <xsl:template name="mir.navigation">
 
-    <div id="header_box" class="clearfix container">
-      <div id="options_nav_box" class="mir-prop-nav">
-        <nav>
-          <ul class="navbar-nav ml-auto flex-row">
-            <xsl:call-template name="mir.loginMenu" />
-            <xsl:call-template name="mir.languageMenu" />
-          </ul>
-        </nav>
-      </div>
-      <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-           class="">
-          <span id="logo_mir">mir</span>
-          <span id="logo_modul">mycore</span>
-          <span id="logo_slogan">mods institutional repository</span>
-        </a>
-      </div>
+  <div class="header_box container">
+
+    <div class="project_logo_box">
+      <a title="zur Homepage" href="{$WebApplicationBaseURL}">
+        <img alt="Logo DFI" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
+      </a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="project_nav_box">
 
+      <nav class="mir-prop-nav">
+        <ul class="nav navbar-nav navbar-expand">
+          <xsl:call-template name="mir.loginMenu" />
+          <xsl:call-template name="mir.languageMenu" />
+        </ul>
+      </nav>
+
+      <div class="search-button search-toggler js-search-toggler">
+        <span class="search-button__label">Schnellsuche</span>
+        <i class="fas fa-search search-button__icon"></i>
+      </div>
+
+      <div class="searchfield_box">
+        <button class="btn js-search-close text-primary">
+          <i class="far fa-times-circle search-button__close"></i>
+        </button>
+        <form
+          id="bs-searchHeader"
+          action="{$WebApplicationBaseURL}servlets/solr/find"
+          class="bs-search form-inline"
+          role="search">
+          <div class="js-searchbar">
+            <input
+              id="searchbar"
+              name="condQuery"
+              placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+              class="form-control search-query pp-rounded"
+              type="text" />
+            <xsl:choose>
+              <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                <input name="owner" type="hidden" value="createdby:*" />
+              </xsl:when>
+              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+              </xsl:when>
+            </xsl:choose>
+            <button type="submit" class="btn pnt-primary text-primary">
+              <i class="fas fa-search search-button__icon"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="mir-main-nav pp-main-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#mir-main-nav-collapse-box"
-            aria-controls="mir-main-nav-collapse-box"
+            data-target=".mir-main-nav__entries--mobile"
+            aria-controls="mir-main-nav__entries--mobile"
             aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon text-primary"></span>
           </button>
-
-          <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <xsl:for-each select="$loaded_navigation_xml/menu">
-                <xsl:choose>
-                  <!-- Ignore some menus, they are shown elsewhere in the layout -->
-                  <xsl:when test="@id='main'"/>
-                  <xsl:when test="@id='brand'"/>
-                  <xsl:when test="@id='below'"/>
-                  <xsl:when test="@id='user'"/>
-                  <xsl:otherwise>
-                    <xsl:apply-templates select="."/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:for-each>
+          <div class="collapse navbar-collapse mir-main-nav__entries">
+            <ul class="navbar-nav">
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
+              <xsl:call-template name="project.generate_single_menu_entry">
+                <xsl:with-param name="menuID" select="'citation'"/>
+              </xsl:call-template>
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
               <xsl:call-template name="mir.basketMenu" />
             </ul>
-
-            <form
-              action="{$WebApplicationBaseURL}servlets/solr/find"
-              class="searchfield_box form-inline my-2 my-lg-0"
-              role="search">
-              <input
-                name="condQuery"
-                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                class="form-control mr-sm-2 search-query"
-                id="searchInput"
-                type="text"
-                aria-label="Search" />
-              <xsl:choose>
-                <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
-              <button type="submit" class="btn btn-primary my-2 my-sm-0">
-                <i class="fas fa-search"></i>
-              </button>
-            </form>
-
           </div>
-
         </nav>
       </div>
+
     </div>
+  </div>
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
     <!-- show only on startpage -->
     <xsl:if test="//div/@class='jumbotwo'">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Mit MIR wird alles gut!</h1>
-          <h2>your repository - just out of the box</h2>
-        </div>
-      </div>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
+
         <div class="col-4">
-          <h4>Über uns</h4>
+
+          <h3>
+            Deutsch-Französisches Institut
+          </h3>
           <p>
-            MIR ein klassicher institutioneller Publikations- bzw.
-            Dokumentenserver. Es basiert auf dem Repository-Framework
-            MyCoRe und dem Metadata Object Description Schema (MODS).
-            <span class="read_more">
-              <a href="http://mycore.de/generated/mir/">Mehr erfahren ...</a>
+            <span class="pin">
+              <a
+                href="https://www.google.de/maps/place/Deutsch-Franz%C3%B6sisches+Institut+Ludwigsburg/@48.8976159,9.1830197,17z/data=!3m1!5s0x4799d1bd6694908b:0x9627151deaa141a3!4m14!1m7!3m6!1s0x4799d1bd611e3c49:0x1603631e0c8eee72!2sDeutsch-Franz%C3%B6sisches+Institut+Ludwigsburg!8m2!3d48.8976159!4d9.1852137!16s%2Fm%2F04n2d39!3m5!1s0x4799d1bd611e3c49:0x1603631e0c8eee72!8m2!3d48.8976159!4d9.1852137!16s%2Fm%2F04n2d39"
+                target="_blank" rel="noreferrer">Asperger Straße 34<br /> D-71634 Ludwigsburg
+              </a>
             </span>
           </p>
+          <p>
+            Telefon: <a href="tel:+49714193030" class="tel">+49 (0) 7141 93 03 0</a><br />
+            Telefax: <a href="tel:+497141930350" class="tel">+49 (0) 7141 93 03 50</a><br />
+            Allgemeine Anfragen: <a href="#" class="mail" data-mailto-token="jxfiql7fkclXacf+ab"
+              data-mailto-vector="-3">info@<span style="display:none;">remove-this.</span>dfi.de</a><br />
+            Presseanfragen: <a href="#" class="mail"
+              data-mailto-token="jxfiql7mobppbxkcoxdbXacf+ab" data-mailto-vector="-3">
+            presseanfrage@<span style="display:none;">remove-this.</span>dfi.de</a>
+          </p>
+
         </div>
+
+        <div class="col-4">
+
+          <h3>
+            Frankreich-Bibliothek (dfi)
+          </h3>
+          <p>
+            <span class="pin">
+              <a
+                href="https://www.google.de/maps/place/Arbeitsgemeinschaft+der+Spezialbibliotheken/@48.8986138,9.1917587,15z/data=!3m1!5s0x4799d1bd7b981ab9:0x7156f3e6fce3b2ae!4m10!1m2!2m1!1sFrankreich+Bibliothek+Asperger+Stra%C3%9Fe+30+D-71634+Ludwigsburg!3m6!1s0x4799d1bd7bebd3cb:0xcb688aa752d0e533!8m2!3d48.89745!4d9.1860401!15sCj1GcmFua3JlaWNoIEJpYmxpb3RoZWsgQXNwZXJnZXIgU3RyYcOfZSAzMCBELTcxNjM0IEx1ZHdpZ3NidXJn4AEA!16s%2Fg%2F11swvgt0zl"
+                target="_blank" rel="noreferrer">Asperger Straße 30<br /> D-71634 Ludwigsburg
+              </a>
+            </span>
+          </p>
+          <p>Telefon: <a href="tel:+497141930334" class="tel">+49 (0) 7141 93 03 34</a><br />
+            Telefax: <a href="tel:+497141930355" class="tel">+49 (0) 7141 93 03 55</a><br /><a
+              href="#" class="mail" data-mailto-token="jxfiql7coxkhobfze:yfyiflqebhXacf+ab"
+              data-mailto-vector="-3">frankreich-bibliothek@<span style="display:none;">
+            remove-this.</span>dfi.de</a></p>
+
+        </div>
+
         <div class="col-2">
-          <h4>Navigation</h4>
+
+        </div>
+
+        <div class="col-2 text-right">
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='brand']/*" />
           </ul>
         </div>
-        <div class="col-2">
-          <h4>Netzwerke</h4>
-          <ul class="social_links">
-            <li><a href="#"><button type="button" class="social_icons social_icon_fb"></button>Facebook</a></li>
-            <li><a href="#"><button type="button" class="social_icons social_icon_tw"></button>Twitter</a></li>
-            <li><a href="#"><button type="button" class="social_icons social_icon_gg"></button>Google+</a></li>
-          </ul>
-        </div>
-        <div class="col-2">
-          <h4>Layout based on</h4>
-          <ul class="internal_links">
-            <li><a href="{$WebApplicationBaseURL}mir-layout/template/flatmir.xml">flatmir</a></li>
-            <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
-            <li><a href="http://bootswatch.com/">Bootswatch</a></li>
-          </ul>
+
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-copyright">
+            <p class="text-center">© Deutsch-Französisches Institut 2023</p>
+          </div>
         </div>
       </div>
+
+
     </div>
   </xsl:template>
 
@@ -152,6 +180,35 @@
         <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
     </div>
+  </xsl:template>
+
+  <xsl:template name="project.generate_single_menu_entry">
+    <xsl:param name="menuID" />
+
+    <xsl:variable name="activeClass">
+      <xsl:choose>
+        <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
+          <xsl:text>active</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>not-active</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <li class="nav-item {$activeClass}">
+
+      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link" >
+        <xsl:choose>
+          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </a>
+    </li>
   </xsl:template>
 
 </xsl:stylesheet>

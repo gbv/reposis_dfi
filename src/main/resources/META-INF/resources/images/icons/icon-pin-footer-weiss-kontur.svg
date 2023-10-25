@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Ebene_1" data-name="Ebene 1" width="21.806" height="29.429" viewBox="0 0 21.806 29.429">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path id="Pfad_235" data-name="Pfad 235" class="cls-1" d="m10.931,28.929s10.375-11.748,10.375-17.957c-.139-5.709-4.723-10.31-10.431-10.472h.056C5.223.662.639,5.263.5,10.972c0,6.209,10.431,17.957,10.431,17.957Z"/>
+  <path id="Pfad_236" data-name="Pfad 236" class="cls-1" d="m15.64,10.513c0,2.601-2.108,4.71-4.709,4.711-2.601,0-4.71-2.108-4.711-4.709s2.108-4.71,4.709-4.711h.002c2.601,0,4.709,2.108,4.709,4.709h0Z"/>
+</svg>

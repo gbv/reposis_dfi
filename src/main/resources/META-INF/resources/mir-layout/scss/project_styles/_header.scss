@@ -8,6 +8,91 @@
 
 // logo and menu container
 
+html > body > header {
+  //box-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  z-index: 4001;
+  right: 0;
+  width: 100%;
+  min-width: 320px;
+  background-color: white;
+}
+
+.header_box {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.75rem 0 0 0;
+  position: relative;
+  .project_logo_box {
+    z-index: 4002;
+    a {
+      display: block;
+    }
+    img {
+      margin: 0 0 1.25rem 0;
+      height: 115px;
+    }
+  }
+  .project_nav_box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    .searchfield_box,
+    .search-button {
+      order: 1;
+    }
+    .mir-prop-nav {
+      order: 2;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .pp-main-nav {
+      order: 3;
+      flex-basis: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.search-button {
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+  &__icon {
+    font-size: 1.25rem;
+    margin-right: 6rem;
+  }
+  &__label {
+    font-size: 0.875rem;
+    margin-right: 1.5rem;
+    font-weight: bold;
+    //color: $p-petrol;
+  }
+  &.closed {
+    display: none;
+  }
+}
+
+.searchfield_box {
+  flex: 2 1 auto;
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  animation: fadeOut .15s linear;
+  background-color: white;
+  display:none;
+  &.open {
+    animation: fadeIn .15s linear;
+    display: flex;
+  }
+  #searchbar {
+    width: 30vw;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

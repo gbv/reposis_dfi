@@ -7,6 +7,42 @@
 // no (xl) media query necessary (desktop first)
 
 
+.flatmir-footer {
+  padding-top: 5rem;
+  h3 {
+    font-weight: bold;
+  }
+  a {
+    font-style: italic;
+  }
+  .pin {
+    padding-left: 30px;
+    display: block;
+    position: relative;
+    &::before {
+      content: url('../../../../images/icons/icon-pin-footer-weiss-kontur.svg');
+      margin-right: 15px;
+      position: absolute;
+      top: 2px;
+      left: 0;
+    }
+  }
+}
+
+
+
+.footer-copyright {
+  color: white;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid white;
+}
+
+#powered_by {
+  border: none;
+  background-color: $primary;
+}
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
