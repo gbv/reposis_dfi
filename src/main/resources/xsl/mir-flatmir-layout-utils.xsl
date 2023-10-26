@@ -77,8 +77,8 @@
           </button>
           <div class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav">
-              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />
               <xsl:call-template name="project.generate_single_menu_entry">
                 <xsl:with-param name="menuID" select="'citation'"/>
               </xsl:call-template>
@@ -103,7 +103,7 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-4">
+        <div class="col-3">
 
           <h3>
             Deutsch-Französisches Institut
@@ -128,7 +128,7 @@
 
         </div>
 
-        <div class="col-4">
+        <div class="col-3">
 
           <h3>
             Frankreich-Bibliothek (dfi)
@@ -151,11 +151,28 @@
 
         <div class="col-2">
 
+          <h3><xsl:value-of select="i18n:translate('project.layout.footer.about')" /></h3>
+          <ul class="internal_links">
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" mode="footerMenu"/>
+          </ul>
+          <!-- TODO -->
+          <!--<h3><xsl:value-of select="i18n:translate('project.layout.footer.contact')" /></h3>-->
+          <ul class="internal_links">
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='contact']/*" mode="footerMenu" />
+          </ul>
         </div>
 
-        <div class="col-2 text-right">
+        <div class="col-2">
+          <h3><xsl:value-of select="i18n:translate('project.layout.footer.rights')" /></h3>
           <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='brand']/*" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" mode="footerMenu" />
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h3><xsl:value-of select="i18n:translate('project.layout.footer.technical')" /></h3>
+          <ul class="internal_links">
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" mode="footerMenu" />
           </ul>
         </div>
 

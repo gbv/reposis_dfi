@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="HAFTUNGSHINWEISE">
+    <section xml:lang="de" title="Unser Repositorium">
         <div class="row">
             <div class="col-md-12" lang="de">
-                <h1>Haftungshinweise</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                <h1>Unser Repositorium</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
                     viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
                     dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
@@ -20,6 +21,5 @@
     </section>
 
     <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
     </meta>
 </MyCoReWebPage>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="documents">
+  <label xml:lang="de" text="Dokumenttypen" description="Liste der Dokumenttypen"/>
+  <label xml:lang="en" text="Document types" description="List of Document types"/>
+  <label xml:lang="x-uri" text="https://repositorium.dfi.de/classifications/documents"/>
+  <categories>
+    <category ID="dfi_specific">
+      <label xml:lang="en" text="Dfi-spezifische Dokumente bzw. Veröffentlichungen"/>
+      <label xml:lang="de" text="Dfi-specific documents or publications"/>
+      <category ID="dfi_current">
+        <label xml:lang="de" text="Dfi-aktuell (pdf)"/>
+        <label xml:lang="en" text="Dfi-aktuell (pdf)"/>
+      </category>
+      <category ID="france_analyses">
+        <label xml:lang="de" text="Aktuelle Frankreich-Analysen (pdf)"/>
+        <label xml:lang="en" text="Current France analyses (pdf)"/>
+      </category>
+      <category ID="dfi_compact">
+        <label xml:lang="de" text="Dfi-compact (pdf)"/>
+        <label xml:lang="en" text="Dfi-compact (pdf)"/>
+      </category>
+      <category ID="le_Podkast">
+        <label xml:lang="en" text="Le Podkast (mp3)"/>
+        <label xml:lang="de" text="Le Podkast (mp3)"/>
+      </category>
+      <category ID="video">
+        <label xml:lang="en" text="Videos (mp4)"
+               description="Zeitzeugeninterviews, dfi-Image-Videos, Aufzeichnungen von dfi-Veranstaltungen"/>
+        <label xml:lang="de" text="Videos (mp4)"
+               description="Contemporary witness interviews, Dfi image videos, recordings of Dfi events"/>
+      </category>
+      <category ID="photos">
+        <label xml:lang="de" text="Fotos (gängige Bildformate)"/>
+        <label xml:lang="en" text="Photos (common image formats))"/>
+      </category>
+    </category>
+    <category ID="other">
+      <label xml:lang="en" text="Sonstige Dokumente"/>
+      <label xml:lang="de" text="Other documents"/>
+      <category ID="dfi_thesis">
+        <label xml:lang="de" text="Abschlussarbeiten von Dfi-Stipendiat*innen (pdf)"/>
+        <label xml:lang="en" text="Theses from Dfi scholarship holders (pdf)"/>
+      </category>
+      <category ID="journal_articles">
+        <label xml:lang="de" text="Zeitschriftaufsätze (pdf)"/>
+        <label xml:lang="en" text="Journal articles (pdf)"/>
+      </category>
+    </category>
+    <category ID="press_documentation">
+      <label xml:lang="en" text="Für Dokumente aus unserer Pressedokumentation"/>
+      <label xml:lang="de" text="For documents from our press documentation"/>
+      <category ID="press_article">
+        <label xml:lang="de" text="Presseartikel (pdf)"/>
+        <label xml:lang="en" text="Press article (pdf)"/>
+      </category>
+      <category ID="press_files">
+        <label xml:lang="de" text="Pressemappe (pdf)"/>
+        <label xml:lang="en" text="Press files (pdf)"/>
+      </category>
+      <category ID="caricature">
+        <label xml:lang="de" text="Karikaturen (pdf)"/>
+        <label xml:lang="en" text="Caricature (pdf)"/>
+      </category>
+    </category>
+  </categories>
+</mycoreclass>
