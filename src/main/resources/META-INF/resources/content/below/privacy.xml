@@ -1,73 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
     <section xml:lang="de" title="Datenschutz">
-      <h1><span>Datenschutz</span></h1>
+      <h1>
+        <span>Datenschutzerklärung</span>
+      </h1>
       <div class="row">
         <div class="col-md-12" lang="de">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
 
-            <h3>Überschrift 1</h3>
+          <p>
+            Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist das:<br />
+            <br />
+            Deutsch-Französisches Institut<br />
+            Asperger Straße 34<br />
+            71634 Ludwigsburg<br />
+            Deutschland<br />
+            Tel.: +49-7141-9303-0<br />
+            E-Mail: datenschutz@dfi.de<br />
+          </p>
 
-                <p>Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Imperdiet sed euismod nisi
-                    porta lorem mollis aliquam ut. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum
-                    arcu. Nec feugiat in fermentum posuere urna nec tincidunt praesent. Praesent elementum facilisis
-                    leo vel fringilla est. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Suscipit
-                    tellus mauris a diam maecenas sed. Praesent elementum facilisis leo vel fringilla est
-                    ullamcorper eget nulla. Orci sagittis eu volutpat odio facilisis mauris sit amet. Eget gravida
-                    cum sociis natoque penatibus et magnis dis. In nisl nisi scelerisque eu. Massa tincidunt dui ut
-                    ornare. Semper eget duis at tellus at urna condimentum mattis. Viverra suspendisse potenti
-                    nullam ac tortor vitae purus faucibus ornare.
-                </p>
-
-            <h3>Überschrift 2</h3>
-
-                <p>Fermentum odio eu feugiat pretium nibh. Fermentum posuere urna nec tincidunt praesent semper
-                    feugiat nibh sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Sit amet dictum
-                    sit amet. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Viverra orci sagittis
-                    eu volutpat. Non diam phasellus vestibulum lorem sed risus ultricies. Odio tempor orci dapibus
-                    ultrices in iaculis nunc sed. Pharetra vel turpis nunc eget. Odio morbi quis commodo odio aenean
-                    sed adipiscing. Amet cursus sit amet dictum sit. Nam libero justo laoreet sit amet cursus sit.
-                    Amet risus nullam eget felis eget nunc lobortis mattis.
-                </p>
-
-            <h3>Überschrift 3</h3>
-
-                <p>
-                    Odio aenean sed adipiscing diam donec adipiscing. Eget nunc lobortis mattis aliquam. Viverra
-                    accumsan in nisl nisi scelerisque eu. Netus et malesuada fames ac turpis. Egestas integer eget
-                    aliquet nibh praesent tristique magna sit. Ultrices neque ornare aenean euismod. Platea dictumst
-                    quisque sagittis purus sit amet volutpat. Suscipit adipiscing bibendum est ultricies integer
-                    quis. Varius quam quisque id diam vel quam elementum. At consectetur lorem donec massa sapien
-                    faucibus. Volutpat consequat mauris nunc congue. Pellentesque dignissim enim sit amet venenatis.
-                    Vitae tempus quam pellentesque nec nam aliquam. Tristique sollicitudin nibh sit amet commodo.
-                    Felis donec et odio pellentesque.
-                </p>
+          <p>
+            Sie können auf das Repositorium zugreifen und seine Inhalte nutzen, ohne direkt personenbezogene Daten (wie etwa Ihren Namen, Ihre Postanschrift oder Ihre E-Mail-Adresse) anzugeben. Auch in diesem Fall müssen wir bestimmte Informationen erheben und speichern, um Ihnen den Zugriff auf unsere Webseite zu ermöglichen.
+          </p>
 
 
-            <h3>Überschrift 4</h3>
+          <h2>1. Logdateien</h2>
+          <p>
+            Wenn Sie diese Webseite besuchen, speichert unser Webserver automatisch den Domain-Namen bzw. die IP-Adresse des anfragenden Rechners (in der Regel Ihres Internet-Zugangsanbieters) einschließlich des Datums, der Uhrzeit und der Dauer Ihres Besuches, die Unterseiten/URLs, die Sie besuchen sowie Informationen über die/den von Ihnen zur Ansicht unserer Seiten eingesetzte/-n Anwendungen und Endgeräte.
+          </p>
 
+          <h2>2. Cookies</h2>
+          <p>
+            Um unser Angebot so nutzerfreundlich wie möglich zu gestalten, verwenden wir – wie viele namhafte Unternehmen – sogenannte Cookies. Cookies sind kleine Textdateien, die in dem von Ihnen verwendeten Internetbrowser gespeichert werden. Diese Dateien helfen uns dabei, bestimmte Präferenzen unserer Besucher beim Surfen zu erkennen und unsere Seite entsprechend zu gestalten. Die meisten der von uns verwendeten Cookies sind so genannte Session-Cookies. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Wir setzen aber auch permanente Cookies ein. Diese dienen dazu, die Benutzerführung zu verbessern. Unsere Cookies erheben keine personenbezogenen Daten und sind nicht dazu geeignet, Sie auf Webseiten Dritter zu identifizieren. Sie können Ihren Browser so einstellen, dass er Sie über die Platzierung von Cookies informiert. Auf diese Weise wird der Gebrauch von Cookies für Sie transparent. Sie können auch über Ihre Browsereinstellungen die Annahme von Cookies prinzipiell verweigern. Allerdings kann dies unter Umständen dazu führen, dass sie nicht sämtliche Funktionen der Webseite nutzen können.
+          </p>
 
-                <p>Potenti nullam ac tortor vitae purus faucibus ornare. Volutpat maecenas volutpat blandit aliquam
-                    etiam. Orci eu lobortis elementum nibh tellus molestie nunc. Quam adipiscing vitae proin
-                    sagittis nisl rhoncus mattis rhoncus urna. Est ullamcorper eget nulla facilisi etiam dignissim
-                    diam quis enim. Risus at ultrices mi tempus imperdiet nulla. Non nisi est sit amet facilisis
-                    magna etiam. Fermentum dui faucibus in ornare quam. Duis ultricies lacus sed turpis tincidunt id
-                    aliquet risus. Sagittis vitae et leo duis ut diam quam nulla. Egestas dui id ornare arcu odio
-                    ut.
-                </p>
-            </div>
+          <h2>3. Webseitenanalyse über Matomo (ehemals Piwik)</h2>
+          <p>
+            Wir setzen auf unserer Webseite zudem Matomo Open Analytics ein, eine Webanalyse Sofware der InnoCraft Ltd., 150 Willis St. 6011 Wellington, New Zealand, um unsere Webseite kontinuierlich zu verbessern. Matomo verwendet ebenfalls Cookies, die auf Ihrem Computer gespeichert werden, um die Analyse der Benutzung der Webseite zu ermöglichen. Die durch Cookies erzeugten Informationen über ihre Benutzung dieser Webseite werden in der Regel an einen Matomo Server gesendet. Die IP-Adresse ihres Endgerätes wird dabei anonymisiert und auf diesem Server so gespeichert, dass Rückschlüsse auf die nutzende Person ausgeschlossen sind. Die gesammelten Informationen werden benutzt, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen.
+          </p>
+
+          <h2>4. Kommunikation</h2>
+          <p>
+            Um die Kommunikation mit den Nutzerinnen und Nutzern unseres Repositoriums gewährleisten zu können, verarbeiten wir sämtliche Informationen, die Sie uns bei einer Kontaktaufnahme mitgeteilt haben; darüber hinaus speichern wir den Grund der Kontaktaufnahme.
+          </p>
+          <p>
+            Für welche Zwecke und auf welchen Rechtsgrundlagen werden Ihre Daten verarbeitet?
+            <ul>
+              <li>
+                Die Verarbeitung der in den Logdateien ggf. enthaltenen personenbezogenen Daten erfolgt, um Ihnen die Nutzung unserer Webseite zu ermöglichen; dies erfolgt auf Grundlage von § 15 Abs. 1 TMG.
+              </li>
+              <li>
+                Die Verarbeitung der über Cookies (einschließlich der Webanalyse mit Matomo) erhobenen Daten und der pseudonymen Nutzungsprofile erfolgt für Zwecke des Betriebs, der Verbesserung und bedarfsgerechten Gestaltung unserer Webseite auf Grundlage von § 15 Abs. 3 TMG.
+              </li>
+              <li>
+                Wir können die im Zusammenhang mit der Nutzung unserer Webseite und die zum Zwecke der Kommunikation gespeicherten Daten auch zur Erfüllung von rechtlichen Verpflichtungen denen wir unterliegen verarbeiten, dies erfolgt auf Grundlage von Artikel 6 Absatz 1 c) DSGVO.
+              </li>
+              <li>
+                Soweit erforderlich verarbeiten wir Ihre Daten über die vorgenannten Zwecke hinaus auch zur Wahrung unserer berechtigten Interessen oder der Interessen von Dritten; dies erfolgt auf Grundlage von Artikel 6 Absatz 1 f) DSGVO. Zu unseren berechtigten Interessen gehören insbesondere:<br/>
+                a)	die Geltendmachung rechtlicher Ansprüche und die Verteidigung bei rechtlichen Streitigkeiten;<br/>
+                b)	die Gewährleistung eine verbraucherfreundlichen Kommunikation in den Fällen von III.9;<br/>
+                c)	die Verhinderung und Aufklärung von Straftaten;<br/>
+                d)	die Steuerung und Weiterentwicklung unserer Geschäftstätigkeit einschließlich der Risikosteuerung.<br/>
+
+              </li>
+            </ul>
+          </p>
 
         </div>
+      </div>
     </section>
     <meta>
         <log lastEditor="admin" date="2020-12-01" time="13:04"/>
