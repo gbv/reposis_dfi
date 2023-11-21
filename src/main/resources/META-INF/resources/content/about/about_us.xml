@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
     <section xml:lang="de" title="Unser Repositorium">
-      <h1><span>Unser Repositorium</span></h1>
+      <h1>
+        <span>Unser Repositorium</span>
+      </h1>
       <div class="row">
             <div class="col-md-12" lang="de">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
+
+              <p>
+                Im Repositorium des dfi werden alle Beiträge, die das Institut seit seinem Bestehen in den Reihen
+                <ul>
+                  <li>dfi-aktuell</li>
+                  <li>Aktuelle Frankreich-Analysen</li>
+                  <li>dfi-compact</li>
+                  <li>Le Podkast</li>
+                </ul>
+                veröffentlicht hat, ebenso wie
+                <ul>
+                  <li>Film- und Tondokumente, die das dfi selbst produziert hat oder an deren Entstehung das Institut maßgeblich beteiligt war oder die bei Veranstaltungen des dfi entstanden sind</li>
+                    <li>Arbeiten von Stipendiatinnen und Stipendiaten des dfi</li>
+                      <li>Aufsätze aus Zeitschriften aus dem Bestand der Frankreich-Bibliothek</li>
+                        <li>Karikaturen aus der Sammlung von Darstellungen deutsch-französischer Befindlichkeiten der Frankreich-Bibliothek, deren Urheber dafür ihr Einverständnis gegeben haben</li>
+                </ul>
+                langfristig gesichert und können hier kostenlos eingesehen werden.
+              </p>
+              <p>
+                Für den internen Gebrauch und die wissenschaftliche Nutzung vor Ort werden darin außerdem verwahrt:
+                <ul>
+                  <li>Weitere Karikaturen aus der Sammlung von Darstellungen deutsch-französischer Befindlichkeiten der Frankreich-Bibliothek</li>
+                  <li>Presseartikel zu den deutsch-französischen Beziehungen, die zwischen den 1970er und heute erschienen sind</li>
+                  <li>Presseartikel zur französischen Politik, Wirtschaft und Gesellschaft, die seit 2009 erschienen sind</li>
+                  <li>Sicherheitskopien von Online-Publikationen zu den deutsch-französischen Beziehungen und zur französischen Politik, Wirtschaft und Gesellschaft, die seit den 2000er-Jahren erschienen sind</li>
+                </ul>
+              </p>
+
+
             </div>
         </div>
     </section>
