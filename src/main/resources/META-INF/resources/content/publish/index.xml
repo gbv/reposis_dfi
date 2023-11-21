@@ -5,7 +5,7 @@
     <section title="New publication" xml:lang="en"/>
     <section xml:lang="all">
         <script src='../../js/mir/select-doctype.js'> </script>
-        <h1>Publizieren</h1>
+        <h1><span>Publizieren</span></h1>
 
         <!-- introduction -->
         <div class="row">

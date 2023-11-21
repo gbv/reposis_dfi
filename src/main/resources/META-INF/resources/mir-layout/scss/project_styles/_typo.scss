@@ -5,6 +5,18 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+h1 {
+  font-size: 3.95em;
+  margin-bottom: 20px;
+  font-family: $font-family-serif;
+  span {
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background: linear-gradient(0deg,rgba(255, 157, 46,0) 0%,rgba(255, 157, 46,0) 5%,rgba(255, 157, 46,1) 5.1%,rgba(255, 157, 46,1) 45%,rgba(255, 157, 46,0) 45.1%,rgba(255, 157, 46,0) 100%);
+  }
+}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

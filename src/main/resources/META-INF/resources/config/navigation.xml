@@ -1,66 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <navigation dir="/content" href="navigation" hrefStartingPage="/content/index.xml" template="template_mir">
   <!-- Footer -->
-  <menu id="about" dir="/content/below/about">
-    <label xml:lang="de">Über uns</label>
-    <label xml:lang="en">About us</label>
-    <item href="/content/below/about/about_us.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Unser Repositorium</label>
-      <label xml:lang="en">Our Repository</label>
-    </item>
-    <!--
-    <item href="https://www.dfi.de/ueber-uns/portrait" type="extern" replaceMenu="false" constrainPopUp="false">
+  <menu id="links">
+    <label xml:lang="de">Footer Links</label>
+    <label xml:lang="en">Footer Links</label>
+    <item href="https://www.dfi.de/ueber-uns/portrait" type="extern">
       <label xml:lang="de">Das Deutsch-Französische Institut</label>
       <label xml:lang="en">The Deutsch-Französische Institut</label>
     </item>
-    <item href="https://www.dfi.de/ueber-uns/frankreich-bibliothek" type="intern" replaceMenu="false" constrainPopUp="false">
+    <item href="https://www.dfi.de/ueber-uns/frankreich-bibliothek" type="extern">
       <label xml:lang="de">Die Frankreich-Bibliothek</label>
       <label xml:lang="en">The France Library</label>
     </item>
-    -->
   </menu>
-  <menu id="rights" dir="/content/below/rights">
-    <label xml:lang="de">Rechtliches</label>
-    <label xml:lang="en">Rights</label>
-    <item href="/content/below/rights/copyright.xml" replaceMenu="false" constrainPopUp="false" template="undefined">
-      <label xml:lang="de">Urheberrecht</label>
-      <label xml:lang="en">Copyright</label>
+  <menu id="below" dir="/content/below">
+    <label xml:lang="de">Footer Menü</label>
+    <label xml:lang="en">Footer menu</label>
+    <item href="/content/below/contact.xml" type="intern">
+      <label xml:lang="de">Kontakt</label>
+      <label xml:lang="en">Contact</label>
     </item>
-    <item href="/content/below/rights/privacy.xml" replaceMenu="false" constrainPopUp="false" template="undefined">
+    <item href="/content/below/privacy.xml" type="intern">
       <label xml:lang="de">Datenschutz</label>
       <label xml:lang="en">Privacy</label>
     </item>
-    <item href="/content/below/rights/accessibility.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+    <item href="/content/below/accessibility.xml" type="intern">
       <label xml:lang="de">Barrierefreiheit</label>
       <label xml:lang="en">Accessibility</label>
     </item>
-    <item href="/content/below/rights/imprint.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+    <item href="/content/below/imprint.xml" type="intern">
       <label xml:lang="de">Impressum</label>
       <label xml:lang="en">Imprint</label>
     </item>
   </menu>
-  <menu id="contact" dir="/content/below">
-    <label xml:lang="de">Kontakt</label>
-    <label xml:lang="en">Contact</label>
-    <item href="/content/below/contact.xml" type="intern">
-      <label xml:lang="de">Ansprechpersonen</label>
-      <label xml:lang="en">Contact persons</label>
-    </item>
-    <item href="/content/below/faq.xml" type="intern">
-      <label xml:lang="de">Häufig gestellte Fragen (FAQ)</label>
-      <label xml:lang="en">FAQ</label>
+  <menu id="home" dir="/content">
+    <label xml:lang="de">Start</label>
+    <label xml:lang="en">Home</label>
+    <item href="/content/index.xml" type="intern">
+        <label xml:lang="de">Start</label>
+        <label xml:lang="en">Home</label>
     </item>
   </menu>
-  <menu id="technical" dir="/content/technical">
-    <label xml:lang="de">Technisches</label>
-    <label xml:lang="en">Technical</label>
-    <item href="/content/below/technical/basics.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Betrieb &amp; Grundlagen</label>
-      <label xml:lang="en">Operations &amp; Basic</label>
-    </item>
-    <item href="/content/below/technical/software.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Software</label>
-      <label xml:lang="en">Software</label>
+  <menu id="about" dir="/content/about">
+    <label xml:lang="de">Über uns</label>
+    <label xml:lang="en">About us</label>
+    <item href="/content/about/about_us.xml" type="intern">
+      <label xml:lang="de">Über uns</label>
+      <label xml:lang="en">About us</label>
     </item>
   </menu>
   <menu id="search">

@@ -7,11 +7,12 @@
             <meta name="description" content="Impressum und Pflichtangaben zur Anbieterkennzeichnung"  />
         </head>
 
+        <h1>
+          <span>Impressum</span>
+        </h1>
+
         <div class="row">
             <div class="col-md-12" lang="de">
-
-                <h1>Impressum</h1>
-
 
                 <h2>Anbieter</h2>
                 <p>

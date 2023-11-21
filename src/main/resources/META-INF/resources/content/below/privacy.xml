@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Urheberrecht">
-        <div class="row">
+    <section xml:lang="de" title="Datenschutz">
+      <h1><span>Datenschutz</span></h1>
+      <div class="row">
         <div class="col-md-12" lang="de">
-            <h2>Urheberrecht</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
                     viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in

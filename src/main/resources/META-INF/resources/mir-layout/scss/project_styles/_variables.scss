@@ -17,7 +17,7 @@
 $dfi-white: #fff;
 $dfi-gray: #666666;
 $dfi-gray-dark: #343a40;
-$dfi-primary:#ff9e30;
+$dfi-primary:#ff9d2e;
 $dfi-primary-hover: #f48f17;
 $dfi-secondary: #dce3e7;
 $dfi-secondary-hover: #d3dbde;
@@ -37,8 +37,9 @@ $primary:     $dfi-dark;
 $secondary:   $dfi-primary;
 $body-color:  $dfi-dark;
 
-$web-font-path:             "https://webfonts.gbv.de/css2?family=Open+Sans:wght@400;700&display=swap";
-$font-family-sans-serif:    "Open Sans", "Arial", "Verdana", "Tahoma", sans-serif;
+$web-font-path:             "https://webfonts.gbv.de/css2?family=Source+Sans+3&family=Source+Serif+4&display=swap";
+$font-family-sans-serif:    "Source Sans 3", "Arial", "Verdana", "Tahoma", sans-serif;
+$font-family-serif:         "Source Serif 4", "Times New Roman", "Garamond", serif;
 $font-size-base:            1rem;
 
 $border-radius:             0;

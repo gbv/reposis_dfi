@@ -2,9 +2,9 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
     <section xml:lang="de" title="Barrierefreiheitserklärung">
-        <div class="row">
+      <h1><span>Erklärung zur Barrierefreiheit</span></h1>
+      <div class="row">
             <div class="col-md-12" lang="de">
-                <h1>Erklärung zur Barrierefreiheit</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
                     viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in

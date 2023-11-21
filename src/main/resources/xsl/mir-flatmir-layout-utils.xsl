@@ -10,87 +10,96 @@
 
   <xsl:template name="mir.navigation">
 
-  <div class="header_box container">
+    <div class="container">
+      <div class="header_box  col-12">
 
-    <div class="project_logo_box">
-      <a title="zur Homepage" href="{$WebApplicationBaseURL}">
-        <img alt="Logo DFI" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
-      </a>
-    </div>
+        <div class="project_logo_box">
+          <a title="zur Homepage" href="https://www.dfi.de/">
+            <img alt="Logo DFI" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
+          </a>
+        </div>
 
-    <div class="project_nav_box">
+        <div class="project_nav_box">
 
-      <nav class="mir-prop-nav">
-        <ul class="nav navbar-nav navbar-expand">
-          <xsl:call-template name="mir.loginMenu" />
-          <xsl:call-template name="mir.languageMenu" />
-        </ul>
-      </nav>
-
-      <div class="search-button search-toggler js-search-toggler">
-        <span class="search-button__label">Schnellsuche</span>
-        <i class="fas fa-search search-button__icon"></i>
-      </div>
-
-      <div class="searchfield_box">
-        <button class="btn js-search-close text-primary">
-          <i class="far fa-times-circle search-button__close"></i>
-        </button>
-        <form
-          id="bs-searchHeader"
-          action="{$WebApplicationBaseURL}servlets/solr/find"
-          class="bs-search form-inline"
-          role="search">
-          <div class="js-searchbar">
-            <input
-              id="searchbar"
-              name="condQuery"
-              placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-              class="form-control search-query pp-rounded"
-              type="text" />
-            <xsl:choose>
-              <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-                <input name="owner" type="hidden" value="createdby:*" />
-              </xsl:when>
-              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-              </xsl:when>
-            </xsl:choose>
-            <button type="submit" class="btn pnt-primary text-primary">
-              <i class="fas fa-search search-button__icon"></i>
-            </button>
-          </div>
-        </form>
-      </div>
-
-      <div class="mir-main-nav pp-main-nav">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target=".mir-main-nav__entries--mobile"
-            aria-controls="mir-main-nav__entries--mobile"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-primary"></span>
-          </button>
-          <div class="collapse navbar-collapse mir-main-nav__entries">
-            <ul class="navbar-nav">
-              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />
-              <xsl:call-template name="project.generate_single_menu_entry">
-                <xsl:with-param name="menuID" select="'citation'"/>
-              </xsl:call-template>
-              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
-              <xsl:call-template name="mir.basketMenu" />
+          <nav class="mir-prop-nav">
+            <ul class="nav navbar-nav navbar-expand">
+              <xsl:call-template name="mir.loginMenu" />
+              <xsl:call-template name="mir.languageMenu" />
             </ul>
-          </div>
-        </nav>
-      </div>
+          </nav>
 
+          <div class="search-button search-toggler js-search-toggler">
+            <span class="search-button__label">Schnellsuche</span>
+            <i class="fas fa-search search-button__icon"></i>
+          </div>
+
+          <div class="searchfield_box">
+            <button class="btn js-search-close text-primary">
+              <i class="far fa-times-circle search-button__close"></i>
+            </button>
+            <form
+              id="bs-searchHeader"
+              action="{$WebApplicationBaseURL}servlets/solr/find"
+              class="bs-search form-inline"
+              role="search">
+              <div class="js-searchbar">
+                <input
+                  id="searchbar"
+                  name="condQuery"
+                  placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+                  class="form-control search-query pp-rounded"
+                  type="text" />
+                <xsl:choose>
+                  <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                    <input name="owner" type="hidden" value="createdby:*" />
+                  </xsl:when>
+                  <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                    <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+                  </xsl:when>
+                </xsl:choose>
+                <button type="submit" class="btn pnt-primary text-primary">
+                  <i class="fas fa-search search-button__icon"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="mir-main-nav pp-main-nav">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target=".mir-main-nav__entries--mobile"
+                aria-controls="mir-main-nav__entries--mobile"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-primary"></span>
+              </button>
+              <div class="collapse navbar-collapse mir-main-nav__entries">
+                <ul class="navbar-nav">
+                  <xsl:call-template name="project.generate_single_menu_entry">
+                    <xsl:with-param name="menuID" select="'home'"/>
+                  </xsl:call-template>
+                  <xsl:call-template name="project.generate_single_menu_entry">
+                    <xsl:with-param name="menuID" select="'about'"/>
+                  </xsl:call-template>
+                  <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
+                  <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />
+                  <xsl:call-template name="project.generate_single_menu_entry">
+                    <xsl:with-param name="menuID" select="'citation'"/>
+                  </xsl:call-template>
+                  <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
+                  <xsl:call-template name="mir.basketMenu" />
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+        </div>
+
+      </div>
     </div>
-  </div>
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
@@ -103,76 +112,18 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-3">
+        <div class="col-4">
+          <ul class="internal_links">
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='links']/*" mode="footerMenu" />
+          </ul>
+        </div>
 
-          <h3>
-            Deutsch-Französisches Institut
-          </h3>
-          <p>
-            <span class="pin">
-              <a
-                href="https://www.google.de/maps/place/Deutsch-Franz%C3%B6sisches+Institut+Ludwigsburg/@48.8976159,9.1830197,17z/data=!3m1!5s0x4799d1bd6694908b:0x9627151deaa141a3!4m14!1m7!3m6!1s0x4799d1bd611e3c49:0x1603631e0c8eee72!2sDeutsch-Franz%C3%B6sisches+Institut+Ludwigsburg!8m2!3d48.8976159!4d9.1852137!16s%2Fm%2F04n2d39!3m5!1s0x4799d1bd611e3c49:0x1603631e0c8eee72!8m2!3d48.8976159!4d9.1852137!16s%2Fm%2F04n2d39"
-                target="_blank" rel="noreferrer">Asperger Straße 34<br /> D-71634 Ludwigsburg
-              </a>
-            </span>
-          </p>
-          <p>
-            Telefon: <a href="tel:+49714193030" class="tel">+49 (0) 7141 93 03 0</a><br />
-            Telefax: <a href="tel:+497141930350" class="tel">+49 (0) 7141 93 03 50</a><br />
-            Allgemeine Anfragen: <a href="#" class="mail" data-mailto-token="jxfiql7fkclXacf+ab"
-              data-mailto-vector="-3">info@<span style="display:none;">remove-this.</span>dfi.de</a><br />
-            Presseanfragen: <a href="#" class="mail"
-              data-mailto-token="jxfiql7mobppbxkcoxdbXacf+ab" data-mailto-vector="-3">
-            presseanfrage@<span style="display:none;">remove-this.</span>dfi.de</a>
-          </p>
-
+        <div class="col">
         </div>
 
         <div class="col-3">
-
-          <h3>
-            Frankreich-Bibliothek (dfi)
-          </h3>
-          <p>
-            <span class="pin">
-              <a
-                href="https://www.google.de/maps/place/Arbeitsgemeinschaft+der+Spezialbibliotheken/@48.8986138,9.1917587,15z/data=!3m1!5s0x4799d1bd7b981ab9:0x7156f3e6fce3b2ae!4m10!1m2!2m1!1sFrankreich+Bibliothek+Asperger+Stra%C3%9Fe+30+D-71634+Ludwigsburg!3m6!1s0x4799d1bd7bebd3cb:0xcb688aa752d0e533!8m2!3d48.89745!4d9.1860401!15sCj1GcmFua3JlaWNoIEJpYmxpb3RoZWsgQXNwZXJnZXIgU3RyYcOfZSAzMCBELTcxNjM0IEx1ZHdpZ3NidXJn4AEA!16s%2Fg%2F11swvgt0zl"
-                target="_blank" rel="noreferrer">Asperger Straße 30<br /> D-71634 Ludwigsburg
-              </a>
-            </span>
-          </p>
-          <p>Telefon: <a href="tel:+497141930334" class="tel">+49 (0) 7141 93 03 34</a><br />
-            Telefax: <a href="tel:+497141930355" class="tel">+49 (0) 7141 93 03 55</a><br /><a
-              href="#" class="mail" data-mailto-token="jxfiql7coxkhobfze:yfyiflqebhXacf+ab"
-              data-mailto-vector="-3">frankreich-bibliothek@<span style="display:none;">
-            remove-this.</span>dfi.de</a></p>
-
-        </div>
-
-        <div class="col-2">
-
-          <h3><xsl:value-of select="i18n:translate('project.layout.footer.about')" /></h3>
           <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" mode="footerMenu"/>
-          </ul>
-          <!-- TODO -->
-          <!--<h3><xsl:value-of select="i18n:translate('project.layout.footer.contact')" /></h3>-->
-          <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='contact']/*" mode="footerMenu" />
-          </ul>
-        </div>
-
-        <div class="col-2">
-          <h3><xsl:value-of select="i18n:translate('project.layout.footer.rights')" /></h3>
-          <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" mode="footerMenu" />
-          </ul>
-        </div>
-
-        <div class="col-2">
-          <h3><xsl:value-of select="i18n:translate('project.layout.footer.technical')" /></h3>
-          <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" mode="footerMenu" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
         </div>
 
