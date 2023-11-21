@@ -2,21 +2,28 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
     <section xml:lang="de" title="Kontakt">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h2>Kontakt</h2>
-                <p>
-                    <strong>Institution</strong>
-                    <br/>
-                    Name
-                    <br/>
-                    E-Mail:
-                    <span class="madress">name [at] beispiel.de</span>
-                    <br/>
-                    Telefon: +49 00 00 00 00
-                </p>
-            </div>
+      <h1>
+        <span>Kontakt</span>
+      </h1>
+      <div class="row">
+        <div class="col-md-12" lang="de">
+
+          <h2>Deutsch-Französisches Institut - Frankreich-Bibliothek</h2>
+          <p>
+            Asperger Strasse 30<br />
+            71634 Ludwigsburg<br />
+            Tel.: +49 07141-9303-34<br />
+            Mail: frankreich-bibliothek@dfi.de
+          </p>
+          <p>
+            <strong>Ansprechpartner</strong><br />
+            Martin Villinger<br />
+            Leiter der Frankreich-Bibliothek<br />
+            Tel.: +49 07141-9303-35<br />
+            Mail: villinger@dfi.de
+          </p>
         </div>
+      </div>
 
     </section>
 </MyCoReWebPage>
