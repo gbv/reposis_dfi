@@ -1,70 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
     <section xml:lang="de" title="Datenschutz">
-      <h1>
-        <span>Datenschutzerklärung</span>
-      </h1>
-      <div class="row">
-        <div class="col-md-12" lang="de">
+      <div class="cms-page">
+        <h1>
+          <span>Datenschutzerklärung</span>
+        </h1>
+        <div class="row">
+          <div class="col-md-12" lang="de">
 
-          <p>
-            Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist das:<br />
-            <br />
-            Deutsch-Französisches Institut<br />
-            Asperger Straße 34<br />
-            71634 Ludwigsburg<br />
-            Deutschland<br />
-            Tel.: +49-7141-9303-0<br />
-            E-Mail: datenschutz@dfi.de<br />
-          </p>
+            <section>
+              <p>
+                Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist das:<br />
+                <br />
+                Deutsch-Französisches Institut<br />
+                Asperger Straße 34<br />
+                71634 Ludwigsburg<br />
+                Deutschland<br />
+                Tel.: +49-7141-9303-0<br />
+                E-Mail: datenschutz@dfi.de<br />
+              </p>
 
-          <p>
-            Sie können auf das Repositorium zugreifen und seine Inhalte nutzen, ohne direkt personenbezogene Daten (wie etwa Ihren Namen, Ihre Postanschrift oder Ihre E-Mail-Adresse) anzugeben. Auch in diesem Fall müssen wir bestimmte Informationen erheben und speichern, um Ihnen den Zugriff auf unsere Webseite zu ermöglichen.
-          </p>
+              <p>
+                Sie können auf das Repositorium zugreifen und seine Inhalte nutzen, ohne direkt personenbezogene Daten (wie etwa Ihren Namen, Ihre Postanschrift oder Ihre E-Mail-Adresse) anzugeben. Auch in diesem Fall müssen wir bestimmte Informationen erheben und speichern, um Ihnen den Zugriff auf unsere Webseite zu ermöglichen.
+              </p>
+            </section>
 
 
-          <h2>1. Logdateien</h2>
-          <p>
-            Wenn Sie diese Webseite besuchen, speichert unser Webserver automatisch den Domain-Namen bzw. die IP-Adresse des anfragenden Rechners (in der Regel Ihres Internet-Zugangsanbieters) einschließlich des Datums, der Uhrzeit und der Dauer Ihres Besuches, die Unterseiten/URLs, die Sie besuchen sowie Informationen über die/den von Ihnen zur Ansicht unserer Seiten eingesetzte/-n Anwendungen und Endgeräte.
-          </p>
+            <section>
+              <h3>1. Logdateien</h3>
+              <p>
+                Wenn Sie diese Webseite besuchen, speichert unser Webserver automatisch den Domain-Namen bzw. die IP-Adresse des anfragenden Rechners (in der Regel Ihres Internet-Zugangsanbieters) einschließlich des Datums, der Uhrzeit und der Dauer Ihres Besuches, die Unterseiten/URLs, die Sie besuchen sowie Informationen über die/den von Ihnen zur Ansicht unserer Seiten eingesetzte/-n Anwendungen und Endgeräte.
+              </p>
+            </section>
 
-          <h2>2. Cookies</h2>
-          <p>
-            Um unser Angebot so nutzerfreundlich wie möglich zu gestalten, verwenden wir – wie viele namhafte Unternehmen – sogenannte Cookies. Cookies sind kleine Textdateien, die in dem von Ihnen verwendeten Internetbrowser gespeichert werden. Diese Dateien helfen uns dabei, bestimmte Präferenzen unserer Besucher beim Surfen zu erkennen und unsere Seite entsprechend zu gestalten. Die meisten der von uns verwendeten Cookies sind so genannte Session-Cookies. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Wir setzen aber auch permanente Cookies ein. Diese dienen dazu, die Benutzerführung zu verbessern. Unsere Cookies erheben keine personenbezogenen Daten und sind nicht dazu geeignet, Sie auf Webseiten Dritter zu identifizieren. Sie können Ihren Browser so einstellen, dass er Sie über die Platzierung von Cookies informiert. Auf diese Weise wird der Gebrauch von Cookies für Sie transparent. Sie können auch über Ihre Browsereinstellungen die Annahme von Cookies prinzipiell verweigern. Allerdings kann dies unter Umständen dazu führen, dass sie nicht sämtliche Funktionen der Webseite nutzen können.
-          </p>
+            <section>
+              <h3>2. Cookies</h3>
+              <p>
+                Um unser Angebot so nutzerfreundlich wie möglich zu gestalten, verwenden wir – wie viele namhafte Unternehmen – sogenannte Cookies. Cookies sind kleine Textdateien, die in dem von Ihnen verwendeten Internetbrowser gespeichert werden. Diese Dateien helfen uns dabei, bestimmte Präferenzen unserer Besucher beim Surfen zu erkennen und unsere Seite entsprechend zu gestalten. Die meisten der von uns verwendeten Cookies sind so genannte Session-Cookies. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Wir setzen aber auch permanente Cookies ein. Diese dienen dazu, die Benutzerführung zu verbessern. Unsere Cookies erheben keine personenbezogenen Daten und sind nicht dazu geeignet, Sie auf Webseiten Dritter zu identifizieren. Sie können Ihren Browser so einstellen, dass er Sie über die Platzierung von Cookies informiert. Auf diese Weise wird der Gebrauch von Cookies für Sie transparent. Sie können auch über Ihre Browsereinstellungen die Annahme von Cookies prinzipiell verweigern. Allerdings kann dies unter Umständen dazu führen, dass sie nicht sämtliche Funktionen der Webseite nutzen können.
+              </p>
+            </section>
 
-          <h2>3. Webseitenanalyse über Matomo (ehemals Piwik)</h2>
-          <p>
-            Wir setzen auf unserer Webseite zudem Matomo Open Analytics ein, eine Webanalyse Sofware der InnoCraft Ltd., 150 Willis St. 6011 Wellington, New Zealand, um unsere Webseite kontinuierlich zu verbessern. Matomo verwendet ebenfalls Cookies, die auf Ihrem Computer gespeichert werden, um die Analyse der Benutzung der Webseite zu ermöglichen. Die durch Cookies erzeugten Informationen über ihre Benutzung dieser Webseite werden in der Regel an einen Matomo Server gesendet. Die IP-Adresse ihres Endgerätes wird dabei anonymisiert und auf diesem Server so gespeichert, dass Rückschlüsse auf die nutzende Person ausgeschlossen sind. Die gesammelten Informationen werden benutzt, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen.
-          </p>
+            <section>
+              <h3>3. Webseitenanalyse über Matomo (ehemals Piwik)</h3>
+              <p>
+                Wir setzen auf unserer Webseite zudem Matomo Open Analytics ein, eine Webanalyse Sofware der InnoCraft Ltd., 150 Willis St. 6011 Wellington, New Zealand, um unsere Webseite kontinuierlich zu verbessern. Matomo verwendet ebenfalls Cookies, die auf Ihrem Computer gespeichert werden, um die Analyse der Benutzung der Webseite zu ermöglichen. Die durch Cookies erzeugten Informationen über ihre Benutzung dieser Webseite werden in der Regel an einen Matomo Server gesendet. Die IP-Adresse ihres Endgerätes wird dabei anonymisiert und auf diesem Server so gespeichert, dass Rückschlüsse auf die nutzende Person ausgeschlossen sind. Die gesammelten Informationen werden benutzt, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen.
+              </p>
+            </section>
 
-          <h2>4. Kommunikation</h2>
-          <p>
-            Um die Kommunikation mit den Nutzerinnen und Nutzern unseres Repositoriums gewährleisten zu können, verarbeiten wir sämtliche Informationen, die Sie uns bei einer Kontaktaufnahme mitgeteilt haben; darüber hinaus speichern wir den Grund der Kontaktaufnahme.
-          </p>
-          <p>
-            Für welche Zwecke und auf welchen Rechtsgrundlagen werden Ihre Daten verarbeitet?
-            <ul>
-              <li>
-                Die Verarbeitung der in den Logdateien ggf. enthaltenen personenbezogenen Daten erfolgt, um Ihnen die Nutzung unserer Webseite zu ermöglichen; dies erfolgt auf Grundlage von § 15 Abs. 1 TMG.
-              </li>
-              <li>
-                Die Verarbeitung der über Cookies (einschließlich der Webanalyse mit Matomo) erhobenen Daten und der pseudonymen Nutzungsprofile erfolgt für Zwecke des Betriebs, der Verbesserung und bedarfsgerechten Gestaltung unserer Webseite auf Grundlage von § 15 Abs. 3 TMG.
-              </li>
-              <li>
-                Wir können die im Zusammenhang mit der Nutzung unserer Webseite und die zum Zwecke der Kommunikation gespeicherten Daten auch zur Erfüllung von rechtlichen Verpflichtungen denen wir unterliegen verarbeiten, dies erfolgt auf Grundlage von Artikel 6 Absatz 1 c) DSGVO.
-              </li>
-              <li>
-                Soweit erforderlich verarbeiten wir Ihre Daten über die vorgenannten Zwecke hinaus auch zur Wahrung unserer berechtigten Interessen oder der Interessen von Dritten; dies erfolgt auf Grundlage von Artikel 6 Absatz 1 f) DSGVO. Zu unseren berechtigten Interessen gehören insbesondere:<br/>
-                a)	die Geltendmachung rechtlicher Ansprüche und die Verteidigung bei rechtlichen Streitigkeiten;<br/>
-                b)	die Gewährleistung eine verbraucherfreundlichen Kommunikation in den Fällen von III.9;<br/>
-                c)	die Verhinderung und Aufklärung von Straftaten;<br/>
-                d)	die Steuerung und Weiterentwicklung unserer Geschäftstätigkeit einschließlich der Risikosteuerung.<br/>
+            <section>
+              <h3>4. Kommunikation</h3>
+              <p>
+                Um die Kommunikation mit den Nutzerinnen und Nutzern unseres Repositoriums gewährleisten zu können, verarbeiten wir sämtliche Informationen, die Sie uns bei einer Kontaktaufnahme mitgeteilt haben; darüber hinaus speichern wir den Grund der Kontaktaufnahme.
+              </p>
+              <p>
+                Für welche Zwecke und auf welchen Rechtsgrundlagen werden Ihre Daten verarbeitet?
+                <ul>
+                  <li>
+                    Die Verarbeitung der in den Logdateien ggf. enthaltenen personenbezogenen Daten erfolgt, um Ihnen die Nutzung unserer Webseite zu ermöglichen; dies erfolgt auf Grundlage von § 15 Abs. 1 TMG.
+                  </li>
+                  <li>
+                    Die Verarbeitung der über Cookies (einschließlich der Webanalyse mit Matomo) erhobenen Daten und der pseudonymen Nutzungsprofile erfolgt für Zwecke des Betriebs, der Verbesserung und bedarfsgerechten Gestaltung unserer Webseite auf Grundlage von § 15 Abs. 3 TMG.
+                  </li>
+                  <li>
+                    Wir können die im Zusammenhang mit der Nutzung unserer Webseite und die zum Zwecke der Kommunikation gespeicherten Daten auch zur Erfüllung von rechtlichen Verpflichtungen denen wir unterliegen verarbeiten, dies erfolgt auf Grundlage von Artikel 6 Absatz 1 c) DSGVO.
+                  </li>
+                  <li>
+                    Soweit erforderlich verarbeiten wir Ihre Daten über die vorgenannten Zwecke hinaus auch zur Wahrung unserer berechtigten Interessen oder der Interessen von Dritten; dies erfolgt auf Grundlage von Artikel 6 Absatz 1 f) DSGVO. Zu unseren berechtigten Interessen gehören insbesondere:<br/>
 
-              </li>
-            </ul>
-          </p>
+                    <ol type="a" class="mt1">
+                      <li>die Geltendmachung rechtlicher Ansprüche und die Verteidigung bei rechtlichen Streitigkeiten;</li>
+                      <li>die Gewährleistung eine verbraucherfreundlichen Kommunikation in den Fällen von III.9;</li>
+                      <li>die Verhinderung und Aufklärung von Straftaten;</li>
+                      <li>die Steuerung und Weiterentwicklung unserer Geschäftstätigkeit einschließlich der Risikosteuerung.</li>
+                    </ol>
 
+                  </li>
+                </ul>
+              </p>
+            </section>
+
+          </div>
         </div>
       </div>
     </section>

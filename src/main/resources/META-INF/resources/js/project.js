@@ -29,3 +29,18 @@ $( document ).ajaxComplete(function() {
   $("select#genre option[value='series']").remove();
   $("select#genre option[value='journal']").remove();
 });
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var breakPoint = 163;
+  if (document.body.scrollTop > breakPoint || document.documentElement.scrollTop > breakPoint) {
+    //small
+    $("body > header").addClass("small-header");
+    console.log("klein");
+  } else {
+    //big
+    $("body > header").removeClass("small-header");
+    console.log("gross");
+  }
+}

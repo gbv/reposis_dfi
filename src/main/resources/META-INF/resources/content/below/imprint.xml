@@ -1,65 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
 
-    <section xml:lang="de" title="Impressum und Pflichtangaben">
-        <head>
-            <meta name="title" content="Impressum und Pflichtangaben"/>
-            <meta name="description" content="Impressum und Pflichtangaben zur Anbieterkennzeichnung"  />
-        </head>
+  <section xml:lang="de" title="Impressum und Pflichtangaben">
+    <head>
+      <meta name="title" content="Impressum und Pflichtangaben"/>
+      <meta
+        name="description"
+        content="Impressum und Pflichtangaben zur Anbieterkennzeichnung"  />
+    </head>
 
-        <h1>
-          <span>Impressum</span>
-        </h1>
+    <div class="cms-page">
+      <h1>
+        <span>Impressum</span>
+      </h1>
 
-        <div class="row">
-            <div class="col-md-12" lang="de">
-
-                <h2>Anbieter</h2>
-                <p>
-                    <b>Deutsch-Französisches Institut (dfi)</b><br />
-                    Direktor: Prof. Dr. Frank Baasner<br />
-                    Asperger Straße 34<br />
-                    D - 71634 Ludwigsburg<br />
-                    Telefon: +49 (0) 7141 93 03 0<br />
-                    Telefax: +49 (0) 7141 93 03 50<br />
-                    E-Mail: <a href="mailto:info@dfi.de">info@dfi.de</a><br />
-                </p>
-                <p>
-                    <b>Eintrag ins Vereinsregister:</b><br />
-                    Registernummer: VR 287<br />
-                    Vereinsregister Ludwigsburg<br />
-                    Amtsgericht Ludwigsburg<br />
-                    D - 71634 Ludwigsburg<br />
-                </p>
-                <p>
-                    <b>Ansprechpartner:</b><br />
-                    Martin Villinger<br />
-                    c/o Deutsch-Französisches Institut<br />
-                    Asperger Strasse 34<br />
-                    D - 71634 Ludwigsburg<br />
-                    Telefon: +49 (0) 7141 93 03 35<br />
-                    Telefax: +49 (0) 7141 93 03 50<br />
-                    E-Mail: <a href="mailto:villinger@dfi.de">villinger@dfi.de</a>
-                </p>
-
-
-                <h2>Technischer Betrieb</h2>
-                <p>
-                    <b>Verbundzentrale des GBV (VZG)</b><br/>
-                    Platz der Göttinger Sieben 1<br/>re
-                    D-37073 Göttingen
-                </p>
-
-                <b>Digitale Bibliothek, Reposis</b>
-                <p>
-                    Telefon: 0551 39 5398<br/>
-                    E-Mail: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a><br/>
-                    <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service" target="_blank">
-                        https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
-                    </a>
-                </p>
-            </div>
+      <div class="row">
+        <div class="col-md-12" lang="de">
+          <h2>Anbieter</h2>
+          <p>
+            <strong>Deutsch-Französisches Institut (dfi)</strong><br />
+            Direktor: Prof. Dr. Frank Baasner<br />
+            Asperger Straße 34<br />
+            D - 71634 Ludwigsburg<br />
+            Telefon: +49 (0) 7141 93 03 0<br />
+            Telefax: +49 (0) 7141 93 03 50<br />
+            E-Mail: <a href="mailto:info@dfi.de">info@dfi.de</a>
+          </p>
+          <p>
+            <strong>Eintrag ins Vereinsregister:</strong><br />
+            Registernummer: VR 287<br />
+            Vereinsregister Ludwigsburg<br />
+            Amtsgericht Ludwigsburg<br />
+            D - 71634 Ludwigsburg
+          </p>
+          <p>
+            <strong>Ansprechpartner:</strong><br />
+            Martin Villinger<br />
+            c/o Deutsch-Französisches Institut<br />
+            Asperger Strasse 34<br />
+            D - 71634 Ludwigsburg<br />
+            Telefon: +49 (0) 7141 93 03 35<br />
+            Telefax: +49 (0) 7141 93 03 50<br />
+            E-Mail: <a href="mailto:villinger@dfi.de">villinger@dfi.de</a>
+          </p>
         </div>
-    </section>
-    <meta></meta>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" lang="de">
+          <h2>Technischer Betrieb</h2>
+          <p>
+            <strong>Verbundzentrale des GBV (VZG)</strong><br/>
+            Platz der Göttinger Sieben 1<br/>re
+            D-37073 Göttingen
+          </p>
+
+          <strong>Digitale Bibliothek, Reposis</strong>
+          <p>
+            Telefon: 0551 39 5398<br/>
+            E-Mail: <a href="mailto:dms-list@lists.gbv.de">dms-list@lists.gbv.de</a><br/>
+            <a
+              href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service"
+              target="_blank">
+                https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <meta></meta>
+
 </MyCoReWebPage>

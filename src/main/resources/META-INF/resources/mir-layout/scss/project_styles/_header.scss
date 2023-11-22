@@ -17,6 +17,18 @@ html > body > header {
   width: 100%;
   min-width: 320px;
   background-color: white;
+  .dfi-logo-small {
+    display: none;
+  }
+  &.small-header {
+    box-shadow: 0 0 7px 5px #D3D3D3;
+    .dfi-logo {
+      display: none;
+    }
+    .dfi-logo-small {
+      display: inline;
+    }
+  }
 }
 
 .header_box {
@@ -57,6 +69,7 @@ html > body > header {
     }
   }
 }
+.small-header .header_box .project_logo_box img { height: 71px; }
 
 .search-button {
   padding: 0.375rem 0.75rem;

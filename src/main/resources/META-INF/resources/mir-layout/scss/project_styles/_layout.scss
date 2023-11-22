@@ -17,11 +17,20 @@ body {
   .row {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 30px;
     & > div {
       background-color: white;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-top: 40px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 40px;
     }
+  }
+}
+
+.cms-page {
+  section {
+    padding-bottom: 80px;
   }
 }
 

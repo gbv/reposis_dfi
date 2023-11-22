@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Kontakt">
+  <section xml:lang="de" title="Kontakt">
+    <div class="cms-page">
       <h1>
         <span>Kontakt</span>
       </h1>
@@ -24,6 +25,6 @@
           </p>
         </div>
       </div>
-
-    </section>
+    </div>
+  </section>
 </MyCoReWebPage>

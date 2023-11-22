@@ -4,24 +4,25 @@
 <MyCoReWebPage>
 
   <section i18n="browse.documents" xml:lang="all">
-    <h1><span><i18n key="browse.documents" /></span></h1>
-    <div class="row">
-      <div class="col-md-8" lang="de">
+    <div class="cms-page">
+      <h1><span><i18n key="browse.documents" /></span></h1>
+      <div class="row">
+        <div class="col-md-8" lang="de">
 
-        <classificationbrowser classification="documents"
-                                   objecttype="mods"
-                                  restriction="+category.top:&quot;state:published&quot;"
-                                        field="category.top"
-                                 countresults="true"
-                                   addclassid="true"
-                                  emptyleaves="true"
-                                        style="bootstrap"
-                                   parameters="sort=mods.dateIssued+desc"
-                                 addParameter="XSL.template=template_mir"
-        />
+          <classificationbrowser classification="documents"
+                                     objecttype="mods"
+                                    restriction="+category.top:&quot;state:published&quot;"
+                                          field="category.top"
+                                   countresults="true"
+                                     addclassid="true"
+                                    emptyleaves="true"
+                                          style="bootstrap"
+                                     parameters="sort=mods.dateIssued+desc"
+                                   addParameter="XSL.template=template_mir"
+          />
+        </div>
       </div>
     </div>
-
   </section>
 
 </MyCoReWebPage>

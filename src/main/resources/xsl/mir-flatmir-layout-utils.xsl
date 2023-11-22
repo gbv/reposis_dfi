@@ -15,7 +15,8 @@
 
         <div class="project_logo_box">
           <a title="zur Homepage" href="https://www.dfi.de/">
-            <img alt="Logo DFI" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
+            <img alt="Logo DFI" class="dfi-logo" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
+            <img alt="Logo DFI klein" class="dfi-logo-small" src="{$WebApplicationBaseURL}images/logos/logo-dfi-blau.svg" />
           </a>
         </div>
 
@@ -122,7 +123,7 @@
         </div>
 
         <div class="col-3">
-          <ul class="internal_links">
+          <ul class="internal_links footer-menu">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
         </div>
