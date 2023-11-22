@@ -48,7 +48,7 @@
                   id="searchbar"
                   name="condQuery"
                   placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                  class="form-control search-query pp-rounded"
+                  class="form-control search-query"
                   type="text" />
                 <xsl:choose>
                   <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">

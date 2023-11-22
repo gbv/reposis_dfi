@@ -17,6 +17,28 @@ $(document).ready(function() {
     return true;
   });
 
+  // open search bar
+  $( ".js-search-toggler" ).click(function() {
+    $( ".searchfield_box" ).addClass('open');
+    $( this ).addClass('closed');
+    $( "#searchbar" ).focus();
+  });
+  // close searchbar
+  // listen to all clicks
+  $(document).click(function(event) {
+    var $click = $(event.target);
+    // search bar is visible AND
+    // clicked element is not inside of the search bar AND
+    // clicked element is not the toggle itself
+    if( $('.searchfield_box').hasClass("open") &&
+        !$click.closest('.js-searchbar').length &&
+        !$click.closest('.js-search-toggler').length ||
+        $click.closest('.js-search-close').length) {
+      $( ".searchfield_box" ).removeClass('open');
+      $( ".search-button" ).removeClass('closed');
+    }
+  });
+
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
   var newHref = 'https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
