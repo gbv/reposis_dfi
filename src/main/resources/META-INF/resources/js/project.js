@@ -44,6 +44,11 @@ $(document).ready(function() {
   var newHref = 'https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
   $("a[href='https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
 
+
+  if ( $(".cms-page")[0] ) {
+    $("body").addClass("cms-page");
+  }
+
 });
 
 $( document ).ajaxComplete(function() {
@@ -59,10 +64,8 @@ function scrollFunction() {
   if (document.body.scrollTop > breakPoint || document.documentElement.scrollTop > breakPoint) {
     //small
     $("body > header").addClass("small-header");
-    console.log("klein");
   } else {
     //big
     $("body > header").removeClass("small-header");
-    console.log("gross");
   }
 }

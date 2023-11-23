@@ -11,29 +11,38 @@ body {
   background-color: $dfi-secondary;
 }
 
-#page {
-  padding-bottom: 3rem;
-  background-color: transparent;
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 30px;
-    & > div {
-      background-color: white;
-      padding-top: 40px;
-      padding-left: 25px;
-      padding-right: 25px;
-      padding-bottom: 40px;
-    }
-  }
-}
-
 .cms-page {
   section {
     padding-bottom: 80px;
   }
+  #page {
+    padding-bottom: 3rem;
+    background-color: transparent;
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 30px;
+      & > div {
+        background-color: white;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+      }
+      .row {
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 0;
+        & > div {
+          padding-top: 0;
+          padding-left: 0;
+          padding-right: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
 }
-
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
