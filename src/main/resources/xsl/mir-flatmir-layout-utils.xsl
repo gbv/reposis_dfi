@@ -87,9 +87,6 @@
                   </xsl:call-template>
                   <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
                   <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />
-                  <xsl:call-template name="project.generate_single_menu_entry">
-                    <xsl:with-param name="menuID" select="'citation'"/>
-                  </xsl:call-template>
                   <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
                   <xsl:call-template name="mir.basketMenu" />
                 </ul>

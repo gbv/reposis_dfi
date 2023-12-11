@@ -14,28 +14,34 @@
 //  project settings
 // --------------------------------------------------
 
-$dfi-white: #fff;
-$dfi-gray: #666666;
-$dfi-gray-dark: #343a40;
-$dfi-primary:#ff9d2e;
-$dfi-primary-hover: #f48f17;
-$dfi-secondary: #dce3e7;
+$dfi-white:           #fff;
+$dfi-gray:            #666666;
+$dfi-gray-dark:       #343a40;
+$dfi-primary:         #ff9d2e;
+$dfi-primary-hover:   #f48f17;
+$dfi-link-hover:      #ffa600;
+$dfi-secondary:       #dce3e7;
 $dfi-secondary-hover: #d3dbde;
-$dfi-success: #98e59d;
-$dfi-success-hover: #8cd390;
-$dfi-info: #17a2b8;
-$dfi-warning: #ffc107;
-$dfi-danger: #dc3545;
-$dfi-light: #F4F4F4;
-$dfi-dark: #002a55;
+$dfi-success:         #98e59d;
+$dfi-success-hover:   #8cd390;
+$dfi-info:            #17a2b8;
+$dfi-warning:         #ffc107;
+$dfi-danger:          #dc3545;
+$dfi-light:           #F4F4F4;
+$dfi-dark:            #002a55;
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
 
-$primary:     $dfi-dark;
-$secondary:   $dfi-primary;
-$body-color:  $dfi-dark;
+$primary:                   $dfi-dark;
+$secondary:                 $dfi-primary;
+
+$body-color:                $dfi-dark;
+$link-color:                $dfi-dark;
+$link-hover-color:          $dfi-link-hover;
+$link-decoration:           underline dotted $dfi-dark;
+$link-hover-decoration:     underline dotted $dfi-dark;
 
 $web-font-path:             "https://webfonts.gbv.de/css2?family=Source+Sans+3&family=Source+Serif+4&display=swap";
 $font-family-sans-serif:    "Source Sans 3", "Arial", "Verdana", "Tahoma", sans-serif;
@@ -49,12 +55,9 @@ $border-radius:             0;
 $border-radius-lg:          0;
 $border-radius-sm:          0;
 
-$navbar-light-color: $dfi-dark;
-$navbar-light-hover-color: $dfi-primary;
+$navbar-light-color:        $dfi-dark;
+$navbar-light-hover-color:  $dfi-primary;
 
-$dropdown-link-color: $dfi-dark;
+$dropdown-link-color:       $dfi-dark;
 $dropdown-link-hover-color: white;
-$dropdown-link-hover-bg: $dfi-primary;
-
-$navbar-nav-link-padding-x: 0;
-$nav-link-padding-x: 0;
+$dropdown-link-hover-bg:    $dfi-primary;

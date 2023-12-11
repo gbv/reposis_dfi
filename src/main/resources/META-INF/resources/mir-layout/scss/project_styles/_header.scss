@@ -9,7 +9,7 @@
 // logo and menu container
 
 html > body > header {
-  //box-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 0 7px 5px #D3D3D3;
   position: fixed;
   top: 0;
   z-index: 4001;
@@ -21,7 +21,6 @@ html > body > header {
     display: none;
   }
   &.small-header {
-    box-shadow: 0 0 7px 5px #D3D3D3;
     .dfi-logo {
       display: none;
     }
