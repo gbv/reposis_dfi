@@ -20,7 +20,9 @@
   <!-- ========== project specific templates ========== -->
   
   <xed:template id="fiv_subject.repeat">
-    <xed:repeat xpath="mods:classification[@authorityURI='https://reposis-test.gbv.de/dfi/classifications/fiv_subject'][@displayLabel='FIV Subject']/@valueURIxEditor">
+    <xed:repeat 
+        xpath="mods:classification[@authorityURI='https://reposis-test.gbv.de/dfi/classifications/fiv_subject'][@displayLabel='FIV Subject']/@valueURIxEditor"
+        min="1" max="20">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="project.form.label.fiv_subject" />
