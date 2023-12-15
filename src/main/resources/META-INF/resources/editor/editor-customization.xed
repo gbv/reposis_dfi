@@ -35,7 +35,7 @@
             <xed:include uri="xslStyle:items2options:classification:editor:-1:children:fiv_subject" />
           </select>
         </div>
-        <mir:help-pmud help-text="{i18n:project.help.fiv_subject}" pmud="false" pmud="true"/>
+        <mir:help-pmud help-text="{i18n:project.help.fiv_subject}" pmud="true"/>
       </div>
     </xed:repeat>
   </xed:template>
