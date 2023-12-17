@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fiv_subject">
+  <label xml:lang="de" text="FIV-Themen" />
+  <categories>
+    <category ID="fiv_compsport">
+      <label xml:lang="de" text="Leistungssport" />
+    </category>
+    <category ID="fiv_sport">
+      <label xml:lang="de" text="Sport" />
+    </category>
+    <category ID="fiv_domesticpolsituation">
+      <label xml:lang="de" text=" Innenpolitische Lage/Entwicklung" />
+    </category>
+    <category ID="fiv_domesticpolitics">
+      <label xml:lang="de" text="Innenpolitik" />
+    </category>
+    <category ID="fiv_companalysis">
+      <label xml:lang="de" text="Vergleichende Analyse" />
+    </category>
+    <category ID="fiv_contentanalysis">
+      <label xml:lang="de" text=" Inhaltsanalyse" />
+    </category>
+    <category ID="fiv_communicationcontent">
+      <label xml:lang="de" text="Kommunikationsinhalte" />
+    </category>
+    <category ID="fiv_reporting">
+      <label xml:lang="de" text="Berichterstattung" />
+    </category>
+    <category ID="fiv_charlie_hebdo">
+      <label xml:lang="de" text="Charlie hebdo" />
+    </category>
+    <category ID="fiv_le_monde_newspaper">
+      <label xml:lang="de" text="Le Monde (Zeitung)" />
+    </category>
+    <category ID="fiv_lefigaro_newspaper">
+      <label xml:lang="de" text="Le Figaro (Zeitung)" />
+    </category>
+    <category ID="fiv_terroristattack">
+      <label xml:lang="de" text="Terroranschlag" />
+    </category>
+    <category ID="fiv_newspaper">
+      <label xml:lang="de" text="Tageszeitung" />
+    </category>
+    <category ID="fiv_goalsinst">
+      <label xml:lang="de" text="Ziele und Programme von Institutionen/Organisationen" />
+    </category>
+    <category ID="fiv_transnatmovment">
+      <label xml:lang="de" text="Transnationale Bewegung" />
+    </category>
+    <category ID="fiv_intcooperation">
+      <label xml:lang="de" text="Internationale Zusammenarbeit" />
+    </category>
+    <category ID="fiv_germany1949_1990">
+      <label xml:lang="de" text="Bundesrepublik Deutschland (1949-1990)" />
+    </category>
+    <category ID="fiv_areareform">
+      <label xml:lang="de" text="Gebietsreform" />
+    </category>
+    <category ID="fiv_reaction">
+      <label xml:lang="de" text="Wirkung/Auswirkung" />
+    </category>
+    <category ID="fiv_saarlorlux">
+      <label xml:lang="de" text="Saar-Lor-Lux" />
+    </category>
+    <category ID="fiv_oberrheinischestiefland">
+      <label xml:lang="de" text="Oberrheinisches Tiefland" />
+    </category>
+    <category ID="fiv_grandest">
+      <label xml:lang="de" text="Grand Est" />
+    </category>
+    <category ID="fiv_commuter">
+      <label xml:lang="de" text="Pendler/Grenzpendler" />
+    </category>
+    <category ID="fiv_recognitionqualification">
+      <label xml:lang="de" text="Anerkennung von Ausbildungszeiten/-abschlüssen" />
+    </category>
+    <category ID="fiv_profeducation2">
+      <label xml:lang="de" text="Betriebliche Ausbildung/Lehre" />
+    </category>
+    <category ID="fiv_profeducation">
+      <label xml:lang="de" text="Ausbildung/Berufliche Bildung" />
+    </category>
+    <category ID="fiv_inteducooperation">
+      <label xml:lang="de" text="Internationale Bildungszusammenarbeit" />
+    </category>
+    <category ID="fiv_borderintcooperation">
+      <label xml:lang="de" text="Grenznahe internationale Zusammenarbeit" />
+    </category>
+    <category ID="fiv_borderarea">
+      <label xml:lang="de" text="Grenzgebiet" />
+    </category>
+    <category ID="fiv_politicalsystem">
+      <label xml:lang="de" text="Politisches System" />
+    </category>
+    <category ID="fiv_socialconflict">
+      <label xml:lang="de" text="Soziale Konfliktlinien" />
+    </category>
+    <category ID="fiv_electionresult">
+      <label xml:lang="de" text="Wahlergebnis/Abstimmungsergebnis" />
+    </category>
+    <category ID="fiv_electionbehav">
+      <label xml:lang="de" text="Wahlverhalten/Abstimmungsverhalten" />
+    </category>
+    <category ID="fiv_parliarmentelection">
+      <label xml:lang="de" text="Parlamentswahl" />
+    </category>
+    <category ID="fiv_election">
+      <label xml:lang="de" text="Wahl/Abstimmung" />
+    </category>
+    <category ID="fiv_intexangeofinformation">
+      <label xml:lang="de" text="Internationaler Informationsaustausch" />
+    </category>
+    <category ID="fiv_pollearning">
+      <label xml:lang="de" text=" Politisches Lernen" />
+    </category>
+    <category ID="fiv_comgoverment">
+      <label xml:lang="de" text="Kommunale Regierung/Verwaltung " />
+    </category>
+    <category ID="fiv_pubadministration">
+      <label xml:lang="de" text="Öffentliche Verwaltung" />
+    </category>
+    <category ID="div_ludwigsburg">
+      <label xml:lang="de" text=" Ludwigsburg" />
+    </category>
+    <category ID="fiv_cityrelation">
+      <label xml:lang="de" text="Städtepartnerschaft" />
+    </category>
+    <category ID="fiv_internalcooperation">
+      <label xml:lang="de" text="Internationale Zusammenarbeit von Regionen/Kommunen" />
+    </category>
+    <category ID="fiv_montbeliard">
+      <label xml:lang="de" text="Montbéliard" />
+    </category>
+    <category ID="fiv_gerfrancinstitut">
+      <label xml:lang="de" text="Deutsch-Französisches Institut" />
+    </category>
+    <category ID="fiv_transelations">
+      <label xml:lang="de" text="Transnationale Beziehungen" />
+    </category>
+    <category ID="fiv_biintrelations">
+      <label xml:lang="de" text="Bilaterale internationale Beziehungen" />
+    </category>
+    <category ID="fiv_germany">
+      <label xml:lang="de" text="Deutschland" />
+    </category>
+    <category ID="fiv-devperspeive">
+      <label xml:lang="de" text="Entwicklungsperspektive und -tendenz" />
+    </category>
+    <category ID="fiv-presiteltalelection">
+      <label xml:lang="de" text="Präsidentenwahl" />
+    </category>
+    <category ID="fiv-innerpartydecision">
+      <label xml:lang="de" text="Innerparteiliche Willensbildung/Entscheidung" />
+    </category>
+    <category ID="fiv-candidate">
+      <label xml:lang="de" text="Kandidaten (Wahl)" />
+    </category>
+    <category ID="fiv-politicalparty">
+      <label xml:lang="de" text="Politische Partei" />
+    </category>
+    <category ID="fiv-partysprectre">
+      <label xml:lang="de" text="Parteienspektrum" />
+    </category>
+    <category ID="fiv-partysystem">
+      <label xml:lang="de" text="Parteiensystem" />
+    </category>
+    <category ID="fiv-france">
+      <label xml:lang="de" text="Frankreich" />
+    </category>
+  </categories>
+</mycoreclass>
