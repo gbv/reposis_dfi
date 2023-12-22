@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fiv_aspect">
+  <label xml:lang="de" text="FIV-Aspekte" />
+  <categories>
+    <category ID="1756169519">
+      <label xml:lang="de" text="Institutioneller Rahmen internationaler Beziehungen" />
+    </category>
+    <category ID="1756184011">
+      <label xml:lang="de" text="Partnerschaft" />
+    </category>
+    <category ID="175617878X">
+      <label xml:lang="de" text="Kommunalpolitik" />
+    </category>
+    <category ID="1756156050">
+      <label xml:lang="de" text="Verwaltungstätigkeit/Verwaltungsberufe" />
+    </category>
+    <category ID="1756213704">
+      <label xml:lang="de" text="Berufsfortbildung" />
+    </category>
+    <category ID="1756235309">
+      <label xml:lang="de" text="Lebenslanges Lernen" />
+    </category>
+    <category ID="1756207143">
+      <label xml:lang="de" text="Politische Kultur" />
+    </category>
+    <category ID="1756230099">
+      <label xml:lang="de" text="Interkulturelle Kommunikation" />
+    </category>
+    <category ID="1756162557">
+      <label xml:lang="de" text="Interkulturelles Training" />
+    </category>
+  </categories>
+</mycoreclass>
