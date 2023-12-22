@@ -9,7 +9,8 @@
          https://cmswiki.rrz.uni-hamburg.de/hummel/MyCoRe/Organisation/AnwenderWorkshop2018?action=AttachFile&do=view&target=MCR-Workshop2018_Rochowski_XEditor_Erweiterungen_Praxis.pdf
     -->
     <xed:include ref="fiv_subject.repeat"      before="sdnb.repeat"/>
-    <xed:include ref="fiv_aspect.repeat"      before="sdnb.repeat"/>
+    <xed:include ref="fiv_aspect.repeat"       before="sdnb.repeat"/>
+    <xed:include ref="fiv_country.repeat"      before="sdnb.repeat"/>
   </xed:modify>
 
 
@@ -60,6 +61,28 @@
         <mir:help-pmud help-text="{i18n:project.help.fiv_aspect}" pmud="true" />
       </div>
     </xed:repeat>
+  </xed:template>
+  
+  <xed:template id="fiv_country.repeat">
+    <xed:repeat xpath="mods:classification[@authorityURI='http://reposis-test.gbv.de/dfi/classifications/fiv_country'][@displayLabel='FIVAspect']" min="1" max="20" method="build" >
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.fiv_country" />
+        </label>
+        <div class="col-md-6">
+          <xed:bind xpath="@valueURIxEditor">
+            <select class="form-control form-control-inline">
+              <option value="">
+                <xed:output i18n="mir.select.optional" />
+              </option>
+              <xed:include uri="xslStyle:items2options:classification:editor:-1:children:fiv_country" />
+            </select>
+          </xed:bind>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.fiv_country}" pmud="true" />
+      </div>
+    </xed:repeat>
+    
   </xed:template>
 
 </xed:template>

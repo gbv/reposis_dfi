@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fiv_country">
+  <label xml:lang="de" text="FIV-Regionalklassifikation" />
+  <categories>
+    <category ID="91756131651">
+      <label xml:lang="de" text="RA04.06: Europa / Westeuropa / Frankreich" />
+    </category>
+    <category ID="1756131678">
+      <label xml:lang="de" text="A05.01: Europa / Mitteleuropa / Deutschland" />
+    </category>
+  </categories>
+</mycoreclass>
