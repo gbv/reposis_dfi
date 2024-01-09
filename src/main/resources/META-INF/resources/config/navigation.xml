@@ -4,91 +4,113 @@
   <menu id="links">
     <label xml:lang="de">Footer Links</label>
     <label xml:lang="en">Footer Links</label>
+    <label xml:lang="fr">Liens en bas de page</label>
     <item href="https://www.dfi.de/ueber-uns/portrait" type="extern">
       <label xml:lang="de">Das Deutsch-Französische Institut</label>
       <label xml:lang="en">The Deutsch-Französische Institut</label>
+      <label xml:lang="fr">L'Institut Franco-Allemand</label>
     </item>
     <item href="https://www.dfi.de/ueber-uns/frankreich-bibliothek" type="extern">
       <label xml:lang="de">Die Frankreich-Bibliothek</label>
       <label xml:lang="en">The France Library</label>
+      <label xml:lang="fr">La Frankreich-Bibliothek</label>
     </item>
   </menu>
   <menu id="below" dir="/content/below">
     <label xml:lang="de">Footer Menü</label>
     <label xml:lang="en">Footer menu</label>
+    <label xml:lang="fr">Menu en bas de page</label>
     <item href="/content/below/contact.xml" type="intern">
       <label xml:lang="de">Kontakt</label>
       <label xml:lang="en">Contact</label>
+      <label xml:lang="fr">Contact</label>
     </item>
     <item href="/content/below/privacy.xml" type="intern">
       <label xml:lang="de">Datenschutz</label>
       <label xml:lang="en">Privacy</label>
+      <label xml:lang="fr">Protection des données</label>
     </item>
     <item href="/content/below/accessibility.xml" type="intern">
       <label xml:lang="de">Barrierefreiheit</label>
       <label xml:lang="en">Accessibility</label>
+      <label xml:lang="fr">Accessibilité</label>
     </item>
     <item href="/content/below/imprint.xml" type="intern">
       <label xml:lang="de">Impressum</label>
       <label xml:lang="en">Imprint</label>
+      <label xml:lang="fr">Impressum</label>
     </item>
   </menu>
   <menu id="home" dir="/content">
     <label xml:lang="de">Start</label>
     <label xml:lang="en">Home</label>
+    <label xml:lang="fr">Accueil</label>
     <item href="/content/index.xml" type="intern">
         <label xml:lang="de">Start</label>
         <label xml:lang="en">Home</label>
+        <label xml:lang="fr">Accueil</label>
     </item>
   </menu>
   <menu id="about" dir="/content/about">
     <label xml:lang="de">Über uns</label>
     <label xml:lang="en">About us</label>
+    <label xml:lang="fr">À propos de nous</label>
     <item href="/content/about/about_us.xml" type="intern">
       <label xml:lang="de">Über uns</label>
       <label xml:lang="en">About us</label>
+      <label xml:lang="fr">À propos de nous</label>
     </item>
   </menu>
   <menu id="search">
     <!-- search menu  -->
     <label xml:lang="de">Suche</label>
     <label xml:lang="en">Search</label>
+    <label xml:lang="fr">Recherche</label>
     <item href="/content/search/simple.xed" type="intern">
       <label xml:lang="de">Suche nach Dokumenten (Einfache Suche)</label>
       <label xml:lang="en">Search for documents (Simple Search)</label>
+      <label xml:lang="fr">Recherche de documents (Recherche simple)</label>
     </item>
     <item href="/content/search/simple_intern.xed" type="intern">
       <label xml:lang="de">Suche nach Dokumenten (Einfache Suche)</label>
       <label xml:lang="en">Search for documents (Simple Search)</label>
+      <label xml:lang="fr">Recherche de documents (Recherche simple)</label>
     </item>
     <item href="/content/search/complex.xed" type="intern">
       <label xml:lang="de">Suche nach Dokumenten (komplexe Suche)</label>
       <label xml:lang="en">Search for documents (Complex Search)</label>
+      <label xml:lang="fr">Recherche de documents (recherche avancée)</label>
     </item>
     <item href="/content/search/complex_intern.xed" type="intern">
       <label xml:lang="de">Suche nach Dokumenten (komplexe Suche)</label>
       <label xml:lang="en">Search for documents (Complex Search)</label>
+      <label xml:lang="fr">Recherche de documents (recherche avancée)</label>
     </item>
     <item href="/search/search-expert.xed" type="intern">
       <label xml:lang="de">Expertensuche</label>
       <label xml:lang="en">Expert Search</label>
+      <label xml:lang="en">Recherche d'experts</label>
     </item>
   </menu>
   <menu id="browse">
     <!-- search menu  -->
     <label xml:lang="de">Blättern</label>
     <label xml:lang="en">Browse</label>
+    <label xml:lang="fr">Parcourir</label>
     <item href="/content/browse/documents.xml" type="intern">
       <label xml:lang="de">Nach Dokumenten</label>
       <label xml:lang="en">By Documents</label>
+      <label xml:lang="fr">Par document</label>
     </item>
     <item href="/content/browse/sdnb.xml" type="intern">
       <label xml:lang="de">Nach Sachgruppen</label>
       <label xml:lang="en">By SNDB</label>
+      <label xml:lang="fr">Par groupe de matières</label>
     </item>
     <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern">
       <label xml:lang="de">Nach Personen</label>
       <label xml:lang="en">By Persons</label>
+      <label xml:lang="fr">Par personne</label>
     </item>
   </menu>
   <menu id="publish" dir="/content/publish">
