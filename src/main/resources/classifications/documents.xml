@@ -6,19 +6,19 @@
   <label xml:lang="x-uri" text="https://repositorium.dfi.de/classifications/documents"/>
   <categories>
     <category ID="dfi_specific">
-      <label xml:lang="en" text="Dfi-spezifische Dokumente bzw. Veröffentlichungen"/>
-      <label xml:lang="de" text="Dfi-specific documents or publications"/>
+      <label xml:lang="en" text="dfi-spezifische Dokumente bzw. Veröffentlichungen"/>
+      <label xml:lang="de" text="dfi-specific documents or publications"/>
       <category ID="dfi_current">
-        <label xml:lang="de" text="Dfi-aktuell (pdf)"/>
-        <label xml:lang="en" text="Dfi-aktuell (pdf)"/>
+        <label xml:lang="de" text="dfi-aktuell (pdf)"/>
+        <label xml:lang="en" text="dfi-aktuell (pdf)"/>
       </category>
       <category ID="france_analyses">
         <label xml:lang="de" text="Aktuelle Frankreich-Analysen (pdf)"/>
         <label xml:lang="en" text="Current France analyses (pdf)"/>
       </category>
       <category ID="dfi_compact">
-        <label xml:lang="de" text="Dfi-compact (pdf)"/>
-        <label xml:lang="en" text="Dfi-compact (pdf)"/>
+        <label xml:lang="de" text="dfi-compact (pdf)"/>
+        <label xml:lang="en" text="dfi-compact (pdf)"/>
       </category>
       <category ID="le_Podkast">
         <label xml:lang="en" text="Le Podkast (mp3)"/>
@@ -28,7 +28,7 @@
         <label xml:lang="en" text="Videos (mp4)"
                description="Zeitzeugeninterviews, dfi-Image-Videos, Aufzeichnungen von dfi-Veranstaltungen"/>
         <label xml:lang="de" text="Videos (mp4)"
-               description="Contemporary witness interviews, Dfi image videos, recordings of Dfi events"/>
+               description="Contemporary witness interviews, dfi image videos, recordings of dfi events"/>
       </category>
       <category ID="photos">
         <label xml:lang="de" text="Fotos (gängige Bildformate)"/>
@@ -39,8 +39,8 @@
       <label xml:lang="en" text="Sonstige Dokumente"/>
       <label xml:lang="de" text="Other documents"/>
       <category ID="dfi_thesis">
-        <label xml:lang="de" text="Abschlussarbeiten von Dfi-Stipendiat*innen (pdf)"/>
-        <label xml:lang="en" text="Theses from Dfi scholarship holders (pdf)"/>
+        <label xml:lang="de" text="Abschlussarbeiten von dfi-Stipendiat*innen (pdf)"/>
+        <label xml:lang="en" text="Theses from dfi scholarship holders (pdf)"/>
       </category>
       <category ID="journal_articles">
         <label xml:lang="de" text="Zeitschriftaufsätze (pdf)"/>

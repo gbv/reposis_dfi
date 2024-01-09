@@ -15,8 +15,8 @@
 
         <div class="project_logo_box">
           <a title="zur Homepage" href="https://www.dfi.de/">
-            <img alt="Logo DFI" class="dfi-logo" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
-            <img alt="Logo DFI klein" class="dfi-logo-small" src="{$WebApplicationBaseURL}images/logos/logo-dfi-blau.svg" />
+            <img alt="Logo dfi" class="dfi-logo" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
+            <img alt="Logo dfi klein" class="dfi-logo-small" src="{$WebApplicationBaseURL}images/logos/logo-dfi-blau.svg" />
           </a>
         </div>
 
