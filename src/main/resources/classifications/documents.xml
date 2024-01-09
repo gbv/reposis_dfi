@@ -36,8 +36,8 @@
       </category>
     </category>
     <category ID="other">
-      <label xml:lang="en" text="Sonstige Dokumente"/>
-      <label xml:lang="de" text="Other documents"/>
+      <label xml:lang="de" text="Weitere Dokumente"/>
+      <label xml:lang="en" text="Other documents"/>
       <category ID="dfi_thesis">
         <label xml:lang="de" text="Abschlussarbeiten von dfi-Stipendiat*innen (pdf)"/>
         <label xml:lang="en" text="Theses from dfi scholarship holders (pdf)"/>
