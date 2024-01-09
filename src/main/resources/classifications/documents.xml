@@ -48,8 +48,8 @@
       </category>
     </category>
     <category ID="press_documentation">
-      <label xml:lang="en" text="Für Dokumente aus unserer Pressedokumentation"/>
-      <label xml:lang="de" text="For documents from our press documentation"/>
+      <label xml:lang="de" text="Dokumente aus dem dfi-Pressearchiv"/>
+      <label xml:lang="en" text="For documents from our press documentation"/>
       <category ID="press_article">
         <label xml:lang="de" text="Presseartikel (pdf)"/>
         <label xml:lang="en" text="Press article (pdf)"/>
