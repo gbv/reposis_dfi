@@ -21,8 +21,8 @@
         <label xml:lang="en" text="dfi-compact (pdf)"/>
       </category>
       <category ID="le_Podkast">
-        <label xml:lang="en" text="Le Podkast (mp3)"/>
-        <label xml:lang="de" text="Le Podkast (mp3)"/>
+        <label xml:lang="en" text="Podcasts (mp3)"/>
+        <label xml:lang="de" text="Podcasts / Tonaufnahmen"/>
       </category>
       <category ID="video">
         <label xml:lang="en" text="Videos (mp4)"
