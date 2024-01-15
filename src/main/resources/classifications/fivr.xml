@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="fivr">
+   <label xml:lang="de" text="FIV-Regionalklassifikation"/>
+   <categories>
+      <category ID="RA">
+         <label xml:lang="en" text="RA Europe"/>
+         <label xml:lang="de" text="RA Europa"/>
+         <label xml:lang="fr" text="RA Europe"/>
+         <category ID="RA01">
+            <label xml:lang="en" text="RA01 European organisations"/>
+            <label xml:lang="de" text="RA01 Europäische Organisationen"/>
+            <label xml:lang="fr" text="RA01 Organisations européennes"/>
+            <category ID="RA01.01">
+               <label xml:lang="en" text="RA01.01 EU/EC and member countries"/>
+               <label xml:lang="de" text="RA01.01 EU/EG sowie Mitgliedsländer"/>
+               <label xml:lang="fr"
+                      text="RA01.01 Union/Communauté européenne et pays membres"/>
+            </category>
+            <category ID="RA01.02">
+               <label xml:lang="en" text="RA01.02 NATO"/>
+               <label xml:lang="de" text="RA01.02 NATO"/>
+               <label xml:lang="fr" text="RA01.02 OTAN"/>
+            </category>
+            <category ID="RA01.03">
+               <label xml:lang="en" text="RA01.03 COMECON/COMECON-countries"/>
+               <label xml:lang="de" text="RA01.03 RGW/RGW-Länder"/>
+               <label xml:lang="fr" text="RA01.03 COMECON/pays du COMECON"/>
+            </category>
+            <category ID="RA01.04">
+               <label xml:lang="en" text="RA01.04 Warsaw Treaty"/>
+               <label xml:lang="de" text="RA01.04 Warschauer Pakt"/>
+               <label xml:lang="fr" text="RA01.04 Traité de Varsovie"/>
+            </category>
+            <category ID="RA01.05">
+               <label xml:lang="en" text="RA01.05 Council of Europe"/>
+               <label xml:lang="de" text="RA01.05 Europarat"/>
+               <label xml:lang="fr" text="RA01.05 Conseil de l'Europe"/>
+            </category>
+            <category ID="RA01.06">
+               <label xml:lang="en" text="RA01.06 WEU"/>
+               <label xml:lang="de" text="RA01.06 WEU"/>
+               <label xml:lang="fr" text="RA01.06 UEO"/>
+            </category>
+            <category ID="RA01.07">
+               <label xml:lang="en" text="RA01.07 OSCE/CSCE"/>
+               <label xml:lang="de" text="RA01.07 OSZE/KSZE"/>
+               <label xml:lang="fr" text="RA01.07 OSCE/CSCE"/>
+            </category>
+         </category>
+         <category ID="RA02">
+            <label xml:lang="en" text="RA02 Geographical areas of Europe"/>
+            <label xml:lang="de" text="RA02 Geographische Räume Europas"/>
+            <label xml:lang="fr" text="RA02 Régions géographiques de l'Europe"/>
+            <category ID="RA02.01">
+               <label xml:lang="en" text="RA02.01 Western Europe political"/>
+               <label xml:lang="de" text="RA02.01 Westeuropa politisch"/>
+               <label xml:lang="fr" text="RA02.01 Europe occidentale politique"/>
+            </category>
+            <category ID="RA02.02">
+               <label xml:lang="en" text="RA02.02 Eastern Europe political"/>
+               <label xml:lang="de" text="RA02.02 Osteuropa politisch"/>
+               <label xml:lang="fr" text="RA02.02 Europe orientale politique"/>
+            </category>
+            <category ID="RA02.03">
+               <label xml:lang="en" text="RA02.03 Central and Eastern European countries"/>
+               <label xml:lang="de" text="RA02.03 Mittel- und osteuropäische Länder"/>
+               <label xml:lang="fr" text="RA02.03 Pays d'Europe centrale et orientale"/>
+            </category>
+            <category ID="RA02.11">
+               <label xml:lang="en" text="RA02.11 North Sea region"/>
+               <label xml:lang="de" text="RA02.11 Nordseeraum"/>
+               <label xml:lang="fr" text="RA02.11 Région de la Mer du Nord"/>
+            </category>
+            <category ID="RA02.12">
+               <label xml:lang="en" text="RA02.12 Baltic Sea region"/>
+               <label xml:lang="de" text="RA02.12 Ostseeraum"/>
+               <label xml:lang="fr" text="RA02.12 Région de la Mer Baltique"/>
+            </category>
+         </category>
+         <category ID="RA03">
+            <label xml:lang="en" text="RA03 Northern Europe"/>
+            <label xml:lang="de" text="RA03 Nordeuropa"/>
+            <label xml:lang="fr" text="RA03 Europe du Nord"/>
+            <category ID="RA03.01">
+               <label xml:lang="en" text="RA03.01 Finland"/>
+               <label xml:lang="de" text="RA03.01 Finnland"/>
+               <label xml:lang="fr" text="RA03.01 Finlande"/>
+            </category>
+            <category ID="RA03.02">
+               <label xml:lang="en" text="RA03.02 Sweden"/>
+               <label xml:lang="de" text="RA03.02 Schweden"/>
+               <label xml:lang="fr" text="RA03.02 Suède"/>
+            </category>
+            <category ID="RA03.03">
+               <label xml:lang="en" text="RA03.03 Norway"/>
+               <label xml:lang="de" text="RA03.03 Norwegen"/>
+               <label xml:lang="fr" text="RA03.03 Norvège"/>
+            </category>
+            <category ID="RA03.04">
+               <label xml:lang="en" text="RA03.04 Denmark"/>
+               <label xml:lang="de" text="RA03.04 Dänemark"/>
+               <label xml:lang="fr" text="RA03.04 Danemark"/>
+            </category>
+            <category ID="RA03.05">
+               <label xml:lang="en" text="RA03.05 Iceland"/>
+               <label xml:lang="de" text="RA03.05 Island"/>
+               <label xml:lang="fr" text="RA03.05 Islande"/>
+            </category>
+         </category>
+         <category ID="RA04">
+            <label xml:lang="en" text="RA04 Western Europe"/>
+            <label xml:lang="de" text="RA04 Westeuropa"/>
+            <label xml:lang="fr" text="RA04 Europe occidentale"/>
+            <category ID="RA04.01">
+               <label xml:lang="en" text="RA04.01 Ireland"/>
+               <label xml:lang="de" text="RA04.01 Irland"/>
+               <label xml:lang="fr" text="RA04.01 Irlande"/>
+            </category>
+            <category ID="RA04.02">
+               <label xml:lang="en" text="RA04.02 United Kingdom"/>
+               <label xml:lang="de" text="RA04.02 Vereinigtes Königreich"/>
+               <label xml:lang="fr" text="RA04.02 Royaume-Uni"/>
+            </category>
+            <category ID="RA04.03">
+               <label xml:lang="en" text="RA04.03 Netherlands"/>
+               <label xml:lang="de" text="RA04.03 Niederlande"/>
+               <label xml:lang="fr" text="RA04.03 Pays-Bas"/>
+            </category>
+            <category ID="RA04.04">
+               <label xml:lang="en" text="RA04.04 Belgium"/>
+               <label xml:lang="de" text="RA04.04 Belgien"/>
+               <label xml:lang="fr" text="RA04.04 Belgique"/>
+            </category>
+            <category ID="RA04.05">
+               <label xml:lang="en" text="RA04.05 Luxembourg"/>
+               <label xml:lang="de" text="RA04.05 Luxemburg"/>
+               <label xml:lang="fr" text="RA04.05 Luxembourg"/>
+            </category>
+            <category ID="RA04.06">
+               <label xml:lang="en" text="RA04.06 France"/>
+               <label xml:lang="de" text="RA04.06 Frankreich"/>
+               <label xml:lang="fr" text="RA04.06 France"/>
+            </category>
+         </category>
+         <category ID="RA05">
+            <label xml:lang="en" text="RA05 Central Europe"/>
+            <label xml:lang="de" text="RA05 Mitteleuropa"/>
+            <label xml:lang="fr" text="RA05 Europe centrale"/>
+            <category ID="RA05.01">
+               <label xml:lang="en" text="RA05.01 Germany"/>
+               <label xml:lang="de" text="RA05.01 Deutschland"/>
+               <label xml:lang="fr" text="RA05.01 Allemagne"/>
+            </category>
+            <category ID="RA05.02">
+               <label xml:lang="en" text="RA05.02 Federal Republic of Germany"/>
+               <label xml:lang="de" text="RA05.02 Bundesrepublik Deutschland"/>
+               <label xml:lang="fr" text="RA05.02 République Fédérale d'Allemagne"/>
+            </category>
+            <category ID="RA05.03">
+               <label xml:lang="en" text="RA05.03 German Democratic Republic"/>
+               <label xml:lang="de" text="RA05.03 Deutsche Demokratische Republik"/>
+               <label xml:lang="fr" text="RA05.03 République démocratique allemande"/>
+            </category>
+            <category ID="RA05.04">
+               <label xml:lang="en" text="RA05.04 Berlin"/>
+               <label xml:lang="de" text="RA05.04 Berlin"/>
+               <label xml:lang="fr" text="RA05.04 Berlin"/>
+            </category>
+            <category ID="RA05.11">
+               <label xml:lang="en" text="RA05.11 Poland"/>
+               <label xml:lang="de" text="RA05.11 Polen"/>
+               <label xml:lang="fr" text="RA05.11 Pologne"/>
+            </category>
+            <category ID="RA05.12">
+               <label xml:lang="en" text="RA05.12 Czechoslovakia"/>
+               <label xml:lang="de" text="RA05.12 Tschechoslowakei"/>
+               <label xml:lang="fr" text="RA05.12 Tchécoslovaquie"/>
+            </category>
+            <category ID="RA05.13">
+               <label xml:lang="en" text="RA05.13 Austria"/>
+               <label xml:lang="de" text="RA05.13 Österreich"/>
+               <label xml:lang="fr" text="RA05.13 Autriche"/>
+            </category>
+            <category ID="RA05.14">
+               <label xml:lang="en" text="RA05.14 Switzerland"/>
+               <label xml:lang="de" text="RA05.14 Schweiz"/>
+               <label xml:lang="fr" text="RA05.14 Suisse"/>
+            </category>
+            <category ID="RA05.21">
+               <label xml:lang="en" text="RA05.21 Czech Republic"/>
+               <label xml:lang="de" text="RA05.21 Tschechien"/>
+               <label xml:lang="fr" text="RA05.21 République tchèque"/>
+            </category>
+            <category ID="RA05.22">
+               <label xml:lang="en" text="RA05.22 Slovak Republic"/>
+               <label xml:lang="de" text="RA05.22 Slowakei"/>
+               <label xml:lang="fr" text="RA05.22 République slovaque"/>
+            </category>
+         </category>
+         <category ID="RA06">
+            <label xml:lang="en" text="RA06 Southern Europe"/>
+            <label xml:lang="de" text="RA06 Südeuropa"/>
+            <label xml:lang="fr" text="RA06 Europe méridionale"/>
+            <category ID="RA06.01">
+               <label xml:lang="en" text="RA06.01 Portugal"/>
+               <label xml:lang="de" text="RA06.01 Portugal"/>
+               <label xml:lang="fr" text="RA06.01 Portugal"/>
+            </category>
+            <category ID="RA06.02">
+               <label xml:lang="en" text="RA06.02 Spain"/>
+               <label xml:lang="de" text="RA06.02 Spanien"/>
+               <label xml:lang="fr" text="RA06.02 Espagne"/>
+            </category>
+            <category ID="RA06.03">
+               <label xml:lang="en" text="RA06.03 Italy"/>
+               <label xml:lang="de" text="RA06.03 Italien"/>
+               <label xml:lang="fr" text="RA06.03 Italie"/>
+            </category>
+            <category ID="RA06.04">
+               <label xml:lang="en" text="RA06.04 Malta"/>
+               <label xml:lang="de" text="RA06.04 Malta"/>
+               <label xml:lang="fr" text="RA06.04 Malte"/>
+            </category>
+            <category ID="RA06.05">
+               <label xml:lang="en" text="RA06.05 Greece"/>
+               <label xml:lang="de" text="RA06.05 Griechenland"/>
+               <label xml:lang="fr" text="RA06.05 Grèce"/>
+            </category>
+            <category ID="RA06.06">
+               <label xml:lang="en" text="RA06.06 Turkey"/>
+               <label xml:lang="de" text="RA06.06 Türkei"/>
+               <label xml:lang="fr" text="RA06.06 Turquie"/>
+            </category>
+            <category ID="RA06.07">
+               <label xml:lang="en" text="RA06.07 Cyprus"/>
+               <label xml:lang="de" text="RA06.07 Zypern"/>
+               <label xml:lang="fr" text="RA06.07 Chypre"/>
+            </category>
+         </category>
+         <category ID="RA07">
+            <label xml:lang="en" text="RA07 Eastern Europe"/>
+            <label xml:lang="de" text="RA07 Osteuropa"/>
+            <label xml:lang="fr" text="RA07 Europe orientale"/>
+            <category ID="RA07.01">
+               <label xml:lang="en" text="RA07.01 Soviet Union"/>
+               <label xml:lang="de" text="RA07.01 Sowjetunion"/>
+               <label xml:lang="fr" text="RA07.01 Union Soviétique"/>
+            </category>
+            <category ID="RA07.02">
+               <label xml:lang="en" text="RA07.02 Successor states of the Soviet Union"/>
+               <label xml:lang="de" text="RA07.02 Nachfolgestaaten der Sowjetunion"/>
+               <label xml:lang="fr" text="RA07.02 États successeurs de l'Union soviétique"/>
+            </category>
+            <category ID="RA07.03">
+               <label xml:lang="en" text="RA07.03 Commonwealth of Independent States"/>
+               <label xml:lang="de" text="RA07.03 Gemeinschaft Unabhängiger Staaten"/>
+               <label xml:lang="fr" text="RA07.03 Communauté d'États Indépendants"/>
+            </category>
+            <category ID="RA07.04">
+               <label xml:lang="en" text="RA07.04 Eurasian Economic Union"/>
+               <label xml:lang="de" text="RA07.04 Eurasische Wirtschaftsunion"/>
+               <label xml:lang="fr" text="RA07.04 Union économqiue eurasienne"/>
+            </category>
+            <category ID="RA07.11">
+               <label xml:lang="en" text="RA07.11 Baltic states"/>
+               <label xml:lang="de" text="RA07.11 Baltische Staaten"/>
+               <label xml:lang="fr" text="RA07.11 Pays Baltes"/>
+            </category>
+            <category ID="RA07.12">
+               <label xml:lang="en" text="RA07.12 Estonia"/>
+               <label xml:lang="de" text="RA07.12 Estland"/>
+               <label xml:lang="fr" text="RA07.12 Estonie"/>
+            </category>
+            <category ID="RA07.13">
+               <label xml:lang="en" text="RA07.13 Latvia"/>
+               <label xml:lang="de" text="RA07.13 Lettland"/>
+               <label xml:lang="fr" text="RA07.13 Lettonie"/>
+            </category>
+            <category ID="RA07.14">
+               <label xml:lang="en" text="RA07.14 Lithuania"/>
+               <label xml:lang="de" text="RA07.14 Litauen"/>
+               <label xml:lang="fr" text="RA07.14 Lituanie"/>
+            </category>
+            <category ID="RA07.21">
+               <label xml:lang="en" text="RA07.21 Russian Federation"/>
+               <label xml:lang="de" text="RA07.21 Russische Föderation"/>
+               <label xml:lang="fr" text="RA07.21 Fédération russe"/>
+            </category>
+            <category ID="RA07.31">
+               <label xml:lang="en" text="RA07.31 European States of the former Soviet Union"/>
+               <label xml:lang="de"
+                      text="RA07.31 Europäische Staaten der ehemaligen Sowjetunion"/>
+               <label xml:lang="fr"
+                      text="RA07.31 États européens de l'ancienne Union soviétique"/>
+            </category>
+            <category ID="RA07.32">
+               <label xml:lang="en" text="RA07.32 Ukraine"/>
+               <label xml:lang="de" text="RA07.32 Ukraine"/>
+               <label xml:lang="fr" text="RA07.32 Ukraine"/>
+            </category>
+            <category ID="RA07.33">
+               <label xml:lang="en" text="RA07.33 Belarus"/>
+               <label xml:lang="de" text="RA07.33 Belarus"/>
+               <label xml:lang="fr" text="RA07.33 Biélorussie"/>
+            </category>
+            <category ID="RA07.34">
+               <label xml:lang="en" text="RA07.34 Moldova"/>
+               <label xml:lang="de" text="RA07.34 Moldau"/>
+               <label xml:lang="fr" text="RA07.34 Moldavie"/>
+            </category>
+            <category ID="RA07.41">
+               <label xml:lang="en"
+                      text="RA07.41 Caucasian States of the former Soviet Union"/>
+               <label xml:lang="de"
+                      text="RA07.41 Kaukasische Staaten der ehemaligen Sowjetunion"/>
+               <label xml:lang="fr"
+                      text="RA07.41 États caucasiens de l'ancienne Union soviétique"/>
+            </category>
+            <category ID="RA07.42">
+               <label xml:lang="en" text="RA07.42 Georgia"/>
+               <label xml:lang="de" text="RA07.42 Georgien"/>
+               <label xml:lang="fr" text="RA07.42 Géorgie"/>
+            </category>
+            <category ID="RA07.43">
+               <label xml:lang="en" text="RA07.43 Armenia"/>
+               <label xml:lang="de" text="RA07.43 Armenien"/>
+               <label xml:lang="fr" text="RA07.43 Arménie"/>
+            </category>
+            <category ID="RA07.44">
+               <label xml:lang="en" text="RA07.44 Azerbaijan"/>
+               <label xml:lang="de" text="RA07.44 Aserbaidschan"/>
+               <label xml:lang="fr" text="RA07.44 Azerbaidjan"/>
+            </category>
+            <category ID="RA07.51">
+               <label xml:lang="en"
+                      text="RA07.51 Centralasian States of the former Soviet Union"/>
+               <label xml:lang="de"
+                      text="RA07.51 Zentralasiatische Staaten der ehemaligen Sowjetunion"/>
+               <label xml:lang="fr"
+                      text="RA07.51 États d'Asie Centrale de l'ancienne Union soviétique"/>
+            </category>
+            <category ID="RA07.52">
+               <label xml:lang="en" text="RA07.52 Kazakhstan"/>
+               <label xml:lang="de" text="RA07.52 Kasachstan"/>
+               <label xml:lang="fr" text="RA07.52 Kazakhstan"/>
+            </category>
+            <category ID="RA07.53">
+               <label xml:lang="en" text="RA07.53 Turkmenistan"/>
+               <label xml:lang="de" text="RA07.53 Turkmenistan"/>
+               <label xml:lang="fr" text="RA07.53 Turkménistan"/>
+            </category>
+            <category ID="RA07.54">
+               <label xml:lang="en" text="RA07.54 Uzbekistan"/>
+               <label xml:lang="de" text="RA07.54 Usbekistan"/>
+               <label xml:lang="fr" text="RA07.54 Ouzbékistan"/>
+            </category>
+            <category ID="RA07.55">
+               <label xml:lang="en" text="RA07.55 Kyrgyzstan"/>
+               <label xml:lang="de" text="RA07.55 Kirgisistan"/>
+               <label xml:lang="fr" text="RA07.55 Kirghizistan"/>
+            </category>
+            <category ID="RA07.56">
+               <label xml:lang="en" text="RA07.56 Tajikistan"/>
+               <label xml:lang="de" text="RA07.56 Tadschikistan"/>
+               <label xml:lang="fr" text="RA07.56 Tadjikistan"/>
+            </category>
+         </category>
+         <category ID="RA08">
+            <label xml:lang="en" text="RA08 South-East Europe"/>
+            <label xml:lang="de" text="RA08 Südosteuropa"/>
+            <label xml:lang="fr" text="RA08 Europe du Sud-Est"/>
+            <category ID="RA08.01">
+               <label xml:lang="en" text="RA08.01 Balkans"/>
+               <label xml:lang="de" text="RA08.01 Balkan"/>
+               <label xml:lang="fr" text="RA08.01 Balkans"/>
+            </category>
+            <category ID="RA08.11">
+               <label xml:lang="en" text="RA08.11 Yugoslavia"/>
+               <label xml:lang="de" text="RA08.11 Jugoslawien"/>
+               <label xml:lang="fr" text="RA08.11 Yougoslavie"/>
+            </category>
+            <category ID="RA08.12">
+               <label xml:lang="en" text="RA08.12 Hungary"/>
+               <label xml:lang="de" text="RA08.12 Ungarn"/>
+               <label xml:lang="fr" text="RA08.12 Hongrie"/>
+            </category>
+            <category ID="RA08.13">
+               <label xml:lang="en" text="RA08.13 Romania"/>
+               <label xml:lang="de" text="RA08.13 Rumänien"/>
+               <label xml:lang="fr" text="RA08.13 Roumanie"/>
+            </category>
+            <category ID="RA08.14">
+               <label xml:lang="en" text="RA08.14 Bulgaria"/>
+               <label xml:lang="de" text="RA08.14 Bulgarien"/>
+               <label xml:lang="fr" text="RA08.14 Bulgarie"/>
+            </category>
+            <category ID="RA08.15">
+               <label xml:lang="en" text="RA08.15 Albania"/>
+               <label xml:lang="de" text="RA08.15 Albanien"/>
+               <label xml:lang="fr" text="RA08.15 Albanie"/>
+            </category>
+            <category ID="RA08.21">
+               <label xml:lang="en" text="RA08.21 Successsor states of Yugoslavia"/>
+               <label xml:lang="de" text="RA08.21 Nachfolgestaaten Jugoslawiens"/>
+               <label xml:lang="fr" text="RA08.21 États successeurs de la Yougoslavie"/>
+            </category>
+            <category ID="RA08.22">
+               <label xml:lang="en" text="RA08.22 Slovenia"/>
+               <label xml:lang="de" text="RA08.22 Slowenien"/>
+               <label xml:lang="fr" text="RA08.22 Slovénie"/>
+            </category>
+            <category ID="RA08.23">
+               <label xml:lang="en" text="RA08.23 Croatia"/>
+               <label xml:lang="de" text="RA08.23 Kroatien"/>
+               <label xml:lang="fr" text="RA08.23 Croatie"/>
+            </category>
+            <category ID="RA08.24">
+               <label xml:lang="en" text="RA08.24 Bosnia-Herzegovina"/>
+               <label xml:lang="de" text="RA08.24 Bosnien-Herzegowina"/>
+               <label xml:lang="fr" text="RA08.24 Bosnie-Herzégovine"/>
+            </category>
+            <category ID="RA08.25">
+               <label xml:lang="en" text="RA08.25 North Macedonia"/>
+               <label xml:lang="de" text="RA08.25 Nordmazedonien"/>
+               <label xml:lang="fr" text="RA08.25 Macédoine du Nord"/>
+            </category>
+            <category ID="RA08.26">
+               <label xml:lang="en" text="RA08.26 Federal Republic of Yugoslavia"/>
+               <label xml:lang="de" text="RA08.26 Bundesrepublik Jugoslawien"/>
+               <label xml:lang="fr" text="RA08.26 République Fédérale de Yougoslavie"/>
+            </category>
+            <category ID="RA08.27">
+               <label xml:lang="en" text="RA08.27 Serbia and Montenegro"/>
+               <label xml:lang="de" text="RA08.27 Serbien und Montenegro"/>
+               <label xml:lang="fr" text="RA08.27 Serbie et Monténégro"/>
+            </category>
+            <category ID="RA08.28">
+               <label xml:lang="en" text="RA08.28 Serbia"/>
+               <label xml:lang="de" text="RA08.28 Serbien"/>
+               <label xml:lang="fr" text="RA08.28 Serbie"/>
+            </category>
+            <category ID="RA08.29">
+               <label xml:lang="en" text="RA08.29 Montenegro"/>
+               <label xml:lang="de" text="RA08.29 Montenegro"/>
+               <label xml:lang="fr" text="RA08.29 Montenégro"/>
+            </category>
+            <category ID="RA08.31">
+               <label xml:lang="en" text="RA08.31 Kosovo"/>
+               <label xml:lang="de" text="RA08.31 Kosovo"/>
+               <label xml:lang="fr" text="RA08.31 Kosovo"/>
+            </category>
+         </category>
+         <category ID="RA09">
+            <label xml:lang="en" text="RA09 Other European countries/areas"/>
+            <label xml:lang="de" text="RA09 Andere Länder/Gebiete Europas"/>
+            <label xml:lang="fr" text="RA09 Autres pays/régions de l'Europe"/>
+         </category>
+      </category>
+      <category ID="RB">
+         <label xml:lang="en" text="RB The Americas"/>
+         <label xml:lang="de" text="RB Amerika (insgesamt)"/>
+         <label xml:lang="fr" text="RB Amérique (entière)"/>
+         <category ID="RB01">
+            <label xml:lang="en" text="RB01 American organisations"/>
+            <label xml:lang="de" text="RB01 Amerikanische Organisationen"/>
+            <label xml:lang="fr" text="RB01 Organisations américaines"/>
+            <category ID="RB01.01">
+               <label xml:lang="en" text="RB01.01 OAS"/>
+               <label xml:lang="de" text="RB01.01 OAS"/>
+               <label xml:lang="fr" text="RB01.01 OEA"/>
+            </category>
+            <category ID="RB01.02">
+               <label xml:lang="en" text="RB01.02 NAFTA"/>
+               <label xml:lang="de" text="RB01.02 NAFTA"/>
+               <label xml:lang="fr" text="RB01.02 ALENA"/>
+            </category>
+         </category>
+      </category>
+      <category ID="RC">
+         <label xml:lang="en" text="RC North America (without Mexico)"/>
+         <label xml:lang="de" text="RC Nordamerika (ohne Mexiko)"/>
+         <label xml:lang="fr" text="RC Amérique du Nord (sans Mexique)"/>
+         <category ID="RC01">
+            <label xml:lang="en" text="RC01 Canada"/>
+            <label xml:lang="de" text="RC01 Kanada"/>
+            <label xml:lang="fr" text="RC01 Canada"/>
+         </category>
+         <category ID="RC02">
+            <label xml:lang="en" text="RC02 United States"/>
+            <label xml:lang="de" text="RC02 Vereinigte Staaten"/>
+            <label xml:lang="fr" text="RC02 États-Unis"/>
+         </category>
+      </category>
+      <category ID="RD">
+         <label xml:lang="en" text="RD Latin America"/>
+         <label xml:lang="de" text="RD Lateinamerika"/>
+         <label xml:lang="fr" text="RD Amérique Latine"/>
+         <category ID="RD01">
+            <label xml:lang="en" text="RD01 Mexico"/>
+            <label xml:lang="de" text="RD01 Mexiko"/>
+            <label xml:lang="fr" text="RD01 Mexique"/>
+         </category>
+         <category ID="RD02">
+            <label xml:lang="en" text="RD02 Central America"/>
+            <label xml:lang="de" text="RD02 Zentralamerika"/>
+            <label xml:lang="fr" text="RD02 Amérique centrale"/>
+            <category ID="RD02.01">
+               <label xml:lang="en" text="RD02.01 Belize"/>
+               <label xml:lang="de" text="RD02.01 Belize"/>
+               <label xml:lang="fr" text="RD02.01 Bélize"/>
+            </category>
+            <category ID="RD02.02">
+               <label xml:lang="en" text="RD02.02 Guatemala"/>
+               <label xml:lang="de" text="RD02.02 Guatemala"/>
+               <label xml:lang="fr" text="RD02.02 Guatemala"/>
+            </category>
+            <category ID="RD02.03">
+               <label xml:lang="en" text="RD02.03 El Salvador"/>
+               <label xml:lang="de" text="RD02.03 El Salvador"/>
+               <label xml:lang="fr" text="RD02.03 El Salvador"/>
+            </category>
+            <category ID="RD02.04">
+               <label xml:lang="en" text="RD02.04 Honduras"/>
+               <label xml:lang="de" text="RD02.04 Honduras"/>
+               <label xml:lang="fr" text="RD02.04 Honduras"/>
+            </category>
+            <category ID="RD02.05">
+               <label xml:lang="en" text="RD02.05 Nicaragua"/>
+               <label xml:lang="de" text="RD02.05 Nikaragua"/>
+               <label xml:lang="fr" text="RD02.05 Nicaragua"/>
+            </category>
+            <category ID="RD02.06">
+               <label xml:lang="en" text="RD02.06 Costa Rica"/>
+               <label xml:lang="de" text="RD02.06 Costa Rica"/>
+               <label xml:lang="fr" text="RD02.06 Costa Rica"/>
+            </category>
+            <category ID="RD02.07">
+               <label xml:lang="en" text="RD02.07 Panama"/>
+               <label xml:lang="de" text="RD02.07 Panama"/>
+               <label xml:lang="fr" text="RD02.07 Panama"/>
+            </category>
+         </category>
+         <category ID="RD03">
+            <label xml:lang="en" text="RD03 Caribbean"/>
+            <label xml:lang="de" text="RD03 Karibik/Karibischer Raum"/>
+            <label xml:lang="fr" text="RD03 Caraibes"/>
+            <category ID="RD03.01">
+               <label xml:lang="en" text="RD03.01 Bahamas"/>
+               <label xml:lang="de" text="RD03.01 Bahamas"/>
+               <label xml:lang="fr" text="RD03.01 Bahamas"/>
+            </category>
+            <category ID="RD03.02">
+               <label xml:lang="en" text="RD03.02 Dominican Republic"/>
+               <label xml:lang="de" text="RD03.02 Dominikanische Republik"/>
+               <label xml:lang="fr" text="RD03.02 République Dominicaine"/>
+            </category>
+            <category ID="RD03.03">
+               <label xml:lang="en" text="RD03.03 Haiti"/>
+               <label xml:lang="de" text="RD03.03 Haiti"/>
+               <label xml:lang="fr" text="RD03.03 Haiti"/>
+            </category>
+            <category ID="RD03.04">
+               <label xml:lang="en" text="RD03.04 Jamaica"/>
+               <label xml:lang="de" text="RD03.04 Jamaika"/>
+               <label xml:lang="fr" text="RD03.04 Jamaique"/>
+            </category>
+            <category ID="RD03.05">
+               <label xml:lang="en" text="RD03.05 Cuba"/>
+               <label xml:lang="de" text="RD03.05 Kuba"/>
+               <label xml:lang="fr" text="RD03.05 Cuba"/>
+            </category>
+            <category ID="RD03.11">
+               <label xml:lang="en" text="RD03.11 Antigua"/>
+               <label xml:lang="de" text="RD03.11 Antigua und Barbuda"/>
+               <label xml:lang="fr" text="RD03.11 Antigua"/>
+            </category>
+            <category ID="RD03.12">
+               <label xml:lang="en" text="RD03.12 Barbados"/>
+               <label xml:lang="de" text="RD03.12 Barbados"/>
+               <label xml:lang="fr" text="RD03.12 Barbade"/>
+            </category>
+            <category ID="RD03.13">
+               <label xml:lang="en" text="RD03.13 Dominica"/>
+               <label xml:lang="de" text="RD03.13 Dominica"/>
+               <label xml:lang="fr" text="RD03.13 Dominique"/>
+            </category>
+            <category ID="RD03.14">
+               <label xml:lang="en" text="RD03.14 Grenada"/>
+               <label xml:lang="de" text="RD03.14 Grenada"/>
+               <label xml:lang="fr" text="RD03.14 Grenade"/>
+            </category>
+            <category ID="RD03.15">
+               <label xml:lang="en" text="RD03.15 St. Kitts, Nevis"/>
+               <label xml:lang="de" text="RD03.15 St. Kitts, Nevis"/>
+               <label xml:lang="fr" text="RD03.15 Saint Kitts, Nevis"/>
+            </category>
+            <category ID="RD03.16">
+               <label xml:lang="en" text="RD03.16 St. Lucia"/>
+               <label xml:lang="de" text="RD03.16 St. Lucia"/>
+               <label xml:lang="fr" text="RD03.16 Sainte Lucie"/>
+            </category>
+            <category ID="RD03.17">
+               <label xml:lang="en" text="RD03.17 St. Vincent (and Grenadines)"/>
+               <label xml:lang="de" text="RD03.17 St. Vincent (und Grenadinen)"/>
+               <label xml:lang="fr" text="RD03.17 Saint Vincent (et Grenadines)"/>
+            </category>
+            <category ID="RD03.18">
+               <label xml:lang="en" text="RD03.18 Trinidad and Tobago"/>
+               <label xml:lang="de" text="RD03.18 Trinidad und Tobago"/>
+               <label xml:lang="fr" text="RD03.18 Trinité et Tobago"/>
+            </category>
+            <category ID="RD03.21">
+               <label xml:lang="en" text="RD03.21 Guyana"/>
+               <label xml:lang="de" text="RD03.21 Guyana"/>
+               <label xml:lang="fr" text="RD03.21 Guyane"/>
+            </category>
+            <category ID="RD03.22">
+               <label xml:lang="en" text="RD03.22 French Guyana"/>
+               <label xml:lang="de" text="RD03.22 Französisch-Guayana"/>
+               <label xml:lang="fr" text="RD03.22 Guyane francaise"/>
+            </category>
+            <category ID="RD03.23">
+               <label xml:lang="en" text="RD03.23 Surinam"/>
+               <label xml:lang="de" text="RD03.23 Surinam"/>
+               <label xml:lang="fr" text="RD03.23 Surinam"/>
+            </category>
+            <category ID="RD03.31">
+               <label xml:lang="en" text="RD03.31 United States Virgin Islands"/>
+               <label xml:lang="de" text="RD03.31 Jungfern-Inseln (US-Territorium)"/>
+               <label xml:lang="fr" text="RD03.31 Iles Vierges américaines"/>
+            </category>
+            <category ID="RD03.32">
+               <label xml:lang="en" text="RD03.32 Puerto Rico"/>
+               <label xml:lang="de" text="RD03.32 Puerto Rico"/>
+               <label xml:lang="fr" text="RD03.32 Porto Rico"/>
+            </category>
+            <category ID="RD03.41">
+               <label xml:lang="en" text="RD03.41 Netherlands Antilles"/>
+               <label xml:lang="de" text="RD03.41 Niederländische Antillen"/>
+               <label xml:lang="fr" text="RD03.41 Antilles néerlandaises"/>
+            </category>
+            <category ID="RD03.51">
+               <label xml:lang="en" text="RD03.51 French Antilles"/>
+               <label xml:lang="de" text="RD03.51 Französische Antillen"/>
+               <label xml:lang="fr" text="RD03.51 Antilles francaises"/>
+            </category>
+            <category ID="RD03.52">
+               <label xml:lang="en" text="RD03.52 Guadeloupe"/>
+               <label xml:lang="de" text="RD03.52 Guadeloupe"/>
+               <label xml:lang="fr" text="RD03.52 Guadeloupe"/>
+            </category>
+            <category ID="RD03.53">
+               <label xml:lang="en" text="RD03.53 Martinique"/>
+               <label xml:lang="de" text="RD03.53 Martinique"/>
+               <label xml:lang="fr" text="RD03.53 Martinique"/>
+            </category>
+            <category ID="RD03.61">
+               <label xml:lang="en" text="RD03.61 British Antilles"/>
+               <label xml:lang="de" text="RD03.61 Britische Antillen"/>
+               <label xml:lang="fr" text="RD03.61 Antilles britanniques"/>
+            </category>
+            <category ID="RD03.71">
+               <label xml:lang="en" text="RD03.71 Other islands/countries of the Caribbean"/>
+               <label xml:lang="de" text="RD03.71 Sonstige Inseln/Länder der Karibik"/>
+               <label xml:lang="fr" text="RD03.71 Autres îles/pays des Caraibes"/>
+            </category>
+         </category>
+         <category ID="RD04">
+            <label xml:lang="en" text="RD04 South America"/>
+            <label xml:lang="de" text="RD04 Südamerika"/>
+            <label xml:lang="fr" text="RD04 Amérique du Sud"/>
+            <category ID="RD04.01">
+               <label xml:lang="en" text="RD04.01 Andean countries"/>
+               <label xml:lang="de" text="RD04.01 Andenländer"/>
+               <label xml:lang="fr" text="RD04.01 Pays des Andes"/>
+            </category>
+            <category ID="RD04.02">
+               <label xml:lang="en" text="RD04.02 Andean Group"/>
+               <label xml:lang="de" text="RD04.02 Grupo Andino"/>
+               <label xml:lang="fr" text="RD04.02 Groupe Andin"/>
+            </category>
+            <category ID="RD04.03">
+               <label xml:lang="en" text="RD04.03 MERCOSUR"/>
+               <label xml:lang="de" text="RD04.03 MERCOSUR"/>
+               <label xml:lang="fr" text="RD04.03 MERCOSUR"/>
+            </category>
+            <category ID="RD04.11">
+               <label xml:lang="en" text="RD04.11 Argentina"/>
+               <label xml:lang="de" text="RD04.11 Argentinien"/>
+               <label xml:lang="fr" text="RD04.11 Argentine"/>
+            </category>
+            <category ID="RD04.12">
+               <label xml:lang="en" text="RD04.12 Bolivia"/>
+               <label xml:lang="de" text="RD04.12 Bolivien"/>
+               <label xml:lang="fr" text="RD04.12 Bolivie"/>
+            </category>
+            <category ID="RD04.13">
+               <label xml:lang="en" text="RD04.13 Brazil"/>
+               <label xml:lang="de" text="RD04.13 Brasilien"/>
+               <label xml:lang="fr" text="RD04.13 Brésil"/>
+            </category>
+            <category ID="RD04.14">
+               <label xml:lang="en" text="RD04.14 Chile"/>
+               <label xml:lang="de" text="RD04.14 Chile"/>
+               <label xml:lang="fr" text="RD04.14 Chili"/>
+            </category>
+            <category ID="RD04.15">
+               <label xml:lang="en" text="RD04.15 Ecuador"/>
+               <label xml:lang="de" text="RD04.15 Ecuador"/>
+               <label xml:lang="fr" text="RD04.15 Équateur"/>
+            </category>
+            <category ID="RD04.16">
+               <label xml:lang="en" text="RD04.16 Colombia"/>
+               <label xml:lang="de" text="RD04.16 Kolumbien"/>
+               <label xml:lang="fr" text="RD04.16 Colombie"/>
+            </category>
+            <category ID="RD04.17">
+               <label xml:lang="en" text="RD04.17 Paraguay"/>
+               <label xml:lang="de" text="RD04.17 Paraguay"/>
+               <label xml:lang="fr" text="RD04.17 Paraguay"/>
+            </category>
+            <category ID="RD04.18">
+               <label xml:lang="en" text="RD04.18 Peru"/>
+               <label xml:lang="de" text="RD04.18 Peru"/>
+               <label xml:lang="fr" text="RD04.18 Pérou"/>
+            </category>
+            <category ID="RD04.19">
+               <label xml:lang="en" text="RD04.19 Uruguay"/>
+               <label xml:lang="de" text="RD04.19 Uruguay"/>
+               <label xml:lang="fr" text="RD04.19 Uruguay"/>
+            </category>
+            <category ID="RD04.20">
+               <label xml:lang="en" text="RD04.20 Venezuela"/>
+               <label xml:lang="de" text="RD04.20 Venezuela"/>
+               <label xml:lang="fr" text="RD04.20 Vénézuela"/>
+            </category>
+         </category>
+         <category ID="RD05">
+            <label xml:lang="en" text="RD05 Other countries/Latin American areas"/>
+            <label xml:lang="de" text="RD05 Andere Länder/Gebiete Lateinamerikas"/>
+            <label xml:lang="fr" text="RD05 Autres pays/régions de l'Amérique Latine"/>
+         </category>
+      </category>
+      <category ID="RE">
+         <label xml:lang="en" text="RE Africa (total)"/>
+         <label xml:lang="de" text="RE Afrika (insgesamt)"/>
+         <label xml:lang="fr" text="RE Afrique (entière)"/>
+         <category ID="RE01">
+            <label xml:lang="en" text="RE01 African organisations"/>
+            <label xml:lang="de" text="RE01 Afrikanische Organisationen"/>
+            <label xml:lang="fr" text="RE01 Organisations africaines"/>
+            <category ID="RE01.01">
+               <label xml:lang="en" text="RE01.01 OAU/African Union"/>
+               <label xml:lang="de" text="RE01.01 OAU/African Union"/>
+               <label xml:lang="fr" text="RE01.01 OUA/Union africaine"/>
+            </category>
+         </category>
+         <category ID="RE02">
+            <label xml:lang="en"
+                   text="RE02 Geographical areas of Africa (above country level)"/>
+            <label xml:lang="de"
+                   text="RE02 Geographische Räume Afrikas (länderübergreifend)"/>
+            <label xml:lang="fr"
+                   text="RE02 Régions géographiques de l'Afrique (niveau au-dessus des pays)"/>
+         </category>
+      </category>
+      <category ID="RF">
+         <label xml:lang="en" text="RF Africa south of Sahara"/>
+         <label xml:lang="de" text="RF Afrika südlich der Sahara"/>
+         <label xml:lang="fr" text="RF Afrique subsaharienne"/>
+         <category ID="RF01">
+            <label xml:lang="en" text="RF01 West Africa"/>
+            <label xml:lang="de" text="RF01 Westafrika"/>
+            <label xml:lang="fr" text="RF01 Afrique occidentale"/>
+            <category ID="RF01.01">
+               <label xml:lang="en" text="RF01.01 ECOWAS"/>
+               <label xml:lang="de" text="RF01.01 ECOWAS"/>
+               <label xml:lang="fr" text="RF01.01 CEDEAO"/>
+            </category>
+            <category ID="RF01.11">
+               <label xml:lang="en" text="RF01.11 Benin"/>
+               <label xml:lang="de" text="RF01.11 Benin"/>
+               <label xml:lang="fr" text="RF01.11 Bénin"/>
+            </category>
+            <category ID="RF01.12">
+               <label xml:lang="en" text="RF01.12 Burkina Faso"/>
+               <label xml:lang="de" text="RF01.12 Burkina Faso"/>
+               <label xml:lang="fr" text="RF01.12 Burkina Faso"/>
+            </category>
+            <category ID="RF01.13">
+               <label xml:lang="en" text="RF01.13 Ivory Coast"/>
+               <label xml:lang="de" text="RF01.13 Côte d'Ivoire"/>
+               <label xml:lang="fr" text="RF01.13 Côte d'Ivoire"/>
+            </category>
+            <category ID="RF01.14">
+               <label xml:lang="en" text="RF01.14 Gambia"/>
+               <label xml:lang="de" text="RF01.14 Gambia"/>
+               <label xml:lang="fr" text="RF01.14 Gambie"/>
+            </category>
+            <category ID="RF01.15">
+               <label xml:lang="en" text="RF01.15 Ghana"/>
+               <label xml:lang="de" text="RF01.15 Ghana"/>
+               <label xml:lang="fr" text="RF01.15 Ghana"/>
+            </category>
+            <category ID="RF01.16">
+               <label xml:lang="en" text="RF01.16 Guinea"/>
+               <label xml:lang="de" text="RF01.16 Guinea"/>
+               <label xml:lang="fr" text="RF01.16 Guinée"/>
+            </category>
+            <category ID="RF01.17">
+               <label xml:lang="en" text="RF01.17 Guinea-Bissau"/>
+               <label xml:lang="de" text="RF01.17 Guinea-Bissau"/>
+               <label xml:lang="fr" text="RF01.17 Guinée-Bissau"/>
+            </category>
+            <category ID="RF01.18">
+               <label xml:lang="en" text="RF01.18 Cape Verde"/>
+               <label xml:lang="de" text="RF01.18 Kapverdische Inseln"/>
+               <label xml:lang="fr" text="RF01.18 Cap Vert"/>
+            </category>
+            <category ID="RF01.19">
+               <label xml:lang="en" text="RF01.19 Liberia"/>
+               <label xml:lang="de" text="RF01.19 Liberia"/>
+               <label xml:lang="fr" text="RF01.19 Libéria"/>
+            </category>
+            <category ID="RF01.20">
+               <label xml:lang="en" text="RF01.20 Mali"/>
+               <label xml:lang="de" text="RF01.20 Mali"/>
+               <label xml:lang="fr" text="RF01.20 Mali"/>
+            </category>
+            <category ID="RF01.21">
+               <label xml:lang="en" text="RF01.21 Mauritania"/>
+               <label xml:lang="de" text="RF01.21 Mauretanien"/>
+               <label xml:lang="fr" text="RF01.21 Mauritanie"/>
+            </category>
+            <category ID="RF01.22">
+               <label xml:lang="en" text="RF01.22 Niger"/>
+               <label xml:lang="de" text="RF01.22 Niger"/>
+               <label xml:lang="fr" text="RF01.22 Niger"/>
+            </category>
+            <category ID="RF01.23">
+               <label xml:lang="en" text="RF01.23 Nigeria"/>
+               <label xml:lang="de" text="RF01.23 Nigeria"/>
+               <label xml:lang="fr" text="RF01.23 Nigéria"/>
+            </category>
+            <category ID="RF01.24">
+               <label xml:lang="en" text="RF01.24 Senegal"/>
+               <label xml:lang="de" text="RF01.24 Senegal"/>
+               <label xml:lang="fr" text="RF01.24 Sénégal"/>
+            </category>
+            <category ID="RF01.25">
+               <label xml:lang="en" text="RF01.25 Sierra Leone"/>
+               <label xml:lang="de" text="RF01.25 Sierra Leone"/>
+               <label xml:lang="fr" text="RF01.25 Sierra Léone"/>
+            </category>
+            <category ID="RF01.26">
+               <label xml:lang="en" text="RF01.26 Togo"/>
+               <label xml:lang="de" text="RF01.26 Togo"/>
+               <label xml:lang="fr" text="RF01.26 Togo"/>
+            </category>
+            <category ID="RF01.27">
+               <label xml:lang="en" text="RF01.27 Sao Tome and Principe"/>
+               <label xml:lang="de" text="RF01.27 São Tomé und Príncipe"/>
+               <label xml:lang="fr" text="RF01.27 Sao Tomé et Principe"/>
+            </category>
+         </category>
+         <category ID="RF02">
+            <label xml:lang="en" text="RF02 Central Africa"/>
+            <label xml:lang="de" text="RF02 Zentralafrika"/>
+            <label xml:lang="fr" text="RF02 Afrique centrale"/>
+            <category ID="RF02.01">
+               <label xml:lang="en" text="RF02.01 Equatorial Guinea"/>
+               <label xml:lang="de" text="RF02.01 Äquatorialguinea"/>
+               <label xml:lang="fr" text="RF02.01 Guinée équatoriale"/>
+            </category>
+            <category ID="RF02.02">
+               <label xml:lang="en" text="RF02.02 Burundi"/>
+               <label xml:lang="de" text="RF02.02 Burundi"/>
+               <label xml:lang="fr" text="RF02.02 Burundi"/>
+            </category>
+            <category ID="RF02.03">
+               <label xml:lang="en" text="RF02.03 Gabon"/>
+               <label xml:lang="de" text="RF02.03 Gabun"/>
+               <label xml:lang="fr" text="RF02.03 Gabon"/>
+            </category>
+            <category ID="RF02.04">
+               <label xml:lang="en" text="RF02.04 Cameroon"/>
+               <label xml:lang="de" text="RF02.04 Kamerun"/>
+               <label xml:lang="fr" text="RF02.04 Cameroun"/>
+            </category>
+            <category ID="RF02.05">
+               <label xml:lang="en" text="RF02.05 Congo (Brazzaville)"/>
+               <label xml:lang="de" text="RF02.05 Kongo"/>
+               <label xml:lang="fr" text="RF02.05 Congo (Brazzaville)"/>
+            </category>
+            <category ID="RF02.06">
+               <label xml:lang="en" text="RF02.06 Rwanda"/>
+               <label xml:lang="de" text="RF02.06 Ruanda"/>
+               <label xml:lang="fr" text="RF02.06 Rwanda"/>
+            </category>
+            <category ID="RF02.07">
+               <label xml:lang="en" text="RF02.07 Chad"/>
+               <label xml:lang="de" text="RF02.07 Tschad"/>
+               <label xml:lang="fr" text="RF02.07 Tchad"/>
+            </category>
+            <category ID="RF02.08">
+               <label xml:lang="en" text="RF02.08 Congo (Kinshasa)"/>
+               <label xml:lang="de" text="RF02.08 Kongo (Kinshasa)"/>
+               <label xml:lang="fr" text="RF02.08 Congo (Kinshasa)"/>
+            </category>
+            <category ID="RF02.09">
+               <label xml:lang="en" text="RF02.09 Central African Republic"/>
+               <label xml:lang="de" text="RF02.09 Zentralafrikanische Republik"/>
+               <label xml:lang="fr" text="RF02.09 République centrafricaine"/>
+            </category>
+         </category>
+         <category ID="RF03">
+            <label xml:lang="en" text="RF03 Southern Africa"/>
+            <label xml:lang="de" text="RF03 Südliches Afrika"/>
+            <label xml:lang="fr" text="RF03 Afrique australe"/>
+            <category ID="RF03.01">
+               <label xml:lang="en" text="RF03.01 SADCC/SADC"/>
+               <label xml:lang="de" text="RF03.01 SADCC/SADC"/>
+               <label xml:lang="fr" text="RF03.01 CDCAS/CDAS"/>
+            </category>
+            <category ID="RF03.11">
+               <label xml:lang="en" text="RF03.11 Angola"/>
+               <label xml:lang="de" text="RF03.11 Angola"/>
+               <label xml:lang="fr" text="RF03.11 Angola"/>
+            </category>
+            <category ID="RF03.12">
+               <label xml:lang="en" text="RF03.12 Botswana"/>
+               <label xml:lang="de" text="RF03.12 Botswana"/>
+               <label xml:lang="fr" text="RF03.12 Botswana"/>
+            </category>
+            <category ID="RF03.13">
+               <label xml:lang="en" text="RF03.13 Lesotho"/>
+               <label xml:lang="de" text="RF03.13 Lesotho"/>
+               <label xml:lang="fr" text="RF03.13 Lésotho"/>
+            </category>
+            <category ID="RF03.14">
+               <label xml:lang="en" text="RF03.14 Malawi"/>
+               <label xml:lang="de" text="RF03.14 Malawi"/>
+               <label xml:lang="fr" text="RF03.14 Malawi"/>
+            </category>
+            <category ID="RF03.15">
+               <label xml:lang="en" text="RF03.15 Mozambique"/>
+               <label xml:lang="de" text="RF03.15 Mosambik"/>
+               <label xml:lang="fr" text="RF03.15 Mozambique"/>
+            </category>
+            <category ID="RF03.16">
+               <label xml:lang="en" text="RF03.16 Namibia"/>
+               <label xml:lang="de" text="RF03.16 Namibia"/>
+               <label xml:lang="fr" text="RF03.16 Namibie"/>
+            </category>
+            <category ID="RF03.17">
+               <label xml:lang="en" text="RF03.17 Zambia"/>
+               <label xml:lang="de" text="RF03.17 Sambia"/>
+               <label xml:lang="fr" text="RF03.17 Zambie"/>
+            </category>
+            <category ID="RF03.18">
+               <label xml:lang="en" text="RF03.18 Zimbabwe"/>
+               <label xml:lang="de" text="RF03.18 Simbabwe"/>
+               <label xml:lang="fr" text="RF03.18 Zimbabwe"/>
+            </category>
+            <category ID="RF03.19">
+               <label xml:lang="en" text="RF03.19 Republic of South Africa"/>
+               <label xml:lang="de" text="RF03.19 Südafrikanische Republik"/>
+               <label xml:lang="fr" text="RF03.19 République sud-africaine"/>
+            </category>
+            <category ID="RF03.20">
+               <label xml:lang="en" text="RF03.20 Eswatini"/>
+               <label xml:lang="de" text="RF03.20 Eswatini"/>
+               <label xml:lang="fr" text="RF03.20 Eswatini"/>
+            </category>
+         </category>
+         <category ID="RF04">
+            <label xml:lang="en" text="RF04 East Africa"/>
+            <label xml:lang="de" text="RF04 Ostafrika"/>
+            <label xml:lang="fr" text="RF04 Afrique orientale"/>
+            <category ID="RF04.01">
+               <label xml:lang="en" text="RF04.01 Kenya"/>
+               <label xml:lang="de" text="RF04.01 Kenia"/>
+               <label xml:lang="fr" text="RF04.01 Kenya"/>
+            </category>
+            <category ID="RF04.02">
+               <label xml:lang="en" text="RF04.02 Madagascar"/>
+               <label xml:lang="de" text="RF04.02 Madagaskar"/>
+               <label xml:lang="fr" text="RF04.02 Madagascar"/>
+            </category>
+            <category ID="RF04.03">
+               <label xml:lang="en" text="RF04.03 Mauritius"/>
+               <label xml:lang="de" text="RF04.03 Mauritius"/>
+               <label xml:lang="fr" text="RF04.03 Ile Maurice"/>
+            </category>
+            <category ID="RF04.04">
+               <label xml:lang="en" text="RF04.04 Tanzania"/>
+               <label xml:lang="de" text="RF04.04 Tansania"/>
+               <label xml:lang="fr" text="RF04.04 Tanzanie"/>
+            </category>
+            <category ID="RF04.05">
+               <label xml:lang="en" text="RF04.05 Uganda"/>
+               <label xml:lang="de" text="RF04.05 Uganda"/>
+               <label xml:lang="fr" text="RF04.05 Ouganda"/>
+            </category>
+            <category ID="RF04.06">
+               <label xml:lang="en" text="RF04.06 Seychelles"/>
+               <label xml:lang="de" text="RF04.06 Seychellen"/>
+               <label xml:lang="fr" text="RF04.06 Seychelles"/>
+            </category>
+            <category ID="RF04.07">
+               <label xml:lang="en" text="RF04.07 South Sudan"/>
+               <label xml:lang="de" text="RF04.07 Südsudan"/>
+               <label xml:lang="fr" text="RF04.07 Soudan du Sud"/>
+            </category>
+         </category>
+         <category ID="RF05">
+            <label xml:lang="en" text="RF05 North-East Africa"/>
+            <label xml:lang="de" text="RF05 Nordostafrika"/>
+            <label xml:lang="fr" text="RF05 Afrique du Nord-Est"/>
+            <category ID="RF05.01">
+               <label xml:lang="en" text="RF05.01 Ethiopia"/>
+               <label xml:lang="de" text="RF05.01 Äthiopien"/>
+               <label xml:lang="fr" text="RF05.01 Éthiopie"/>
+            </category>
+            <category ID="RF05.02">
+               <label xml:lang="en" text="RF05.02 Djibouti"/>
+               <label xml:lang="de" text="RF05.02 Dschibuti"/>
+               <label xml:lang="fr" text="RF05.02 Djibouti"/>
+            </category>
+            <category ID="RF05.03">
+               <label xml:lang="en" text="RF05.03 Somalia"/>
+               <label xml:lang="de" text="RF05.03 Somalia"/>
+               <label xml:lang="fr" text="RF05.03 Somalie"/>
+            </category>
+            <category ID="RF05.04">
+               <label xml:lang="en" text="RF05.04 Eritrea"/>
+               <label xml:lang="de" text="RF05.04 Eritrea"/>
+               <label xml:lang="fr" text="RF05.04 Érithrée"/>
+            </category>
+         </category>
+         <category ID="RF06">
+            <label xml:lang="en" text="RF06 African islands and other African areas"/>
+            <label xml:lang="de"
+                   text="RF06 Afrikanische Inseln und andere Gebiete Afrikas"/>
+            <label xml:lang="fr"
+                   text="RF06 Iles africaines et autres régions de l'Afrique"/>
+         </category>
+      </category>
+      <category ID="RG">
+         <label xml:lang="en" text="RG Near and Middle East and North Africa"/>
+         <label xml:lang="de" text="RG Naher und Mittlerer Osten und Nordafrika"/>
+         <label xml:lang="fr" text="RG Proche-Orient/Moyen-Orient et Afrique du Nord"/>
+         <category ID="RG00">
+            <label xml:lang="en"
+                   text="RG00 Geographical areas (transnational) and organizations of the Near and Middle East/Northern Africa"/>
+            <label xml:lang="de"
+                   text="RG00 Geographische Räume (länderübergreifend) und Organisationen des Nahen und Mittleren Ostens/Nordafrikas"/>
+            <label xml:lang="fr"
+                   text="RG00 Régions géographiques (transnationales) et organisations du Proche-Orient/Moyen-Orient et d'Afrique du Nord"/>
+            <category ID="RG00.01">
+               <label xml:lang="en" text="RG00.01 League of Arab States"/>
+               <label xml:lang="de" text="RG00.01 League of Arab States"/>
+               <label xml:lang="fr" text="RG00.01 Ligue des États arabes"/>
+            </category>
+            <category ID="RG00.02">
+               <label xml:lang="en" text="RG00.02 OAPEC/OAPEC-countries"/>
+               <label xml:lang="de" text="RG00.02 OAPEC/OAPEC-Länder"/>
+               <label xml:lang="fr" text="RG00.02 OPAEP/pays de l'OPAEP"/>
+            </category>
+            <category ID="RG00.11">
+               <label xml:lang="en" text="RG00.11 Arab countries"/>
+               <label xml:lang="de" text="RG00.11 Arabische Länder"/>
+               <label xml:lang="fr" text="RG00.11 Pays arabes"/>
+            </category>
+            <category ID="RG00.12">
+               <label xml:lang="en" text="RG00.12 Islamic world"/>
+               <label xml:lang="de" text="RG00.12 Islamische Welt"/>
+               <label xml:lang="fr" text="RG00.12 Monde islamique"/>
+            </category>
+            <category ID="RG00.13">
+               <label xml:lang="en" text="RG00.13 Persian Gulf"/>
+               <label xml:lang="de" text="RG00.13 Persischer Golf"/>
+               <label xml:lang="fr" text="RG00.13 Golfe Persique"/>
+            </category>
+            <category ID="RG00.14">
+               <label xml:lang="en" text="RG00.14 Kurdistan"/>
+               <label xml:lang="de" text="RG00.14 Kurdistan"/>
+               <label xml:lang="fr" text="RG00.14 Kurdistan"/>
+            </category>
+         </category>
+         <category ID="RG01">
+            <label xml:lang="en" text="RG01 North Africa"/>
+            <label xml:lang="de" text="RG01 Nordafrika"/>
+            <label xml:lang="fr" text="RG01 Afrique du Nord"/>
+            <category ID="RG01.01">
+               <label xml:lang="en" text="RG01.01 Maghreb"/>
+               <label xml:lang="de" text="RG01.01 Maghreb"/>
+               <label xml:lang="fr" text="RG01.01 Maghreb"/>
+            </category>
+            <category ID="RG01.11">
+               <label xml:lang="en" text="RG01.11 Morocco"/>
+               <label xml:lang="de" text="RG01.11 Marokko"/>
+               <label xml:lang="fr" text="RG01.11 Maroc"/>
+            </category>
+            <category ID="RG01.12">
+               <label xml:lang="en" text="RG01.12 Western Sahara"/>
+               <label xml:lang="de" text="RG01.12 Westsahara"/>
+               <label xml:lang="fr" text="RG01.12 Sahara occidental"/>
+            </category>
+            <category ID="RG01.13">
+               <label xml:lang="en" text="RG01.13 Algeria"/>
+               <label xml:lang="de" text="RG01.13 Algerien"/>
+               <label xml:lang="fr" text="RG01.13 Algérie"/>
+            </category>
+            <category ID="RG01.14">
+               <label xml:lang="en" text="RG01.14 Tunisia"/>
+               <label xml:lang="de" text="RG01.14 Tunesien"/>
+               <label xml:lang="fr" text="RG01.14 Tunisie"/>
+            </category>
+            <category ID="RG01.15">
+               <label xml:lang="en" text="RG01.15 Libya"/>
+               <label xml:lang="de" text="RG01.15 Libyen"/>
+               <label xml:lang="fr" text="RG01.15 Libye"/>
+            </category>
+            <category ID="RG01.16">
+               <label xml:lang="en" text="RG01.16 Egypt"/>
+               <label xml:lang="de" text="RG01.16 Ägypten"/>
+               <label xml:lang="fr" text="RG01.16 Égypte"/>
+            </category>
+            <category ID="RG01.17">
+               <label xml:lang="en" text="RG01.17 Sudan"/>
+               <label xml:lang="de" text="RG01.17 Sudan"/>
+               <label xml:lang="fr" text="RG01.17 Soudan"/>
+            </category>
+         </category>
+         <category ID="RG02">
+            <label xml:lang="en" text="RG02 Eastern Arabia/Israel"/>
+            <label xml:lang="de" text="RG02 Arabischer Osten/Israel"/>
+            <label xml:lang="fr" text="RG02 Arabie de l'Est/Israel"/>
+            <category ID="RG02.01">
+               <label xml:lang="en" text="RG02.01 Palestine"/>
+               <label xml:lang="de" text="RG02.01 Palästina"/>
+               <label xml:lang="fr" text="RG02.01 Palestine"/>
+            </category>
+            <category ID="RG02.11">
+               <label xml:lang="en" text="RG02.11 Iraq"/>
+               <label xml:lang="de" text="RG02.11 Irak"/>
+               <label xml:lang="fr" text="RG02.11 Irak"/>
+            </category>
+            <category ID="RG02.12">
+               <label xml:lang="en" text="RG02.12 Jordan"/>
+               <label xml:lang="de" text="RG02.12 Jordanien"/>
+               <label xml:lang="fr" text="RG02.12 Jordanie"/>
+            </category>
+            <category ID="RG02.13">
+               <label xml:lang="en" text="RG02.13 Lebanon"/>
+               <label xml:lang="de" text="RG02.13 Libanon"/>
+               <label xml:lang="fr" text="RG02.13 Liban"/>
+            </category>
+            <category ID="RG02.14">
+               <label xml:lang="en" text="RG02.14 Syria"/>
+               <label xml:lang="de" text="RG02.14 Syrien"/>
+               <label xml:lang="fr" text="RG02.14 Syrie"/>
+            </category>
+            <category ID="RG02.15">
+               <label xml:lang="en" text="RG02.15 Israel"/>
+               <label xml:lang="de" text="RG02.15 Israel"/>
+               <label xml:lang="fr" text="RG02.15 Israel"/>
+            </category>
+            <category ID="RG02.16">
+               <label xml:lang="en" text="RG02.16 Territories occupied by Israel"/>
+               <label xml:lang="de" text="RG02.16 Israelisch besetzte Gebiete"/>
+               <label xml:lang="fr" text="RG02.16 Territoires occupés par Israel"/>
+            </category>
+            <category ID="RG02.17">
+               <label xml:lang="en" text="RG02.17 Palestinian self-rule areas"/>
+               <label xml:lang="de" text="RG02.17 Palästinensische Selbstverwaltungsgebiete"/>
+               <label xml:lang="fr" text="RG02.17 Territoires palestiniens autonomes"/>
+            </category>
+         </category>
+         <category ID="RG03">
+            <label xml:lang="en" text="RG03 Arabian peninsula"/>
+            <label xml:lang="de" text="RG03 Arabische Halbinsel"/>
+            <label xml:lang="fr" text="RG03 Péninsule d'Arabie"/>
+            <category ID="RG03.01">
+               <label xml:lang="en" text="RG03.01 Gulf States"/>
+               <label xml:lang="de" text="RG03.01 Golfstaaten"/>
+               <label xml:lang="fr" text="RG03.01 États du Golfe"/>
+            </category>
+            <category ID="RG03.11">
+               <label xml:lang="en" text="RG03.11 Bahrain"/>
+               <label xml:lang="de" text="RG03.11 Bahrain"/>
+               <label xml:lang="fr" text="RG03.11 Bahrein"/>
+            </category>
+            <category ID="RG03.12">
+               <label xml:lang="en" text="RG03.12 Qatar"/>
+               <label xml:lang="de" text="RG03.12 Katar"/>
+               <label xml:lang="fr" text="RG03.12 Qatar"/>
+            </category>
+            <category ID="RG03.13">
+               <label xml:lang="en" text="RG03.13 Kuwait"/>
+               <label xml:lang="de" text="RG03.13 Kuwait"/>
+               <label xml:lang="fr" text="RG03.13 Koweit"/>
+            </category>
+            <category ID="RG03.14">
+               <label xml:lang="en" text="RG03.14 Oman"/>
+               <label xml:lang="de" text="RG03.14 Oman"/>
+               <label xml:lang="fr" text="RG03.14 Oman"/>
+            </category>
+            <category ID="RG03.15">
+               <label xml:lang="en" text="RG03.15 Saudi Arabia"/>
+               <label xml:lang="de" text="RG03.15 Saudi-Arabien"/>
+               <label xml:lang="fr" text="RG03.15 Arabie Saoudite"/>
+            </category>
+            <category ID="RG03.16">
+               <label xml:lang="en" text="RG03.16 Yemen"/>
+               <label xml:lang="de" text="RG03.16 Jemen"/>
+               <label xml:lang="fr" text="RG03.16 Yémen"/>
+            </category>
+            <category ID="RG03.17">
+               <label xml:lang="en" text="RG03.17 United Arab Emirates"/>
+               <label xml:lang="de" text="RG03.17 Vereinigte Arabische Emirate"/>
+               <label xml:lang="fr" text="RG03.17 Émirats Arabes Unis"/>
+            </category>
+         </category>
+         <category ID="RG04">
+            <label xml:lang="en" text="RG04 Western Asia"/>
+            <label xml:lang="de" text="RG04 Westasien"/>
+            <label xml:lang="fr" text="RG04 Asie de l'Ouest"/>
+            <category ID="RG04.01">
+               <label xml:lang="en" text="RG04.01 Afghanistan"/>
+               <label xml:lang="de" text="RG04.01 Afghanistan"/>
+               <label xml:lang="fr" text="RG04.01 Afghanistan"/>
+            </category>
+            <category ID="RG04.02">
+               <label xml:lang="en" text="RG04.02 Iran"/>
+               <label xml:lang="de" text="RG04.02 Iran"/>
+               <label xml:lang="fr" text="RG04.02 Iran"/>
+            </category>
+            <category ID="RG04.03">
+               <label xml:lang="en" text="RG04.03 Pakistan"/>
+               <label xml:lang="de" text="RG04.03 Pakistan"/>
+               <label xml:lang="fr" text="RG04.03 Pakistan"/>
+            </category>
+         </category>
+      </category>
+      <category ID="RH">
+         <label xml:lang="en" text="RH Asia (total)"/>
+         <label xml:lang="de" text="RH Asien (insgesamt)"/>
+         <label xml:lang="fr" text="RH Asie (entière)"/>
+         <category ID="RH01">
+            <label xml:lang="en" text="RH01 Asian organisations"/>
+            <label xml:lang="de" text="RH01 Asiatische Organisationen"/>
+            <label xml:lang="fr" text="RH01 Organisations asiatiques"/>
+            <category ID="RH01.01">
+               <label xml:lang="en" text="RH01.01 APEC"/>
+               <label xml:lang="de" text="RH01.01 APEC"/>
+               <label xml:lang="fr" text="RH01.01 CEAP"/>
+            </category>
+         </category>
+         <category ID="RH02">
+            <label xml:lang="en" text="RH02 Geographical areas of Asia"/>
+            <label xml:lang="de" text="RH02 Geographische Räume Asiens"/>
+            <label xml:lang="fr" text="RH02 Régions géographiques de l'Asie"/>
+            <category ID="RH02.01">
+               <label xml:lang="en" text="RH02.01 Himalaya region"/>
+               <label xml:lang="de" text="RH02.01 Himalaya-Region"/>
+               <label xml:lang="fr" text="RH02.01 Région de l'Himalaya"/>
+            </category>
+            <category ID="RH02.02">
+               <label xml:lang="en" text="RH02.02 Kashmir"/>
+               <label xml:lang="de" text="RH02.02 Kaschmir"/>
+               <label xml:lang="fr" text="RH02.02 Cachemire"/>
+            </category>
+            <category ID="RH02.03">
+               <label xml:lang="en" text="RH02.03 Golden Triangle"/>
+               <label xml:lang="de" text="RH02.03 Goldenes Dreieck"/>
+               <label xml:lang="fr" text="RH02.03 Triangle d'or"/>
+            </category>
+         </category>
+      </category>
+      <category ID="RI">
+         <label xml:lang="en" text="RI Asia (without western Asia)"/>
+         <label xml:lang="de" text="RI Asien (ohne westliches Asien)"/>
+         <label xml:lang="fr" text="RI Asie (sans Asie de l'Ouest)"/>
+         <category ID="RI01">
+            <label xml:lang="en" text="RI01 South Asia"/>
+            <label xml:lang="de" text="RI01 Südasien"/>
+            <label xml:lang="fr" text="RI01 Asie du Sud"/>
+            <category ID="RI01.01">
+               <label xml:lang="en" text="RI01.01 SAARC/SAARC countries"/>
+               <label xml:lang="de" text="RI01.01 SAARC/SAARC-Länder"/>
+               <label xml:lang="fr" text="RI01.01 ASACR/pays de l'ASACR"/>
+            </category>
+            <category ID="RI01.11">
+               <label xml:lang="en" text="RI01.11 Bangladesh"/>
+               <label xml:lang="de" text="RI01.11 Bangladesch"/>
+               <label xml:lang="fr" text="RI01.11 Bangladesh"/>
+            </category>
+            <category ID="RI01.12">
+               <label xml:lang="en" text="RI01.12 Bhutan"/>
+               <label xml:lang="de" text="RI01.12 Bhutan"/>
+               <label xml:lang="fr" text="RI01.12 Bhoutan"/>
+            </category>
+            <category ID="RI01.13">
+               <label xml:lang="en" text="RI01.13 India"/>
+               <label xml:lang="de" text="RI01.13 Indien"/>
+               <label xml:lang="fr" text="RI01.13 Inde"/>
+            </category>
+            <category ID="RI01.14">
+               <label xml:lang="en" text="RI01.14 Maledives"/>
+               <label xml:lang="de" text="RI01.14 Malediven"/>
+               <label xml:lang="fr" text="RI01.14 Maldives"/>
+            </category>
+            <category ID="RI01.15">
+               <label xml:lang="en" text="RI01.15 Nepal"/>
+               <label xml:lang="de" text="RI01.15 Nepal"/>
+               <label xml:lang="fr" text="RI01.15 Népal"/>
+            </category>
+            <category ID="RI01.16">
+               <label xml:lang="en" text="RI01.16 Sri Lanka"/>
+               <label xml:lang="de" text="RI01.16 Sri Lanka"/>
+               <label xml:lang="fr" text="RI01.16 Sri Lanka"/>
+            </category>
+         </category>
+         <category ID="RI02">
+            <label xml:lang="en" text="RI02 South-East Asia"/>
+            <label xml:lang="de" text="RI02 Südostasien"/>
+            <label xml:lang="fr" text="RI02 Asie du Sud-Est"/>
+            <category ID="RI02.01">
+               <label xml:lang="en" text="RI02.01 Geographical areas of South-East Asia"/>
+               <label xml:lang="de" text="RI02.01 Geographische Räume Südostasiens"/>
+               <label xml:lang="fr" text="RI02.01 Régions géographiques de l'Asie du Sud-Est"/>
+            </category>
+            <category ID="RI02.02">
+               <label xml:lang="en" text="RI02.02 ASEAN/ASEAN countries"/>
+               <label xml:lang="de" text="RI02.02 ASEAN/ASEAN-Länder"/>
+               <label xml:lang="fr" text="RI02.02 ANASE/pays de l'ANASE"/>
+            </category>
+            <category ID="RI02.03">
+               <label xml:lang="en" text="RI02.03 Indochina"/>
+               <label xml:lang="de" text="RI02.03 Indochina"/>
+               <label xml:lang="fr" text="RI02.03 Indochine"/>
+            </category>
+            <category ID="RI02.11">
+               <label xml:lang="en" text="RI02.11 Brunei"/>
+               <label xml:lang="de" text="RI02.11 Brunei"/>
+               <label xml:lang="fr" text="RI02.11 Brunei"/>
+            </category>
+            <category ID="RI02.12">
+               <label xml:lang="en" text="RI02.12 Indonesia"/>
+               <label xml:lang="de" text="RI02.12 Indonesien"/>
+               <label xml:lang="fr" text="RI02.12 Indonésie"/>
+            </category>
+            <category ID="RI02.13">
+               <label xml:lang="en" text="RI02.13 Malaysia"/>
+               <label xml:lang="de" text="RI02.13 Malaysia"/>
+               <label xml:lang="fr" text="RI02.13 Malaysie"/>
+            </category>
+            <category ID="RI02.14">
+               <label xml:lang="en" text="RI02.14 Philippines"/>
+               <label xml:lang="de" text="RI02.14 Philippinen"/>
+               <label xml:lang="fr" text="RI02.14 Philippines"/>
+            </category>
+            <category ID="RI02.15">
+               <label xml:lang="en" text="RI02.15 Singapore"/>
+               <label xml:lang="de" text="RI02.15 Singapur"/>
+               <label xml:lang="fr" text="RI02.15 Singapour"/>
+            </category>
+            <category ID="RI02.16">
+               <label xml:lang="en" text="RI02.16 Thailand"/>
+               <label xml:lang="de" text="RI02.16 Thailand"/>
+               <label xml:lang="fr" text="RI02.16 Thailande"/>
+            </category>
+            <category ID="RI02.21">
+               <label xml:lang="en" text="RI02.21 Cambodia"/>
+               <label xml:lang="de" text="RI02.21 Kambodscha"/>
+               <label xml:lang="fr" text="RI02.21 Cambodge"/>
+            </category>
+            <category ID="RI02.22">
+               <label xml:lang="en" text="RI02.22 Laos"/>
+               <label xml:lang="de" text="RI02.22 Laos"/>
+               <label xml:lang="fr" text="RI02.22 Laos"/>
+            </category>
+            <category ID="RI02.23">
+               <label xml:lang="en" text="RI02.23 Vietnam"/>
+               <label xml:lang="de" text="RI02.23 Vietnam"/>
+               <label xml:lang="fr" text="RI02.23 Vietnam"/>
+            </category>
+            <category ID="RI02.31">
+               <label xml:lang="en" text="RI02.31 Myanmar (Burma)"/>
+               <label xml:lang="de" text="RI02.31 Myanmar (Birma)"/>
+               <label xml:lang="fr" text="RI02.31 Myanmar (Birmanie)"/>
+            </category>
+            <category ID="RI02.32">
+               <label xml:lang="en" text="RI02.32 East Timor"/>
+               <label xml:lang="de" text="RI02.32 Timor-Leste"/>
+               <label xml:lang="fr" text="RI02.32 Timor oriental"/>
+            </category>
+         </category>
+         <category ID="RI03">
+            <label xml:lang="en" text="RI03 East Asia"/>
+            <label xml:lang="de" text="RI03 Ostasien"/>
+            <label xml:lang="fr" text="RI03 Asie orientale"/>
+            <category ID="RI03.01">
+               <label xml:lang="en" text="RI03.01 China (until 1949)"/>
+               <label xml:lang="de" text="RI03.01 China (vor 1949)"/>
+               <label xml:lang="fr" text="RI03.01 Chine (avant 1949)"/>
+            </category>
+            <category ID="RI03.02">
+               <label xml:lang="en" text="RI03.02 Taiwan"/>
+               <label xml:lang="de" text="RI03.02 Taiwan"/>
+               <label xml:lang="fr" text="RI03.02 Taiwan"/>
+            </category>
+            <category ID="RI03.03">
+               <label xml:lang="en" text="RI03.03 People's Republic of China"/>
+               <label xml:lang="de" text="RI03.03 Volksrepublik China"/>
+               <label xml:lang="fr" text="RI03.03 République populaire de Chine"/>
+            </category>
+            <category ID="RI03.05">
+               <label xml:lang="en" text="RI03.05 Hong Kong (since 1997)"/>
+               <label xml:lang="de" text="RI03.05 Hongkong (seit 1997)"/>
+               <label xml:lang="fr" text="RI03.05 Hong Kong (depuis 1997)"/>
+            </category>
+            <category ID="RI03.11">
+               <label xml:lang="en" text="RI03.11 Korea"/>
+               <label xml:lang="de" text="RI03.11 Korea"/>
+               <label xml:lang="fr" text="RI03.11 Corée"/>
+            </category>
+            <category ID="RI03.12">
+               <label xml:lang="en" text="RI03.12 North Korea"/>
+               <label xml:lang="de" text="RI03.12 Nordkorea"/>
+               <label xml:lang="fr" text="RI03.12 Corée du Nord"/>
+            </category>
+            <category ID="RI03.13">
+               <label xml:lang="en" text="RI03.13 South Korea"/>
+               <label xml:lang="de" text="RI03.13 Südkorea"/>
+               <label xml:lang="fr" text="RI03.13 Corée du Sud"/>
+            </category>
+            <category ID="RI03.21">
+               <label xml:lang="en" text="RI03.21 Hong Kong"/>
+               <label xml:lang="de" text="RI03.21 Hongkong"/>
+               <label xml:lang="fr" text="RI03.21 Hong Kong"/>
+            </category>
+            <category ID="RI03.22">
+               <label xml:lang="en" text="RI03.22 Japan"/>
+               <label xml:lang="de" text="RI03.22 Japan"/>
+               <label xml:lang="fr" text="RI03.22 Japon"/>
+            </category>
+            <category ID="RI03.23">
+               <label xml:lang="en" text="RI03.23 Macao"/>
+               <label xml:lang="de" text="RI03.23 Macau"/>
+               <label xml:lang="fr" text="RI03.23 Macao"/>
+            </category>
+            <category ID="RI03.31">
+               <label xml:lang="en" text="RI03.31 Mongolia"/>
+               <label xml:lang="de" text="RI03.31 Mongolei"/>
+               <label xml:lang="fr" text="RI03.31 Mongolie"/>
+            </category>
+            <category ID="RI03.32">
+               <label xml:lang="en"
+                      text="RI03.32 Far Eastern part of the Russian Federation/Soviet Union"/>
+               <label xml:lang="de"
+                      text="RI03.32 Fernöstlicher Teil der Russischen Föderation/Sowjetunion"/>
+               <label xml:lang="fr"
+                      text="RI03.32 Partie extrême orientale de la Fédération russe/de l'Union soviétique"/>
+            </category>
+         </category>
+         <category ID="RI04">
+            <label xml:lang="en" text="RI04 Other Asian areas"/>
+            <label xml:lang="de" text="RI04 Andere Gebiete Asiens"/>
+            <label xml:lang="fr" text="RI04 Autres régions de l'Asie"/>
+         </category>
+      </category>
+      <category ID="RJ">
+         <label xml:lang="en" text="RJ Oceania"/>
+         <label xml:lang="de" text="RJ Ozeanien"/>
+         <label xml:lang="fr" text="RJ Océanie"/>
+         <category ID="RJ01">
+            <label xml:lang="en" text="RJ01 South Pacific organisations"/>
+            <label xml:lang="de" text="RJ01 Südpazifische Organisationen"/>
+            <label xml:lang="fr" text="RJ01 Organsiations du Pacifique Sud"/>
+         </category>
+         <category ID="RJ02">
+            <label xml:lang="en" text="RJ02 Australia/New Zealand"/>
+            <label xml:lang="de" text="RJ02 Australien/Neuseeland"/>
+            <label xml:lang="fr" text="RJ02 Australie/Nouvelle-Zélande"/>
+            <category ID="RJ02.01">
+               <label xml:lang="en" text="RJ02.01 Australia"/>
+               <label xml:lang="de" text="RJ02.01 Australien"/>
+               <label xml:lang="fr" text="RJ02.01 Australie"/>
+            </category>
+            <category ID="RJ02.02">
+               <label xml:lang="en" text="RJ02.02 New Zealand"/>
+               <label xml:lang="de" text="RJ02.02 Neuseeland"/>
+               <label xml:lang="fr" text="RJ02.02 Nouvelle-Zélande"/>
+            </category>
+         </category>
+         <category ID="RJ03">
+            <label xml:lang="en" text="RJ03 South Pacific Islands"/>
+            <label xml:lang="de" text="RJ03 Südpazifische Inseln"/>
+            <label xml:lang="fr" text="RJ03 Iles du Pacifique Sud"/>
+         </category>
+         <category ID="RJ04">
+            <label xml:lang="en" text="RJ04 Melanesia"/>
+            <label xml:lang="de" text="RJ04 Melanesien"/>
+            <label xml:lang="fr" text="RJ04 Mélanésie"/>
+            <category ID="RJ04.01">
+               <label xml:lang="en" text="RJ04.01 Papua Neu Guinea"/>
+               <label xml:lang="de" text="RJ04.01 Papua-Neuguinea"/>
+               <label xml:lang="fr" text="RJ04.01 Papouasie-Nouvelle-Guinée"/>
+            </category>
+            <category ID="RJ04.02">
+               <label xml:lang="en" text="RJ04.02 Single Melanesian islands without Papua"/>
+               <label xml:lang="de" text="RJ04.02 Einzelne Inseln Melanesiens, außer Papua"/>
+               <label xml:lang="fr" text="RJ04.02 Autres îles mélanésiennes sans Papouasie"/>
+            </category>
+         </category>
+         <category ID="RJ05">
+            <label xml:lang="en" text="RJ05 Micronesia"/>
+            <label xml:lang="de" text="RJ05 Mikronesien"/>
+            <label xml:lang="fr" text="RJ05 Micronésie"/>
+            <category ID="RJ05.01">
+               <label xml:lang="en" text="RJ05.01 Single Micronesian islands"/>
+               <label xml:lang="de" text="RJ05.01 Einzelne Inseln Mikronesiens"/>
+               <label xml:lang="fr" text="RJ05.01 Iles micronésiennes"/>
+            </category>
+         </category>
+         <category ID="RJ06">
+            <label xml:lang="en" text="RJ06 Polynesia"/>
+            <label xml:lang="de" text="RJ06 Polynesien"/>
+            <label xml:lang="fr" text="RJ06 Polynésie"/>
+            <category ID="RJ06.01">
+               <label xml:lang="en" text="RJ06.01 Single Polynesian islands"/>
+               <label xml:lang="de" text="RJ06.01 Einzelne Inseln Polynesiens"/>
+               <label xml:lang="fr" text="RJ06.01 Iles polynésiennes"/>
+            </category>
+         </category>
+      </category>
+      <category ID="RK">
+         <label xml:lang="en" text="RK Antarctica"/>
+         <label xml:lang="de" text="RK Antarktis"/>
+         <label xml:lang="fr" text="RK Antarctique"/>
+      </category>
+      <category ID="RL">
+         <label xml:lang="en" text="RL Oceans/supracontinental regions"/>
+         <label xml:lang="de" text="RL Meere/Kontinentübergreifende Regionen"/>
+         <label xml:lang="fr" text="RL Océans/Régions transcontinentales"/>
+         <category ID="RL01">
+            <label xml:lang="en" text="RL01 Atlantic Ocean"/>
+            <label xml:lang="de" text="RL01 Atlantischer Ozean"/>
+            <label xml:lang="fr" text="RL01 Océan Atlantique"/>
+         </category>
+         <category ID="RL02">
+            <label xml:lang="en" text="RL02 Indian Ocean"/>
+            <label xml:lang="de" text="RL02 Indischer Ozean"/>
+            <label xml:lang="fr" text="RL02 Océan Indien"/>
+         </category>
+         <category ID="RL03">
+            <label xml:lang="en" text="RL03 Pacific Ocean/Pacific region"/>
+            <label xml:lang="de" text="RL03 Pazifischer Ozean/Pazifischer Raum"/>
+            <label xml:lang="fr" text="RL03 Océan Pacifique/Région pacifique"/>
+         </category>
+         <category ID="RL04">
+            <label xml:lang="en" text="RL04 Mediterranean Sea/Mediterranean area"/>
+            <label xml:lang="de" text="RL04 Mittelmeer/Mittelmeerraum"/>
+            <label xml:lang="fr" text="RL04 Méditerranée/région méditerranéenne"/>
+         </category>
+         <category ID="RL05">
+            <label xml:lang="en" text="RL05 Black Sea region"/>
+            <label xml:lang="de" text="RL05 Schwarzmeerraum"/>
+            <label xml:lang="fr" text="RL05 Région de la mer Noire"/>
+         </category>
+         <category ID="RL06">
+            <label xml:lang="en" text="RL06 Caspian Sea"/>
+            <label xml:lang="de" text="RL06 Kaspisches Meer"/>
+            <label xml:lang="fr" text="RL06 Mer Caspienne"/>
+         </category>
+         <category ID="RL07">
+            <label xml:lang="en" text="RL07 Arctic"/>
+            <label xml:lang="de" text="RL07 Arktis"/>
+            <label xml:lang="fr" text="RL07 Arctique"/>
+         </category>
+      </category>
+      <category ID="RM">
+         <label xml:lang="en" text="RM International organisations"/>
+         <label xml:lang="de" text="RM Internationale Organisationen"/>
+         <label xml:lang="fr" text="RM Organisations internationales"/>
+         <category ID="RM01">
+            <label xml:lang="en" text="RM01 United Nations"/>
+            <label xml:lang="de" text="RM01 Vereinte Nationen"/>
+            <label xml:lang="fr" text="RM01 Nations Unies"/>
+         </category>
+         <category ID="RM02">
+            <label xml:lang="en" text="RM02 United Nations System special organisations"/>
+            <label xml:lang="de" text="RM02 Sonderorganisationen des VN-Systems"/>
+            <label xml:lang="fr"
+                   text="RM02 Organisations spéciales du système des Nations Unies"/>
+         </category>
+         <category ID="RM03">
+            <label xml:lang="en" text="RM03 Other universal governmental organisations"/>
+            <label xml:lang="de" text="RM03 andere universale staatliche Organisationen"/>
+            <label xml:lang="fr"
+                   text="RM03 Autres organisations gouvernementales internationales"/>
+         </category>
+         <category ID="RM04">
+            <label xml:lang="en" text="RM04 Non-governmental organisations"/>
+            <label xml:lang="de" text="RM04 Nichtstaatliche Organisationen"/>
+            <label xml:lang="fr" text="RM04 Organisations non gouvernementales"/>
+         </category>
+      </category>
+      <category ID="RN">
+         <label xml:lang="en" text="RN Developed countries"/>
+         <label xml:lang="de" text="RN Entwickelte Länder"/>
+         <label xml:lang="fr" text="RN Pays développés"/>
+         <category ID="RN01">
+            <label xml:lang="en" text="RN01 Western countries"/>
+            <label xml:lang="de" text="RN01 Westliche Länder"/>
+            <label xml:lang="fr" text="RN01 Pays occidentaux"/>
+         </category>
+         <category ID="RN02">
+            <label xml:lang="en" text="RN02 OECD/OECD countries"/>
+            <label xml:lang="de" text="RN02 OECD/OECD-Länder"/>
+            <label xml:lang="fr" text="RN02 OCDE/pays OCDE"/>
+         </category>
+         <category ID="RN03">
+            <label xml:lang="en" text="RN03 Socialist countries"/>
+            <label xml:lang="de" text="RN03 Sozialistische Länder"/>
+            <label xml:lang="fr" text="RN03 Pays socialistes"/>
+         </category>
+      </category>
+      <category ID="RO">
+         <label xml:lang="en" text="RO Developing countries"/>
+         <label xml:lang="de" text="RO Entwicklungsländer"/>
+         <label xml:lang="fr" text="RO Pays en voie de développement"/>
+         <category ID="RO01">
+            <label xml:lang="en" text="RO01 Group of 77"/>
+            <label xml:lang="de" text="RO01 Gruppe der 77"/>
+            <label xml:lang="fr" text="RO01 Groupe des 77"/>
+         </category>
+         <category ID="RO02">
+            <label xml:lang="en" text="RO02 Non-aligned countries"/>
+            <label xml:lang="de" text="RO02 Blockfreie Staaten"/>
+            <label xml:lang="fr" text="RO02 Pays non-alignés"/>
+         </category>
+         <category ID="RO03">
+            <label xml:lang="en" text="RO03 OPEC/OPEC countries"/>
+            <label xml:lang="de" text="RO03 OPEC/OPEC-Länder"/>
+            <label xml:lang="fr" text="RO03 OPEP/pays OPEP"/>
+         </category>
+         <category ID="RO04">
+            <label xml:lang="en" text="RO04 ACP countries"/>
+            <label xml:lang="de" text="RO04 AKP-Länder"/>
+            <label xml:lang="fr" text="RO04 pays ACP"/>
+         </category>
+      </category>
+      <category ID="RP">
+         <label xml:lang="en" text="RP Other groups of countries/areas"/>
+         <label xml:lang="de" text="RP Sonstige Ländergruppen/Räume"/>
+         <label xml:lang="fr" text="RP Autres groupes de pays/régions"/>
+         <category ID="RP01">
+            <label xml:lang="en" text="RP01 French-speaking countries"/>
+            <label xml:lang="de" text="RP01 Französischsprachige Länder"/>
+            <label xml:lang="fr" text="RP01 Pays francophones"/>
+         </category>
+         <category ID="RP02">
+            <label xml:lang="en" text="RP02 BRIC/BRICS countries"/>
+            <label xml:lang="de" text="RP02 BRIC/BRICS-Länder"/>
+            <label xml:lang="fr" text="RP02 Pays des BRIC/BRICS"/>
+         </category>
+      </category>
+      <category ID="RQ">
+         <label xml:lang="en" text="RQ World wide"/>
+         <label xml:lang="de" text="RQ Weltweit"/>
+         <label xml:lang="fr" text="RQ Universel"/>
+      </category>
+      <category ID="RR">
+         <label xml:lang="en" text="RR Space"/>
+         <label xml:lang="de" text="RR Weltraum"/>
+         <label xml:lang="fr" text="RR Espace"/>
+      </category>
+      <category ID="RS">
+         <label xml:lang="en" text="RS Without regional aspect"/>
+         <label xml:lang="de" text="RS Ohne direkten Regionalbezug"/>
+         <label xml:lang="fr" text="RS Sans aspect régional"/>
+      </category>
+   </categories>
+</mycoreclass>
