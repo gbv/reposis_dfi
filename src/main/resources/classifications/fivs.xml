@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"
+             ID="fivs">
+   <label xml:lang="de" text="FIV-Sachklassifikation"/>
+   <categories>
+      <category ID="SA">
+         <label xml:lang="en" text="SA General literature"/>
+         <label xml:lang="de" text="SA Allgemeine Literatur"/>
+         <label xml:lang="fr" text="SA Littérature générale"/>
+         <label xml:lang="es" text="SA Generalidades"/>
+         <category ID="SA01">
+            <label xml:lang="en" text="SA01 General studies/Area studies"/>
+            <label xml:lang="de" text="SA01 Übergreifende Gesamtdarstellungen/Länderkunde"/>
+            <label xml:lang="fr" text="SA01 Études générales/Études nationales"/>
+            <label xml:lang="es" text="SA01 Presentación general/Estudios de países"/>
+         </category>
+         <category ID="SA02">
+            <label xml:lang="en" text="SA02 History"/>
+            <label xml:lang="de" text="SA02 Geschichte"/>
+            <label xml:lang="fr" text="SA02 Histoire"/>
+            <label xml:lang="es" text="SA02 Historia"/>
+         </category>
+         <category ID="SA03">
+            <label xml:lang="en" text="SA03 Politics"/>
+            <label xml:lang="de" text="SA03 Politik"/>
+            <label xml:lang="fr" text="SA03 Politique"/>
+            <label xml:lang="es" text="SA03 Política"/>
+         </category>
+         <category ID="SA04">
+            <label xml:lang="en" text="SA04 Biographical/Memoirs"/>
+            <label xml:lang="de" text="SA04 Biographisches/Memoiren"/>
+            <label xml:lang="fr" text="SA04 Biographies/Mémoires"/>
+            <label xml:lang="es" text="SA04 Biografías/Memorías"/>
+         </category>
+      </category>
+      <category ID="SB">
+         <label xml:lang="en" text="SB International politics/system"/>
+         <label xml:lang="de" text="SB Internationale(s) Politik/System"/>
+         <label xml:lang="fr" text="SB Politique internationale/Système international"/>
+         <label xml:lang="es" text="SB Política/Sistema internacional"/>
+         <category ID="SB01">
+            <label xml:lang="en" text="SB01 International relations/process"/>
+            <label xml:lang="de" text="SB01 Internationale Beziehungen/Prozesse"/>
+            <label xml:lang="fr"
+                   text="SB01 Relations internationales/Processus internationaux"/>
+            <label xml:lang="es" text="SB01 Relaciones/Procesos internacionales"/>
+         </category>
+         <category ID="SB02">
+            <label xml:lang="en" text="SB02 Foreign policy"/>
+            <label xml:lang="de" text="SB02 Außenpolitik"/>
+            <label xml:lang="fr" text="SB02 Politique étrangère"/>
+            <label xml:lang="es" text="SB02 Política exterior"/>
+         </category>
+         <category ID="SB03">
+            <label xml:lang="en" text="SB03 International law"/>
+            <label xml:lang="de" text="SB03 Internationales Recht/Völkerrecht"/>
+            <label xml:lang="fr" text="SB03 Droit international"/>
+            <label xml:lang="es" text="SB03 Derecho internacional"/>
+         </category>
+         <category ID="SB04">
+            <label xml:lang="en" text="SB04 International political integration"/>
+            <label xml:lang="de" text="SB04 Internationale politische Integration"/>
+            <label xml:lang="fr" text="SB04 Intégration politique internationale"/>
+            <label xml:lang="es" text="SB04 Integración política internacional"/>
+         </category>
+         <category ID="SB05">
+            <label xml:lang="en" text="SB05 International political conflicts"/>
+            <label xml:lang="de" text="SB05 Internationale politische Konflikte"/>
+            <label xml:lang="fr" text="SB05 Conflits politiques/militaires"/>
+            <label xml:lang="es" text="SB05 Conflictos políticos internacionales"/>
+         </category>
+         <category ID="SB06">
+            <label xml:lang="en" text="SB06 Transnational relations/movements"/>
+            <label xml:lang="de" text="SB06 Transnationale Beziehungen/Bewegungen"/>
+            <label xml:lang="fr"
+                   text="SB06 Relations transnationales/Mouvements transnationaux"/>
+            <label xml:lang="es" text="SB06 Relaciones/Movimientos transnacionales"/>
+         </category>
+         <category ID="SB07">
+            <label xml:lang="en" text="SB07 International organisations/institutions"/>
+            <label xml:lang="de" text="SB07 Internationale Organisationen/Institutionen"/>
+            <label xml:lang="fr" text="SB07 Organisations/institutions internationales"/>
+            <label xml:lang="es" text="SB07 Organizaciones/Instituciones internacionales"/>
+         </category>
+      </category>
+      <category ID="SC">
+         <label xml:lang="en" text="SC International security/Defense"/>
+         <label xml:lang="de" text="SC Internationale Sicherheit/Verteidigung"/>
+         <label xml:lang="fr" text="SC Sécurité internationale/Défense"/>
+         <label xml:lang="es" text="SC Seguridad internacional/Defensa"/>
+         <category ID="SC01">
+            <label xml:lang="en"
+                   text="SC01 International relations in the field of international security"/>
+            <label xml:lang="de" text="SC01 Sicherheitspolitische Beziehungen"/>
+            <label xml:lang="fr"
+                   text="SC01 Relations internationales en matière de sécurité"/>
+            <label xml:lang="es" text="SC01 Relaciones de seguridad"/>
+         </category>
+         <category ID="SC02">
+            <label xml:lang="en" text="SC02 Defence policy/Security policy"/>
+            <label xml:lang="de" text="SC02 Verteidigungs-/Sicherheitspolitik"/>
+            <label xml:lang="fr" text="SC02 Politique de défense/de sécurité"/>
+            <label xml:lang="es" text="SC02 Política de defensa/seguridad"/>
+         </category>
+         <category ID="SC03">
+            <label xml:lang="en" text="SC03 Arms control/Disarmament"/>
+            <label xml:lang="de" text="SC03 Rüstungskontrolle/Abrüstung"/>
+            <label xml:lang="fr" text="SC03 Contrôle des armements/Désarmement"/>
+            <label xml:lang="es" text="SC03 Control de armamentos/Desarme"/>
+         </category>
+         <category ID="SC04">
+            <label xml:lang="en" text="SC04 Military strategy"/>
+            <label xml:lang="de" text="SC04 Militärstrategie"/>
+            <label xml:lang="fr" text="SC04 Stratégie militaire"/>
+            <label xml:lang="es" text="SC04 Estrategía militar"/>
+         </category>
+         <category ID="SC05">
+            <label xml:lang="en" text="SC05 War/Warfare"/>
+            <label xml:lang="de" text="SC05 Krieg/Kriegführung"/>
+            <label xml:lang="fr" text="SC05 Guerre/Opérations de guerre"/>
+            <label xml:lang="es" text="SC05 Guerra/Beligerancia"/>
+         </category>
+         <category ID="SC06">
+            <label xml:lang="en" text="SC06 Military capacity"/>
+            <label xml:lang="de" text="SC06 Wehrpotential"/>
+            <label xml:lang="fr" text="SC06 Potentiel militaire"/>
+            <label xml:lang="es" text="SC06 Potencial militar"/>
+            <category ID="SC06.01">
+               <label xml:lang="en" text="SC06.01 Armed forces/Military units"/>
+               <label xml:lang="de" text="SC06.01 Streitkräfte/Militärische Verbände"/>
+               <label xml:lang="fr" text="SC06.01 Forces armées/Unités militaires"/>
+               <label xml:lang="es" text="SC06.01 Fuerzas armadas/Unidades militares"/>
+            </category>
+            <category ID="SC06.02">
+               <label xml:lang="en" text="SC06.02 Armament"/>
+               <label xml:lang="de" text="SC06.02 Rüstung"/>
+               <label xml:lang="fr" text="SC06.02 Armement"/>
+               <label xml:lang="es" text="SC06.02 Armamento"/>
+            </category>
+            <category ID="SC06.03">
+               <label xml:lang="en" text="SC06.03 Organisation of military defence"/>
+               <label xml:lang="de" text="SC06.03 Organisation der Verteidigung"/>
+               <label xml:lang="fr" text="SC06.03 Organisation de la défense"/>
+               <label xml:lang="es" text="SC06.03 Organización de la defensa"/>
+            </category>
+         </category>
+         <category ID="SC07">
+            <label xml:lang="en" text="SC07 Military economy"/>
+            <label xml:lang="de" text="SC07 Militärökonomie"/>
+            <label xml:lang="fr" text="SC07 Économie de la défense"/>
+            <label xml:lang="es" text="SC07 Economía militar"/>
+            <category ID="SC07.01">
+               <label xml:lang="en" text="SC07.01 Armaments industry"/>
+               <label xml:lang="de" text="SC07.01 Rüstungsindustrie"/>
+               <label xml:lang="fr" text="SC07.01 Industrie de l'armement"/>
+               <label xml:lang="es" text="SC07.01 Industría de armamento"/>
+            </category>
+            <category ID="SC07.02">
+               <label xml:lang="en" text="SC07.02 Arms trade"/>
+               <label xml:lang="de" text="SC07.02 Waffenhandel"/>
+               <label xml:lang="fr" text="SC07.02 Commerce des armements"/>
+               <label xml:lang="es" text="SC07.02 Comercio de armas"/>
+            </category>
+         </category>
+      </category>
+      <category ID="SD">
+         <label xml:lang="en" text="SD International economy"/>
+         <label xml:lang="de" text="SD Internationale Wirtschaft/Außenwirtschaft"/>
+         <label xml:lang="fr" text="SD Économie internationale"/>
+         <label xml:lang="es" text="SD Economía internacional/Economía exterior"/>
+         <category ID="SD01">
+            <label xml:lang="en" text="SD01 World economy/International economic system"/>
+            <label xml:lang="de"
+                   text="SD01 Weltwirtschaft/Internationale Wirtschaftsordnung"/>
+            <label xml:lang="fr"
+                   text="SD01 Économie mondiale/Système économique international"/>
+            <label xml:lang="es"
+                   text="SD01 Economía mundial/Orden económico internacional"/>
+            <category ID="SD01.01">
+               <label xml:lang="en"
+                      text="SD01.01 International trade/International trade system"/>
+               <label xml:lang="de" text="SD01.01 Internationale(r) Handel/Handelsordnung"/>
+               <label xml:lang="fr"
+                      text="SD01.01 Commerce international/Organisation internationale du commerce"/>
+               <label xml:lang="es"
+                      text="SD01.01 Comercio internacional/Orden comercial internacional"/>
+            </category>
+            <category ID="SD01.02">
+               <label xml:lang="en" text="SD01.02 Currency/International monetary system"/>
+               <label xml:lang="de" text="SD01.02 Währung/Internationale Währungsordnung"/>
+               <label xml:lang="fr" text="SD01.02 Monnaie/Système monétaire international"/>
+               <label xml:lang="es"
+                      text="SD01.02 Sistema monetario/Orden monetario internacional"/>
+            </category>
+         </category>
+         <category ID="SD02">
+            <label xml:lang="en"
+                   text="SD02 International economic relations/economic cooperation"/>
+            <label xml:lang="de"
+                   text="SD02 Internationale Wirtschaftsbeziehungen/Wirtschaftszusammenarbeit"/>
+            <label xml:lang="fr"
+                   text="SD02 Relations économiques internationales/Coopération économique"/>
+            <label xml:lang="es"
+                   text="SD02 Relaciones económicas internacionales/Cooperación económica"/>
+            <category ID="SD02.01">
+               <label xml:lang="en"
+                      text="SD02.01 Regional economic cooperation/Economic integration"/>
+               <label xml:lang="de"
+                      text="SD02.01 Regionale Wirtschaftskooperation/Wirtschaftsintegration"/>
+               <label xml:lang="fr"
+                      text="SD02.01 Coopération économique régionale/Intégration économique"/>
+               <label xml:lang="es"
+                      text="SD02.01 Cooperación económica regional/Integración económica"/>
+            </category>
+         </category>
+         <category ID="SD03">
+            <label xml:lang="en" text="SD03 International transactions/capital flow"/>
+            <label xml:lang="de" text="SD03 Internationaler Leistungs-/Kapitalverkehr"/>
+            <label xml:lang="fr"
+                   text="SD03 Transactions courantes/Mouvements internationaux de capitaux"/>
+            <label xml:lang="es"
+                   text="SD03 Movimiento internacional de mercancías y servicios/de capital"/>
+            <category ID="SD03.01">
+               <label xml:lang="en" text="SD03.01 Foreign trade"/>
+               <label xml:lang="de" text="SD03.01 Außenhandel"/>
+               <label xml:lang="fr" text="SD03.01 Commerce extérieur"/>
+               <label xml:lang="es" text="SD03.01 Comercio exterior"/>
+            </category>
+            <category ID="SD03.02">
+               <label xml:lang="en"
+                      text="SD03.02 International capital movements/Direct investment"/>
+               <label xml:lang="de"
+                      text="SD03.02 Internationaler Kapitalverkehr/Direktinvestitionen"/>
+               <label xml:lang="fr"
+                      text="SD03.02 Mouvements internationaux de capitaux/Investissements directs"/>
+               <label xml:lang="es"
+                      text="SD03.02 Movimiento internacional de capital/Inversión extranjera"/>
+            </category>
+            <category ID="SD03.03">
+               <label xml:lang="en" text="SD03.03 International labour flow"/>
+               <label xml:lang="de" text="SD03.03 Internationaler Arbeitskräfteverkehr"/>
+               <label xml:lang="fr" text="SD03.03 Mouvements internationaux de main-d'oeuvre"/>
+               <label xml:lang="es" text="SD03.03 Movimiento laboral internacional"/>
+            </category>
+            <category ID="SD03.04">
+               <label xml:lang="en" text="SD03.04 External public debts"/>
+               <label xml:lang="de" text="SD03.04 Externe öffentliche Verschuldung"/>
+               <label xml:lang="fr" text="SD03.04 Dette publique extérieure"/>
+               <label xml:lang="es" text="SD03.04 Endeudamiento público exterior"/>
+            </category>
+         </category>
+         <category ID="SD04">
+            <label xml:lang="en" text="SD04 Policy of external economic relations"/>
+            <label xml:lang="de" text="SD04 Außenwirtschaftspolitik"/>
+            <label xml:lang="fr" text="SD04 Politique économique extérieure"/>
+            <label xml:lang="es" text="SD04 Política económica exterior"/>
+         </category>
+         <category ID="SD05">
+            <label xml:lang="en" text="SD05 Development aid/Foreign aid"/>
+            <label xml:lang="de" text="SD05 Entwicklungshilfe/Auslandshilfe"/>
+            <label xml:lang="fr" text="SD05 Politique d'aide au développement/Coopération"/>
+            <label xml:lang="es" text="SD05 Ayuda al desarrollo/Ayuda al exterior"/>
+         </category>
+      </category>
+      <category ID="SE">
+         <label xml:lang="en" text="SE International cultural relations"/>
+         <label xml:lang="de" text="SE Internationale Kulturbeziehungen"/>
+         <label xml:lang="fr" text="SE Relations culturelles internationales"/>
+         <label xml:lang="es" text="SE Relaciones culturales internacionales"/>
+         <category ID="SE01">
+            <label xml:lang="en" text="SE01 Foreign cultural policy"/>
+            <label xml:lang="de" text="SE01 Auswärtige Kulturpolitik"/>
+            <label xml:lang="fr" text="SE01 Politique culturelle extérieure"/>
+            <label xml:lang="es" text="SE01 Política cultural exterior"/>
+         </category>
+         <category ID="SE02">
+            <label xml:lang="en"
+                   text="SE02 International relations in the field of education and science"/>
+            <label xml:lang="de"
+                   text="SE02 Internationale Bildungs-/Wissenschaftsbeziehungen"/>
+            <label xml:lang="fr"
+                   text="SE02 Relations en matière d'éducation et de science"/>
+            <label xml:lang="es"
+                   text="SE02 Relaciones internacionales educacionales/científicas"/>
+         </category>
+         <category ID="SE03">
+            <label xml:lang="en"
+                   text="SE03 International lingual relations/Foreign languages"/>
+            <label xml:lang="de"
+                   text="SE03 Internationale Sprachbeziehungen/Fremdsprachen"/>
+            <label xml:lang="fr"
+                   text="SE03 Relations linguistiques internationales/Langues étrangères"/>
+            <label xml:lang="es"
+                   text="SE03 Relaciones lingüísticas internacionales/Idiomas extranjeros"/>
+         </category>
+         <category ID="SE04">
+            <label xml:lang="en"
+                   text="SE04 International media relations/Communication/Information"/>
+            <label xml:lang="de"
+                   text="SE04 Internationale Medienbeziehungen/Kommunikation/Information"/>
+            <label xml:lang="fr"
+                   text="SE04 Relations internationales des médias/Communication/Information"/>
+            <label xml:lang="es"
+                   text="SE04 Relaciones internacionales de medios informátivos/Comunicación/Información"/>
+         </category>
+         <category ID="SE05">
+            <label xml:lang="en" text="SE05 Cultural exchange/Cultural contact"/>
+            <label xml:lang="de" text="SE05 Kulturaustausch/Kulturkontakt"/>
+            <label xml:lang="fr" text="SE05 Échange culturel/Contact des cultures"/>
+            <label xml:lang="es" text="SE05 Intercambio cultural/Contacto cultural"/>
+         </category>
+         <category ID="SE06">
+            <label xml:lang="en" text="SE06 Image abroad/Perception of foreigners"/>
+            <label xml:lang="de" text="SE06 Auslandsbild/Fremdbilder"/>
+            <label xml:lang="fr" text="SE06 Image de l'étranger"/>
+            <label xml:lang="es" text="SE06 Imagen del exterior/del extranjero"/>
+         </category>
+      </category>
+      <category ID="SF">
+         <label xml:lang="en" text="SF Government"/>
+         <label xml:lang="de" text="SF Staat"/>
+         <label xml:lang="fr" text="SF État"/>
+         <label xml:lang="es" text="SF Estado"/>
+         <category ID="SF01">
+            <label xml:lang="en" text="SF01 Political system/Constitution"/>
+            <label xml:lang="de" text="SF01 Politisches System/Verfassung"/>
+            <label xml:lang="fr" text="SF01 Système politique/Constitution"/>
+            <label xml:lang="es" text="SF01 Sistema político/Constitución"/>
+            <category ID="SF01.01">
+               <label xml:lang="en"
+                      text="SF01.01 Change of the political system/Democratisation"/>
+               <label xml:lang="de" text="SF01.01 Politischer Systemwandel/Demokratisierung"/>
+               <label xml:lang="fr"
+                      text="SF01.01 Transformation du système politique/Démocratisation"/>
+               <label xml:lang="es"
+                      text="SF01.01 Cambio del sistema político/Democratización"/>
+            </category>
+            <category ID="SF01.02">
+               <label xml:lang="en" text="SF01.02 Human rights"/>
+               <label xml:lang="de" text="SF01.02 Menschenrechte"/>
+               <label xml:lang="fr" text="SF01.02 Droits de l'homme"/>
+               <label xml:lang="es" text="SF01.02 Derechos humanos"/>
+            </category>
+         </category>
+         <category ID="SF02">
+            <label xml:lang="en" text="SF02 Governmental system/Government institutions"/>
+            <label xml:lang="de" text="SF02 Regierungssystem/Staatsorgane"/>
+            <label xml:lang="fr"
+                   text="SF02 Système de gouvernement/Institutions de l'État"/>
+            <label xml:lang="es" text="SF02 Sistema de gobierno/Órganos del estado"/>
+         </category>
+         <category ID="SF03">
+            <label xml:lang="en" text="SF03 Political parties"/>
+            <label xml:lang="de" text="SF03 Politische Parteien"/>
+            <label xml:lang="fr" text="SF03 Partis politiques"/>
+            <label xml:lang="es" text="SF03 Partidos políticos"/>
+         </category>
+         <category ID="SF04">
+            <label xml:lang="en" text="SF04 Political participation"/>
+            <label xml:lang="de" text="SF04 Politische Partizipation"/>
+            <label xml:lang="fr" text="SF04 Participation politique"/>
+            <label xml:lang="es" text="SF04 Participación política"/>
+            <category ID="SF04.01">
+               <label xml:lang="en" text="SF04.01 Elections"/>
+               <label xml:lang="de" text="SF04.01 Wahlen"/>
+               <label xml:lang="fr" text="SF04.01 Élections"/>
+               <label xml:lang="es" text="SF04.01 Elecciones"/>
+            </category>
+         </category>
+         <category ID="SF05">
+            <label xml:lang="en" text="SF05 Domestic policy"/>
+            <label xml:lang="de" text="SF05 Innenpolitik"/>
+            <label xml:lang="fr" text="SF05 Politique intérieure"/>
+            <label xml:lang="es" text="SF05 Política interior"/>
+         </category>
+         <category ID="SF06">
+            <label xml:lang="en" text="SF06 Internal security/Domestic conflict"/>
+            <label xml:lang="de" text="SF06 Innere Sicherheit/Innerstaatlicher Konflikt"/>
+            <label xml:lang="fr" text="SF06 Sécurité intérieure/Conflit interne"/>
+            <label xml:lang="es" text="SF06 Seguridad interna/Conflicto interno"/>
+            <category ID="SF06.01">
+               <label xml:lang="en" text="SF06.01 Civil war"/>
+               <label xml:lang="de" text="SF06.01 Bürgerkrieg"/>
+               <label xml:lang="fr" text="SF06.01 Guerre civile"/>
+               <label xml:lang="es" text="SF06.01 Guerra civil"/>
+            </category>
+            <category ID="SF06.02">
+               <label xml:lang="en" text="SF06.02 Terrorism"/>
+               <label xml:lang="de" text="SF06.02 Terrorismus"/>
+               <label xml:lang="fr" text="SF06.02 Terrorisme"/>
+               <label xml:lang="es" text="SF06.02 Terrorismo"/>
+            </category>
+            <category ID="SF06.03">
+               <label xml:lang="en" text="SF06.03 Criminality"/>
+               <label xml:lang="de" text="SF06.03 Kriminalität"/>
+               <label xml:lang="fr" text="SF06.03 Criminalité"/>
+               <label xml:lang="es" text="SF06.03 Delincuencia"/>
+            </category>
+         </category>
+         <category ID="SF07">
+            <label xml:lang="en" text="SF07 Military and society/Government"/>
+            <label xml:lang="de" text="SF07 Militär und Gesellschaft/Staat"/>
+            <label xml:lang="fr" text="SF07 Armée et société/État"/>
+            <label xml:lang="es" text="SF07 Fuerzas armadas y sociedad/Estado"/>
+         </category>
+         <category ID="SF08">
+            <label xml:lang="en" text="SF08 Regions/Local government"/>
+            <label xml:lang="de" text="SF08 Regionen/Kommunen"/>
+            <label xml:lang="fr" text="SF08 Régions/Communes"/>
+            <label xml:lang="es" text="SF08 Regiones/Municipios"/>
+         </category>
+         <category ID="SF09">
+            <label xml:lang="en" text="SF09 Public administration"/>
+            <label xml:lang="de" text="SF09 Öffentliche Verwaltung"/>
+            <label xml:lang="fr" text="SF09 Administration publique"/>
+            <label xml:lang="es" text="SF09 Administración pública"/>
+         </category>
+         <category ID="SF10">
+            <label xml:lang="en" text="SF10 Law"/>
+            <label xml:lang="de" text="SF10 Recht"/>
+            <label xml:lang="fr" text="SF10 Droit"/>
+            <label xml:lang="es" text="SF10 Derecho"/>
+         </category>
+      </category>
+      <category ID="SG">
+         <label xml:lang="en" text="SG Society"/>
+         <label xml:lang="de" text="SG Gesellschaft"/>
+         <label xml:lang="fr" text="SG Société"/>
+         <label xml:lang="es" text="SG Sociedad"/>
+         <category ID="SG01">
+            <label xml:lang="en" text="SG01 Social system/Social policy"/>
+            <label xml:lang="de" text="SG01 Gesellschaftsordnung/Gesellschaftspolitik"/>
+            <label xml:lang="fr" text="SG01 Système social/Politique sociétale"/>
+            <label xml:lang="es" text="SG01 Orden social/Política relativa a la sociedad"/>
+         </category>
+         <category ID="SG02">
+            <label xml:lang="en" text="SG02 Social process/Social structure"/>
+            <label xml:lang="de"
+                   text="SG02 Gesellschaftsentwicklung/Gesellschaftsstruktur"/>
+            <label xml:lang="fr" text="SG02 Évolution sociale/Structures sociales"/>
+            <label xml:lang="es" text="SG02 Desarrollo social/Estructura social"/>
+            <category ID="SG02.01">
+               <label xml:lang="en" text="SG02.01 Demography"/>
+               <label xml:lang="de" text="SG02.01 Demographie"/>
+               <label xml:lang="fr" text="SG02.01 Démographie"/>
+               <label xml:lang="es" text="SG02.01 Demografía"/>
+            </category>
+            <category ID="SG02.02">
+               <label xml:lang="en" text="SG02.02 Social groups"/>
+               <label xml:lang="de" text="SG02.02 Gesellschaftliche Gruppen"/>
+               <label xml:lang="fr" text="SG02.02 Groupes sociaux"/>
+               <label xml:lang="es" text="SG02.02 Grupos sociales"/>
+            </category>
+            <category ID="SG02.03">
+               <label xml:lang="en" text="SG02.03 Nationalities/Minorities"/>
+               <label xml:lang="de" text="SG02.03 Nationalitäten/Minoritäten"/>
+               <label xml:lang="fr" text="SG02.03 Nationalités/Minorités"/>
+               <label xml:lang="es" text="SG02.03 Nacionalidades/Minorías"/>
+            </category>
+            <category ID="SG02.04">
+               <label xml:lang="en" text="SG02.04 Migration"/>
+               <label xml:lang="de" text="SG02.04 Migration"/>
+               <label xml:lang="fr" text="SG02.04 Migration"/>
+               <label xml:lang="es" text="SG02.04 Migración"/>
+            </category>
+            <category ID="SG02.05">
+               <label xml:lang="en" text="SG02.05 Housing/Settlement/Urbanisation"/>
+               <label xml:lang="de" text="SG02.05 Wohnung/Siedlung/Urbanisierung"/>
+               <label xml:lang="fr" text="SG02.05 Logement/Habitat/Urbanisation"/>
+               <label xml:lang="es" text="SG02.05 Vivienda/Asentamiento/Urbanización"/>
+            </category>
+            <category ID="SG02.06">
+               <label xml:lang="en" text="SG02.06 Gender relations/Life partnerships"/>
+               <label xml:lang="de"
+                      text="SG02.06 Geschlechterbeziehungen/Lebensgemeinschaften"/>
+               <label xml:lang="fr"
+                      text="SG02.06 Rapports entre les sexes/Communautés de vie"/>
+               <label xml:lang="es" text="SG02.06 Relaciones de género/Comunidades de vida"/>
+            </category>
+            <category ID="SG02.07">
+               <label xml:lang="en" text="SG02.07 Living conditions/Forms of living"/>
+               <label xml:lang="de" text="SG02.07 Lebensbedingungen/Lebensformen"/>
+               <label xml:lang="fr" text="SG02.07 Conditions de vie/Modes d'existence"/>
+               <label xml:lang="es" text="SG02.07 Condiciones/Pautas de vida"/>
+            </category>
+         </category>
+         <category ID="SG03">
+            <label xml:lang="en" text="SG03 Social policy/Social affairs"/>
+            <label xml:lang="de" text="SG03 Sozialpolitik/Soziales"/>
+            <label xml:lang="fr" text="SG03 Politique sociale/Problèmes sociaux"/>
+            <label xml:lang="es" text="SG03 Política social/Asuntos sociales"/>
+            <category ID="SG03.01">
+               <label xml:lang="en" text="SG03.01 Social security"/>
+               <label xml:lang="de" text="SG03.01 Soziale Sicherung"/>
+               <label xml:lang="fr" text="SG03.01 Protection sociale"/>
+               <label xml:lang="es" text="SG03.01 Seguridad social"/>
+            </category>
+            <category ID="SG03.02">
+               <label xml:lang="en" text="SG03.02 Health"/>
+               <label xml:lang="de" text="SG03.02 Gesundheit"/>
+               <label xml:lang="fr" text="SG03.02 Santé"/>
+               <label xml:lang="es" text="SG03.02 Salud"/>
+            </category>
+         </category>
+         <category ID="SG04">
+            <label xml:lang="en" text="SG04 Education/Training"/>
+            <label xml:lang="de" text="SG04 Erziehung/Bildung/Ausbildung"/>
+            <label xml:lang="fr" text="SG04 Éducation/Enseignement/Formation"/>
+            <label xml:lang="es" text="SG04 Educación/Formación/Capacitación"/>
+         </category>
+         <category ID="SG05">
+            <label xml:lang="en" text="SG05 Political culture/Formation of opinion"/>
+            <label xml:lang="de" text="SG05 Politische Kultur/Meinungsbildung"/>
+            <label xml:lang="fr" text="SG05 Culture politique/Opinion"/>
+            <label xml:lang="es" text="SG05 Cultura política/Formación de opinión"/>
+            <category ID="SG05.01">
+               <label xml:lang="en" text="SG05.01 Ideologies"/>
+               <label xml:lang="de" text="SG05.01 Ideologie"/>
+               <label xml:lang="fr" text="SG05.01 Idéologie"/>
+               <label xml:lang="es" text="SG05.01 Ideología"/>
+            </category>
+            <category ID="SG05.02">
+               <label xml:lang="en" text="SG05.02 Public opinion"/>
+               <label xml:lang="de" text="SG05.02 Öffentliche Meinung"/>
+               <label xml:lang="fr" text="SG05.02 Opinion publique"/>
+               <label xml:lang="es" text="SG05.02 Opinión pública"/>
+            </category>
+         </category>
+         <category ID="SG06">
+            <label xml:lang="en" text="SG06 Media/Information"/>
+            <label xml:lang="de" text="SG06 Medien/Information"/>
+            <label xml:lang="fr" text="SG06 Médias/Information"/>
+            <label xml:lang="es" text="SG06 Medios de comunicación/Información"/>
+         </category>
+         <category ID="SG07">
+            <label xml:lang="en" text="SG07 Social movements/associations"/>
+            <label xml:lang="de" text="SG07 Gesellschaftliche Bewegungen/Vereinigungen"/>
+            <label xml:lang="fr" text="SG07 Mouvements sociaux/Associations"/>
+            <label xml:lang="es" text="SG07 Movimientos/Asociaciones sociales"/>
+         </category>
+         <category ID="SG08">
+            <label xml:lang="en" text="SG08 Culture/Language/Arts"/>
+            <label xml:lang="de" text="SG08 Kultur/Sprache/Kunst"/>
+            <label xml:lang="fr" text="SG08 Culture/Langue/Arts"/>
+            <label xml:lang="es" text="SG08 Cultura/Idioma/Arte"/>
+         </category>
+         <category ID="SG09">
+            <label xml:lang="en" text="SG09 Religion/Religious communities"/>
+            <label xml:lang="de" text="SG09 Religion/Religionsgemeinschaften"/>
+            <label xml:lang="fr" text="SG09 Religion/Communautés religieuses"/>
+            <label xml:lang="es" text="SG09 Religión/Comunidades religiosas"/>
+         </category>
+      </category>
+      <category ID="SH">
+         <label xml:lang="en" text="SH Economy"/>
+         <label xml:lang="de" text="SH Wirtschaft"/>
+         <label xml:lang="fr" text="SH Économie"/>
+         <label xml:lang="es" text="SH Economía"/>
+         <category ID="SH01">
+            <label xml:lang="en" text="SH01 Economic system/Basic economic conditions"/>
+            <label xml:lang="de" text="SH01 Wirtschaftsordnung/Rahmenbedingungen"/>
+            <label xml:lang="fr" text="SH01 Système économique/Cadre économique"/>
+            <label xml:lang="es" text="SH01 Orden económico/Condiciones generales"/>
+         </category>
+         <category ID="SH02">
+            <label xml:lang="en" text="SH02 Economic development/Economic policy"/>
+            <label xml:lang="de" text="SH02 Wirtschaftsentwicklung/Wirtschaftspolitik"/>
+            <label xml:lang="fr" text="SH02 Développement économique/Politique économique"/>
+            <label xml:lang="es" text="SH02 Desarrollo económico/Política económica"/>
+            <category ID="SH02.01">
+               <label xml:lang="en" text="SH02.01 Economic policy/Development policy"/>
+               <label xml:lang="de" text="SH02.01 Wirtschaftspolitik/Entwicklungspolitik"/>
+               <label xml:lang="fr"
+                      text="SH02.01 Politique économique/Politique du développement"/>
+               <label xml:lang="es" text="SH02.01 Política económica/Política de desarrollo"/>
+            </category>
+            <category ID="SH02.02">
+               <label xml:lang="en" text="SH02.02 Socio-economic development/structure"/>
+               <label xml:lang="de" text="SH02.02 Sozio-ökonomische Entwicklung/Struktur"/>
+               <label xml:lang="fr" text="SH02.02 Développement/structures socio-économiques"/>
+               <label xml:lang="es"
+                      text="SH02.02 Desarrollo socioeconómico/Estructura socioeconómica"/>
+            </category>
+            <category ID="SH02.03">
+               <label xml:lang="en" text="SH02.03 Business cycles/Business cycle policy"/>
+               <label xml:lang="de" text="SH02.03 Konjunktur/Konjunkturpolitik"/>
+               <label xml:lang="fr" text="SH02.03 Conjoncture/Politique conjoncturelle"/>
+               <label xml:lang="es" text="SH02.03 Coyuntura económica/Política coyuntural"/>
+            </category>
+            <category ID="SH02.04">
+               <label xml:lang="en"
+                      text="SH02.04 Regional/local development/Regional economic policy"/>
+               <label xml:lang="de"
+                      text="SH02.04 Regionale/lokale Entwicklung/Regionale Wirtschaftpolitik"/>
+               <label xml:lang="fr"
+                      text="SH02.04 Développement régional/local / Politique économique régionale"/>
+               <label xml:lang="es"
+                      text="SH02.04 Desarrollo regional/local/Política económica regional"/>
+            </category>
+            <category ID="SH02.05">
+               <label xml:lang="en"
+                      text="SH02.05 Economic sectors/Sectoral development/Sectoral economic policy"/>
+               <label xml:lang="de"
+                      text="SH02.05 Branchen/Sektorale Entwicklung/Sektorale Wirtschaftspolitik"/>
+               <label xml:lang="fr"
+                      text="SH02.05 Branches économiques/Evolution sectorielle/Politique sectorielle"/>
+               <label xml:lang="es"
+                      text="SH02.05 Ramos/Desarrollo sectorial/Política económica sectorial"/>
+            </category>
+         </category>
+         <category ID="SH03">
+            <label xml:lang="en" text="SH03 Labour/Employment"/>
+            <label xml:lang="de" text="SH03 Arbeit und Beschäftigung"/>
+            <label xml:lang="fr" text="SH03 Travail/Emploi"/>
+            <label xml:lang="es" text="SH03 Trabajo y empleo"/>
+            <category ID="SH03.01">
+               <label xml:lang="en" text="SH03.01 Corporate culture/Labour culture"/>
+               <label xml:lang="de" text="SH03.01 Unternehmenskultur/Arbeitskultur"/>
+               <label xml:lang="fr" text="SH03.01 Culture d'entreprise/Culture du travail"/>
+               <label xml:lang="es" text="SH03.01 Cultura empresarial/Cultura de trabajo"/>
+            </category>
+         </category>
+         <category ID="SH04">
+            <label xml:lang="en" text="SH04 Natural resources/Processing of raw materials"/>
+            <label xml:lang="de" text="SH04 Natürliche Ressourcen/Rohstoffverarbeitung"/>
+            <label xml:lang="fr"
+                   text="SH04 Ressources naturelles/Traitement des matières premières"/>
+            <label xml:lang="es"
+                   text="SH04 Recursos naturales/Transformación de materias primas"/>
+         </category>
+         <category ID="SH05">
+            <label xml:lang="en" text="SH05 Energy/Energy industry"/>
+            <label xml:lang="de" text="SH05 Energie/Energiewirtschaft"/>
+            <label xml:lang="fr" text="SH05 Énergie/Secteur de l'énergie"/>
+            <label xml:lang="es" text="SH05 Energía/Economía energética"/>
+         </category>
+         <category ID="SH06">
+            <label xml:lang="en" text="SH06 Agrarian sector"/>
+            <label xml:lang="de" text="SH06 Agrarsektor"/>
+            <label xml:lang="fr" text="SH06 Secteur agricole"/>
+            <label xml:lang="es" text="SH06 Sector agrario"/>
+            <category ID="SH06.01">
+               <label xml:lang="en" text="SH06.01 Agriculture/Forestry"/>
+               <label xml:lang="de" text="SH06.01 Ackerbau/Forstwirtschaft"/>
+               <label xml:lang="fr" text="SH06.01 Cultures/Forêts"/>
+               <label xml:lang="es" text="SH06.01 Agricultura/Silvicultura"/>
+            </category>
+            <category ID="SH06.02">
+               <label xml:lang="en" text="SH06.02 Ranching/Fishery"/>
+               <label xml:lang="de" text="SH06.02 Viehwirtschaft/Fischereiwirtschaft"/>
+               <label xml:lang="fr" text="SH06.02 Élevage/Pêche"/>
+               <label xml:lang="es" text="SH06.02 Ganadería/Pesca"/>
+            </category>
+            <category ID="SH06.03">
+               <label xml:lang="en" text="SH06.03 Nutrition/Food products"/>
+               <label xml:lang="de" text="SH06.03 Ernährung/Nahrungsmittel"/>
+               <label xml:lang="fr" text="SH06.03 Alimentation/Produits alimentaires"/>
+               <label xml:lang="es" text="SH06.03 Alimentación/Comestibles"/>
+            </category>
+         </category>
+         <category ID="SH07">
+            <label xml:lang="en" text="SH07 Secondary sector/Industry"/>
+            <label xml:lang="de" text="SH07 Gewerbliche Wirtschaft/Industrie"/>
+            <label xml:lang="fr" text="SH07 Industrie et artisanat"/>
+            <label xml:lang="es" text="SH07 Economía manufacturera/Industria"/>
+         </category>
+         <category ID="SH08">
+            <label xml:lang="en" text="SH08 Tertiary sector/Services"/>
+            <label xml:lang="de" text="SH08 Tertiärer Sektor/Dienstleistungen"/>
+            <label xml:lang="fr" text="SH08 Secteur tertiaire/Services"/>
+            <label xml:lang="es" text="SH08 Sector terciario/Servicios"/>
+            <category ID="SH08.01">
+               <label xml:lang="en" text="SH08.01 Transport/Transportation/Tourism"/>
+               <label xml:lang="de" text="SH08.01 Verkehr/Transport/Tourismus"/>
+               <label xml:lang="fr" text="SH08.01 Circulation/Transports/Tourisme"/>
+               <label xml:lang="es" text="SH08.01 Tráfico/Transporte/Turismo"/>
+            </category>
+            <category ID="SH08.02">
+               <label xml:lang="en" text="SH08.02 Postal services/Telecommunication"/>
+               <label xml:lang="de" text="SH08.02 Post/Telekommunikation"/>
+               <label xml:lang="fr" text="SH08.02 Poste/Télécommunications"/>
+               <label xml:lang="es" text="SH08.02 Correo/Telecomunicación"/>
+            </category>
+            <category ID="SH08.03">
+               <label xml:lang="en" text="SH08.03 Money/Loan/Banks/Insurances"/>
+               <label xml:lang="de" text="SH08.03 Geld/Kredit/Banken/Versicherungen"/>
+               <label xml:lang="fr" text="SH08.03 Argent/Crédit/Banques/Assurances"/>
+               <label xml:lang="es" text="SH08.03 Moneda/Crédito/Bancos/Seguros"/>
+            </category>
+         </category>
+         <category ID="SH09">
+            <label xml:lang="en" text="SH09 Informal sector"/>
+            <label xml:lang="de" text="SH09 Informeller Sektor"/>
+            <label xml:lang="fr" text="SH09 Secteur informel"/>
+            <label xml:lang="es" text="SH09 Economía informal"/>
+         </category>
+         <category ID="SH10">
+            <label xml:lang="en" text="SH10 Public finance"/>
+            <label xml:lang="de" text="SH10 Öffentliche Finanzen"/>
+            <label xml:lang="fr" text="SH10 Finances publiques"/>
+            <label xml:lang="es" text="SH10 Finanzas públicas"/>
+         </category>
+      </category>
+      <category ID="SI">
+         <label xml:lang="en" text="SI Technology"/>
+         <label xml:lang="de" text="SI Technik"/>
+         <label xml:lang="fr" text="SI Technologie"/>
+         <label xml:lang="es" text="SI Técnica"/>
+         <category ID="SI01">
+            <label xml:lang="en" text="SI01 Technology/Technological development"/>
+            <label xml:lang="de" text="SI01 Technologie/Technologische Entwicklung"/>
+            <label xml:lang="fr" text="SI01 Technologie/Développement technologique"/>
+            <label xml:lang="es" text="SI01 Tecnología/Desarrollo tecnológico"/>
+         </category>
+         <category ID="SI02">
+            <label xml:lang="en" text="SI02 Technology policy"/>
+            <label xml:lang="de" text="SI02 Technologiepolitik"/>
+            <label xml:lang="fr" text="SI02 Politique technologique"/>
+            <label xml:lang="es" text="SI02 Política tecnológica"/>
+         </category>
+         <category ID="SI03">
+            <label xml:lang="en" text="SI03 Domains of technology"/>
+            <label xml:lang="de" text="SI03 Technikzweige"/>
+            <label xml:lang="fr" text="SI03 Domaines technologiques"/>
+            <label xml:lang="es" text="SI03 Ramos tecnológicos"/>
+            <category ID="SI03.01">
+               <label xml:lang="en" text="SI03.01 Space technology"/>
+               <label xml:lang="de" text="SI03.01 Raumfahrttechnik"/>
+               <label xml:lang="fr" text="SI03.01 Technologie aérospatiale"/>
+               <label xml:lang="es" text="SI03.01 Tecnología espacial"/>
+            </category>
+            <category ID="SI03.02">
+               <label xml:lang="en" text="SI03.02 Information technology"/>
+               <label xml:lang="de" text="SI03.02 Informationstechnologie"/>
+               <label xml:lang="fr" text="SI03.02 Technologie de l'information"/>
+               <label xml:lang="es" text="SI03.02 Tecnología de información"/>
+            </category>
+            <category ID="SI03.03">
+               <label xml:lang="en" text="SI03.03 Biotechnology"/>
+               <label xml:lang="de" text="SI03.03 Biotechnologie"/>
+               <label xml:lang="fr" text="SI03.03 Biotechnologies"/>
+               <label xml:lang="es" text="SI03.03 Biotecnología"/>
+            </category>
+            <category ID="SI03.04">
+               <label xml:lang="en" text="SI03.04 Environmental technology"/>
+               <label xml:lang="de" text="SI03.04 Umwelttechnologie"/>
+               <label xml:lang="fr" text="SI03.04 Technologies de l'environnement"/>
+               <label xml:lang="es" text="SI03.04 Tecnología ambiental"/>
+            </category>
+            <category ID="SI03.05">
+               <label xml:lang="en" text="SI03.05 Military technology/Weapon systems"/>
+               <label xml:lang="de" text="SI03.05 Wehrtechnik/Waffensysteme"/>
+               <label xml:lang="fr" text="SI03.05 Technologie des armements/Systèmes d'armes"/>
+               <label xml:lang="es" text="SI03.05 Tecnología militar/Sistemas de armamento"/>
+            </category>
+         </category>
+         <category ID="SI04">
+            <label xml:lang="en"
+                   text="SI04 International scientific-technological cooperation/relations"/>
+            <label xml:lang="de"
+                   text="SI04 Internationale wissenschaftlich-technologische Kooperation/Beziehungen"/>
+            <label xml:lang="fr"
+                   text="SI04 Coopération/relations technologiques/scientifiques internationales"/>
+            <label xml:lang="es"
+                   text="SI04 Cooperación internacional científico-tecnológica/Relaciones internacionales científico-tecnológicas"/>
+         </category>
+      </category>
+      <category ID="SJ">
+         <label xml:lang="en" text="SJ Environment/Nature"/>
+         <label xml:lang="de" text="SJ Umwelt/Natur"/>
+         <label xml:lang="fr" text="SJ Environnement/Nature"/>
+         <label xml:lang="es" text="SJ Medio ambiente/Naturaleza"/>
+         <category ID="SJ01">
+            <label xml:lang="en" text="SJ01 Geography/Geology"/>
+            <label xml:lang="de" text="SJ01 Geographie/Geologie"/>
+            <label xml:lang="fr" text="SJ01 Géographie/Géologie"/>
+            <label xml:lang="es" text="SJ01 Geografía/Geología"/>
+         </category>
+         <category ID="SJ02">
+            <label xml:lang="en"
+                   text="SJ02 Environmental damages/protection/Environmental policy"/>
+            <label xml:lang="de" text="SJ02 Umweltschäden/Umweltschutz/Umweltpolitik"/>
+            <label xml:lang="fr"
+                   text="SJ02 Problèmes écologiques/Protection de l'environnement"/>
+            <label xml:lang="es"
+                   text="SJ02 Daños ecológicos/Protección al medio ambiente/Política ambiental"/>
+         </category>
+      </category>
+      <category ID="SK">
+         <label xml:lang="en" text="SK Science/Research"/>
+         <label xml:lang="de" text="SK Wissenschaft/Forschung"/>
+         <label xml:lang="fr" text="SK Sciences/Recherche scientifique"/>
+         <label xml:lang="es" text="SK Ciencia/Investigación"/>
+         <category ID="SK01">
+            <label xml:lang="en" text="SK01 Fields of science"/>
+            <label xml:lang="de" text="SK01 Wissenschaftsgebiete"/>
+            <label xml:lang="fr" text="SK01 Domaines scientifiques"/>
+            <label xml:lang="es" text="SK01 Disciplinas científicas"/>
+         </category>
+         <category ID="SK02">
+            <label xml:lang="en" text="SK02 Theory/Methodology"/>
+            <label xml:lang="de" text="SK02 Theorie/Methodik"/>
+            <label xml:lang="fr" text="SK02 Théorie/Méthodes"/>
+            <label xml:lang="es" text="SK02 Teoría/Metodología"/>
+         </category>
+         <category ID="SK03">
+            <label xml:lang="en" text="SK03 Research and development"/>
+            <label xml:lang="de" text="SK03 Forschung/Entwicklung"/>
+            <label xml:lang="fr" text="SK03 Recherche et développement"/>
+            <label xml:lang="es" text="SK03 Investigación/Desarrollo"/>
+         </category>
+         <category ID="SK04">
+            <label xml:lang="en" text="SK04 Science policy/Research policy"/>
+            <label xml:lang="de" text="SK04 Wissenschaftspolitik/Forschungspolitik"/>
+            <label xml:lang="fr"
+                   text="SK04 Politique scientifique/Politique de la recherche"/>
+            <label xml:lang="es" text="SK04 Política científica/Política de investigación"/>
+         </category>
+         <category ID="SK05">
+            <label xml:lang="en" text="SK05 Scientific institutions/Universities"/>
+            <label xml:lang="de" text="SK05 Wissenschaftliche Einrichtungen/Hochschulen"/>
+            <label xml:lang="fr" text="SK05 Institutions scientifiques/Universités"/>
+            <label xml:lang="es" text="SK05 Instituciones científicas/Universidades"/>
+         </category>
+      </category>
+   </categories>
+</mycoreclass>
