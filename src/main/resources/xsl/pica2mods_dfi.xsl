@@ -43,7 +43,35 @@
       <xsl:call-template name="modsNote" />
       <xsl:call-template name="modsRelatedItem" />
       <xsl:call-template name="modsSubject" />
+      <xsl:call-template name="modsDfiFIVSubject" />
     </mods:mods>
+  </xsl:template>
+  
+  <xsl:template name="modsDfiFIVSubject" >
+    <xsl:for-each select="./p:datafield[@tag='045N'][not(@occurrence)]" >
+      <mods:subject xlink:type="simple">
+        <xsl:variable name="valueURI" select="concat('http://bartoc.org/en/node/20447#',./p:subfield[@code='a'])"/>
+        <mods:geographic authorityURI="http://bartoc.org/en/node/20447" valueURI="{$valueURI}"/>
+      </mods:subject>
+    </xsl:for-each>
+    <xsl:for-each select="./p:datafield[@tag='045N'][@occurrence='01']" >
+      <mods:subject xlink:type="simple">
+        <xsl:variable name="valueURI" select="concat('http://bartoc.org/en/node/20446#',./p:subfield[@code='a'])"/>
+        <mods:topic authorityURI="http://bartoc.org/en/node/20446" valueURI="{$valueURI}"/>
+      </mods:subject>
+    </xsl:for-each>
+    <xsl:for-each select="./p:datafield[@tag='045N'][@occurrence='02']" >
+      <mods:subject xlink:type="simple">
+        <xsl:variable name="valueURI" select="concat('http://repo.dfi.de/api/v1/classifications/fivdfi#',./p:subfield[@code='a'])"/>
+        <mods:topic authorityURI="http://repo.dfi.de/api/v1/classifications/fivdfi" valueURI="{$valueURI}"/>
+      </mods:subject>
+    </xsl:for-each>
+
+    <xsl:for-each select="./p:datafield[@tag='045D'][@occurrence='60' or @occurrence='70']" >
+      <mods:subject xlink:type="simple">
+        <mods:topic><xsl:value-of select="./p:subfield[@code='a']"/></mods:topic>
+      </mods:subject>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="zs:searchRetrieveResponse">
