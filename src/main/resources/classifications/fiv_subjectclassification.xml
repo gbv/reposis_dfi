@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fiv_subjectclassification">
-  <label xml:lang="de" text="FIV-Sachklassifikation" />
-  <categories>
-    <category ID="SB06">
-      <label xml:lang="de" text="SB06: Internationale(s) Politik/System / Transnationale Beziehungen/Bewegungen" />
-    </category>
-  </categories>
-</mycoreclass>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fiv_addsubject">
-  <label xml:lang="de" text="FIV-Sonstige Notation" />
-  <categories>
-    <category ID="ZGA623">
-      <label xml:lang="de" text="ZGA623:Gemeindepartnerschaften / Regionalpartnerschaften" />
-    </category>
-  </categories>
-</mycoreclass>
