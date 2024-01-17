@@ -2,7 +2,7 @@
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage xmlns:i18n="http://www.mycore.org/i18n">
 
-  <section title="Repositorium des DFI" xml:lang="de">
+  <section title="Repositorium des dfi" xml:lang="de">
     <div id="project-index-search" class="jumbotwo" >
       <div class="splash cms-page">
         <div class="page-figure">
@@ -49,6 +49,104 @@
       });
     </script>
   </section>
+
+  <section title="Repository of the dfi" xml:lang="en">
+    <div id="project-index-search" class="jumbotwo" >
+      <div class="splash cms-page">
+        <div class="page-figure">
+          <img src="../images/figures/frankreich-bibliothek.jpg" />
+          <div class="figure-overlay">
+            <form
+              id="project-searchMainPage"
+              action="../servlets/solr/find"
+              class="form-inline backlight"
+              role="search">
+              <h1 class="">
+                <span class="backlight">Repository</span>
+              </h1>
+              <div class="input-group input-group-lg w-100">
+                <input
+                  name="condQuery"
+                  placeholder="Suche in 160 Dokumenten"
+                  class="form-control search-query"
+                  id="project-searchInput"
+                  type="text" />
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-secondary">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jsChangeBack"></div>
+    <script src="../js/jquery.number.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $.ajax({
+          type: "GET",
+          url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          dataType: "jsonp",
+          success: function (data) {
+            $('#project-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') + ' documents');
+          },
+        });
+      });
+    </script>
+  </section>
+
+
+  <section title="Référentiel du dfi" xml:lang="fr">
+    <div id="project-index-search" class="jumbotwo" >
+      <div class="splash cms-page">
+        <div class="page-figure">
+          <img src="../images/figures/frankreich-bibliothek.jpg" />
+          <div class="figure-overlay">
+            <form
+              id="project-searchMainPage"
+              action="../servlets/solr/find"
+              class="form-inline backlight"
+              role="search">
+              <h1 class="">
+                <span class="backlight">Référentiel</span>
+              </h1>
+              <div class="input-group input-group-lg w-100">
+                <input
+                  name="condQuery"
+                  placeholder="Recherche dans 0 documents"
+                  class="form-control search-query"
+                  id="project-searchInput"
+                  type="text" />
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-secondary">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jsChangeBack"></div>
+    <script src="../js/jquery.number.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $.ajax({
+          type: "GET",
+          url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+          dataType: "jsonp",
+          success: function (data) {
+            $('#project-searchInput').attr('placeholder', 'Recherche dans ' + $.number(data.response.numFound,0, ',', '.') + ' documents');
+          },
+        });
+      });
+    </script>
+  </section>
+
   <meta>
     <log date="2023-10-19" time="11:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
   </meta>

@@ -4,7 +4,8 @@
     xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
     xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
     xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-    exclude-result-prefixes="i18n mcrver mcrxsl">
+    xmlns:calendar="xalan://java.util.GregorianCalendar"
+    exclude-result-prefixes="i18n mcrver mcrxsl calendar">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
 
@@ -15,8 +16,8 @@
 
         <div class="project_logo_box">
           <a title="zur Homepage" href="https://www.dfi.de/">
-            <img alt="Logo DFI" class="dfi-logo" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
-            <img alt="Logo DFI klein" class="dfi-logo-small" src="{$WebApplicationBaseURL}images/logos/logo-dfi-blau.svg" />
+            <img alt="Logo dfi" class="dfi-logo" src="{$WebApplicationBaseURL}images/logos/logo-dfi-mit-schriftzug-blau.svg" />
+            <img alt="Logo dfi klein" class="dfi-logo-small" src="{$WebApplicationBaseURL}images/logos/logo-dfi-blau.svg" />
           </a>
         </div>
 
@@ -30,7 +31,9 @@
           </nav>
 
           <div class="search-button search-toggler js-search-toggler">
-            <span class="search-button__label">Schnellsuche</span>
+            <span class="search-button__label">
+              <xsl:value-of select="i18n:translate('project.layout.header.quick_search')" />
+            </span>
             <i class="fas fa-search search-button__icon"></i>
           </div>
 
@@ -130,7 +133,12 @@
       <div class="row">
         <div class="col-12">
           <div class="footer-copyright">
-            <p class="text-center">© Deutsch-Französisches Institut 2023</p>
+            <xsl:variable name="tmp" select="calendar:new()"/>
+            <p class="text-center">
+              <xsl:value-of select="i18n:translate('project.layout.footer.copyright')" />
+              <xsl:text> </xsl:text>
+              <xsl:value-of select="calendar:get($tmp, 1)"/>
+            </p>
           </div>
         </div>
       </div>
