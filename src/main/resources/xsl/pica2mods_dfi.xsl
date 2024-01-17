@@ -44,6 +44,7 @@
       <xsl:call-template name="modsRelatedItem" />
       <xsl:call-template name="modsSubject" />
       <xsl:call-template name="modsDfiFIVSubject" />
+      <xsl:call-template name="modsDfiSpecific" />
     </mods:mods>
   </xsl:template>
   
@@ -72,6 +73,11 @@
         <mods:topic><xsl:value-of select="./p:subfield[@code='a']"/></mods:topic>
       </mods:subject>
     </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template name="modsDfiSpecific" >
+    <mods:accessCondition type="use and reproduction" xlink:href="http://www.mycore.org/classifications/mir_licenses#rights_reserved" xlink:type="simple"/>
+    <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#article"/>
   </xsl:template>
 
   <xsl:template match="zs:searchRetrieveResponse">
