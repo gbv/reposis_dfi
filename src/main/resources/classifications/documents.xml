@@ -46,6 +46,14 @@
         <label xml:lang="de" text="Zeitschriftaufsätze (pdf)"/>
         <label xml:lang="en" text="Journal articles (pdf)"/>
       </category>
+      <category ID="dfi_estate">
+        <label xml:lang="de" text="Dokumente aus dem Nachlass der Gesellschaft der Freunde französischer Kultur e.V. Stuttgart"/>
+        <label xml:lang="en" text="Documents from the estate of the Gesellschaft der Freunde französischer Kultur e.V. Stuttgart"/>
+      </category>
+      <category ID="dfi_archive_copies_epubs">
+        <label xml:lang="de" text="Archivkopien von Onlineveröffentlichungen"/>
+        <label xml:lang="en" text="Archive copies of online publications"/>
+      </category>
     </category>
     <category ID="press_documentation">
       <label xml:lang="de" text="Dokumente aus dem dfi-Pressearchiv"/>
@@ -61,6 +69,10 @@
       <category ID="caricature">
         <label xml:lang="de" text="Karikaturen (pdf)"/>
         <label xml:lang="en" text="Caricature (pdf)"/>
+      </category>
+      <category ID="dfi_archive_copies_earticles">
+        <label xml:lang="de" text="Archivkopien von Online-Artikeln"/>
+        <label xml:lang="en" text="Archive copies of online articles"/>
       </category>
     </category>
   </categories>
