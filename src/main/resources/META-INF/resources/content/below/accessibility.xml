@@ -1,19 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Barrierefreiheitserklärung">
-    <div class="cms-page">
-      <h1><span>Erklärung zur Barrierefreiheit</span></h1>
-      <div class="row">
-        <div class="col-md-12" lang="de">
-          <p>
-            In Bearbeitung.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <meta>
-    <log lastEditor="administrator" date="2020-09-22" time="12:30"/>
-  </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="cms-page">
+<h1><span>Erklärung zur Barrierefreiheit</span></h1>
+
+<div class="row">
+<div class="col-md-12" lang="de">
+<section>
+<p>Als öffentliche Stelle im Sinne der Richtlinie (EU) 2016/2102 ist das Deutsch-Französische Institut e.V. bemüht, seine Websites und mobilen Anwendungen im Einklang mit den Bestimmungen des Behindertengleichstellungsgesetzes des Bundes (BGG) sowie der Barrierefreien-Informationstechnik-Verordnung (BITV 2.0) zur Umsetzung der Richtlinie (EU) 2016/2102 barrierefrei zugänglich zu machen. Diese Erklärung zur Barrierefreiheit gilt für die Website https://repositorium.dfi.de</p>
+</section>
+<section>
+<h3>Stand der Vereinbarkeit mit den Anforderungen</h3>
+
+<p>Aufgrund der Überprüfung gemäß Selbsteinschätzung nach BITV-Test ist die Webseite mit den zuvor genannten Anforderungen nur teilweise vereinbar.</p>
+
+<p>Die Webseite https://repositorium.dfi.de und deren Funktionalität und Darstellungsform auf gängigen Endgeräten sind mit den Web Content Accessibility Guidelines 2.1 (WCAG 2.1) Level AA und den Vorgaben der harmonisierten europäischen Norm EN 301 549 V2.1.2 (08-2018) teilweise vereinbar.</p>
+</section>
+<section>
+<h3>Unvereinbarkeit mit der BITV 2.0</h3>
+
+<p>Unsere Webauftritte enthalten keine Informationen in Gebärdensprache und in leichter Sprache. Begründung: Nach Rücksprachen mit entsprechenden Verbänden wird die Vorlesefunktionder persönlichen Screenreader bevorzugt, daher verzichtet die Website auf dieses Angebot. Wir bemühen uns, eine möglichst einfache Sprache zu benutzen. Auf Grund der komplexen Inhalte, die zumindest teilweise in unseren Webauftritten veröffentlicht werden, ist eine einfache Sprachgestaltung (beispielsweise der Verzicht auf Fachbegriffe) nicht immer möglich.</p>
+
+<ul>
+	<li>Es fehlen in weiten Teilen alternative Text-Inhalte für Bilder</li>
+	<li>Eine sinnvolle Reihenfolge der Tabs ist bei eingeschalteten CSS nicht immer gegeben</li>
+	<li>Die Webseite ist nur teilweise ohne Maus zu nutzen</li>
+	<li>Inhalte sind nicht immer fortlaufend (bei eingeschaltetem CSS) gegliedert</li>
+	<li>nicht alle Bereiche sind überspringbar</li>
+	<li>die aktuelle Position des Fokus ist nicht immer ersichtlich</li>
+	<li>die sichtbare Beschriftung ist nicht fortlaufend Teil des zugänglichen Namens</li>
+	<li>die Hauptsprache der Seite ist nicht angegeben</li>
+	<li>Anderssprachige Wörter und Abschnitte sind nicht ausgezeichnet</li>
+	<li>Eine korrekte Syntax ist nicht immer gewährleistet</li>
+	<li>Nicht alle interaktiven Bedienelemente haben programmatische ermittelbare Namen und Rollen</li>
+</ul>
+
+<div class="mt-5 mb-3">
+  <strong>Begründung:</strong>
+</div>
+
+<p>Als Deutsch-Französische Institut e.V. bieten wir einen umfangreichen Webauftritt, daher sind Fehler nicht ganz auszuschließen. Die identifizierten Defizite und Mängel befinden sich aktuell in einem kontinuierlichen Verbesserungsprozess, der sukzessive abgearbeitet wird.</p>
+</section>
+<section>
+<h3>Erstellung dieser Erklärung zur Barrierefreiheit</h3>
+
+<p>Diese Erklärung wurde am 20.11.2023 erstellt und auf Basis der BITV / WCAG-Selbstbewertung www.bitv-test.de erstellt.</p>
+</section>
+<section>
+<h3>Barrieren melden: Feedback und Kontaktangaben</h3>
+
+<p>Bitte informieren Sie uns, wenn Sie in unseren Webauftritten auf erläuterungsbedürftige Inhalte oder Inhalte, die schwer zugänglich sind, stoßen:</p>
+
+<p><a href="mailto:frankreich-bibliothek@dfi.de">frankreich-bibliothek@dfi.de</a><br />
+Deutsch-Französisches Institut<br />
+Frankreich-Bibliothek<br />
+Asperger Straße 30<br />
+71634 Ludwigsburg<br />
+Tel.: +49 7141 930330</p>
+</section>
+<section>
+<h3>Schlichtungsverfahren</h3>
+
+<p>Sollten Sie auf Mitteilungen oder Anfragen zur Barrierefreiheit innerhalb von sechs Wochen keine zufriedenstellende Antwort erhalten haben, können Sie die Schlichtungsstelle BGG einschalten. Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen.</p>
+
+<p>Mauerstraße 53<br />
+10117 Berlin</p>
+
+<p>Telefon: 030 18 527-2805<br />
+Fax: 030 18 527-2901<br />
+E-Mail: <a href="mailto:info@schlichtungsstelle-bgg.de">info@schlichtungsstelle-bgg.de</a><br />
+Internet: <a href="https://www.schlichtungsstelle-bgg.de">www.schlichtungsstelle-bgg.de</a></p>
+</section>
+</div>
+</div>
+</div>
+</section><meta><log lastEditor="administrator" date="2024-01-18" time="10:46" /></meta></MyCoReWebPage>
