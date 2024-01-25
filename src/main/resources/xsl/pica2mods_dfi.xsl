@@ -67,7 +67,6 @@
         <mods:topic authorityURI="http://repo.dfi.de/api/v1/classifications/fivdfi" valueURI="{$valueURI}"/>
       </mods:subject>
     </xsl:for-each>
-
     <xsl:for-each select="./p:datafield[@tag='045D'][@occurrence='60' or @occurrence='70']" >
       <mods:subject xlink:type="simple">
         <mods:topic><xsl:value-of select="./p:subfield[@code='a']"/></mods:topic>
