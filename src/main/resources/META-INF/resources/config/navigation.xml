@@ -102,6 +102,15 @@
       <label xml:lang="en">By Documents</label>
       <label xml:lang="fr">Par document</label>
     </item>
+    <item href="/content/browse/fivr.xml" type="intern">
+      <label xml:lang="de">Nach FIV Regionalklassifikation</label>
+    </item>
+    <item href="/content/browse/fivs.xml" type="intern">
+      <label xml:lang="de">Nach FIV Sachklassifikation</label>
+    </item>
+    <item href="/content/browse/fivr.xml" type="intern">
+      <label xml:lang="de">Nach FIV Klassifikation</label>
+    </item>
     <item href="/content/browse/sdnb.xml" type="intern">
       <label xml:lang="de">Nach Sachgruppen</label>
       <label xml:lang="en">By SNDB</label>
