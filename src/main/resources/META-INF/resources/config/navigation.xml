@@ -108,8 +108,8 @@
     <item href="/content/browse/fivs.xml" type="intern">
       <label xml:lang="de">Nach FIV Sachklassifikation</label>
     </item>
-    <item href="/content/browse/fivr.xml" type="intern">
-      <label xml:lang="de">Nach FIV Klassifikation</label>
+    <item href="/content/browse/fivdfi.xml" type="intern">
+      <label xml:lang="de">Nach DFI Sachklassifikation</label>
     </item>
     <item href="/content/browse/sdnb.xml" type="intern">
       <label xml:lang="de">Nach Sachgruppen</label>
