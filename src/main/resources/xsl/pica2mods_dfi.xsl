@@ -75,8 +75,49 @@
   </xsl:template>
 
   <xsl:template name="modsDfiSpecific" >
-    <mods:accessCondition type="use and reproduction" xlink:href="http://www.mycore.org/classifications/mir_licenses#rights_reserved" xlink:type="simple"/>
-    <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#article"/>
+    <!--
+      Wenn es ein Hochschulvermerk gibt, wird dieser ausgewertet. 
+      Wenn übergeordnete Einheit AFA dann genre Artice.
+      Wenn übergeordnete Einheit dfi compact dann genre Artice.
+     -->
+    <xsl:choose>
+      <xsl:when test="./p:datafield[@tag='037C']">
+        <xsl:choose>
+          <xsl:when test="contains(./p:datafield[@tag='037C'],'Habil.')
+                          or contains(./p:datafield[@tag='037C'],'Habilitation')">
+            <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#habilitation"/>
+          </xsl:when>
+          <xsl:when test="contains(./p:datafield[@tag='037C'],'Diss.') 
+                          or contains(./p:datafield[@tag='037C'],'Dissertation')
+                          or contains(./p:datafield[@tag='037C'],'Thèse de doctorat')">
+            <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#dissertation"/>
+          </xsl:when>
+          <xsl:when test="contains(./p:datafield[@tag='037C'],'Dipl.')
+                          or contains(./p:datafield[@tag='037C'],'Diplom')">
+            <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#diploma_thesis"/>
+          </xsl:when>
+          <xsl:when test="contains(./p:datafield[@tag='037C'],'Master')">
+            <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#master_thesis"/>
+          </xsl:when>
+          <xsl:when test="contains(./p:datafield[@tag='037C'],'Bachelor')">
+            <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#diploma_bachelor"/>
+          </xsl:when>
+          <xsl:when test="contains(./p:datafield[@tag='037C'],'Magister')">
+            <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#diploma_thesis"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#thesis"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:when test="./p:datafield[@tag='039B']">
+        <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#article"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#article"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    <mods:accessCondition type="use and reproduction" xlink:href="http://www.mycore.org/classifications/mir_licenses#rights_reserved" xlink:type="simple"/>   
   </xsl:template>
 
   <xsl:template match="zs:searchRetrieveResponse">
