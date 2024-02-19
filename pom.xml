@@ -24,12 +24,11 @@
     <parent>
         <groupId>de.gbv.reposis</groupId>
         <artifactId>reposis_mir_parent</artifactId>
-        <version>2022.06-SNAPSHOT</version>
+        <version>2023.06-SNAPSHOT</version>
     </parent>
 
-    <groupId>de.gbv.reposis</groupId>
     <artifactId>reposis_dfi</artifactId>
-    <version>2022.06-SNAPSHOT</version>
+    <version>2023.06-SNAPSHOT</version>
     <properties>
         <MCR.AppName>dfi</MCR.AppName>
     </properties>
@@ -102,10 +101,6 @@
             <artifactId>mycore-pi</artifactId>
         </dependency>
         -->
-        <dependency>
-            <groupId>com.sun.activation</groupId>
-            <artifactId>jakarta.activation</artifactId>
-        </dependency>
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
