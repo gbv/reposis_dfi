@@ -6,7 +6,7 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-body {
+body:not(.mycoreViewer) {
   padding-top: 11rem;
 }
 
