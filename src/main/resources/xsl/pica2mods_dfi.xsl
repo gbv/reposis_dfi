@@ -75,11 +75,10 @@
   </xsl:template>
 
   <xsl:template name="modsDfiSpecific" >
-    <!--
-      Wenn es ein Hochschulvermerk gibt, wird dieser ausgewertet. 
-      Wenn übergeordnete Einheit AFA dann genre Artice.
-      Wenn übergeordnete Einheit dfi compact dann genre Artice.
-     -->
+    
+    <xsl:variable name="pica0500_1" select="substring(./p:datafield[@tag='002@']/p:subfield[@code='0'],2,1)" />
+    <xsl:variable name="pica0500_2" select="substring(./p:datafield[@tag='002@']/p:subfield[@code='0'],2,1)" />
+      
     <xsl:choose>
       <xsl:when test="./p:datafield[@tag='037C']">
         <xsl:choose>
@@ -110,11 +109,14 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
+      <xsl:when test="contains('a',$pica0500_2) and $pica0500_1='A'">
+        <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#book"/>
+      </xsl:when>
       <xsl:when test="./p:datafield[@tag='039B']">
         <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#article"/>
       </xsl:when>
       <xsl:otherwise>
-        <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#article"/>
+        <mods:genre type="intern" authorityURI="http://www.mycore.org/classifications/mir_genres" valueURI="http://www.mycore.org/classifications/mir_genres#{$pica0500_2}"/>
       </xsl:otherwise>
     </xsl:choose>
     <mods:accessCondition type="use and reproduction" xlink:href="http://www.mycore.org/classifications/mir_licenses#rights_reserved" xlink:type="simple"/>   
