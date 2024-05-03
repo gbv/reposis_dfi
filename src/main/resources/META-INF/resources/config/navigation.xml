@@ -111,11 +111,6 @@
     <item href="/content/browse/fivdfi.xml" type="intern">
       <label xml:lang="de">Nach DFI Sachklassifikation</label>
     </item>
-    <item href="/content/browse/sdnb.xml" type="intern">
-      <label xml:lang="de">Nach Sachgruppen</label>
-      <label xml:lang="en">By SNDB</label>
-      <label xml:lang="fr">Par groupe de matières</label>
-    </item>
     <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern">
       <label xml:lang="de">Nach Personen</label>
       <label xml:lang="en">By Persons</label>
