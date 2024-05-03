@@ -104,12 +104,15 @@
     </item>
     <item href="/content/browse/fivr.xml" type="intern">
       <label xml:lang="de">Nach FIV Regionalklassifikation</label>
+      <label xml:lang="fr">Selon la classification régionale FIV</label>
     </item>
     <item href="/content/browse/fivs.xml" type="intern">
       <label xml:lang="de">Nach FIV Sachklassifikation</label>
+      <label xml:lang="fr">Selon la classification par matières du FIV</label>
     </item>
     <item href="/content/browse/fivdfi.xml" type="intern">
       <label xml:lang="de">Nach DFI Sachklassifikation</label>
+      <label xml:lang="fr">Selon la classification par matière du dfi</label>
     </item>
     <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern">
       <label xml:lang="de">Nach Personen</label>
