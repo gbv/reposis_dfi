@@ -93,11 +93,6 @@
                   xpath="condition[@field='category.top'][2]/@value" id="inputLanguage1"
                   i18n="editor.search.mir.language_classification" tooltip="editor.search.mir.language_classification.tooltip"
                   uri="xslStyle:items2options:classification:editorComplete:-1:children:rfc5646" />
-              <!-- dfi-Pressearchiv-Klassifikation -->
-                <mir:template name="selectInput"
-                              xpath="condition[@field='category.top'][3]/@value" id="inputPress_Archive1"
-                              i18n="editor.search.mir.pressarchive_classification" tooltip="editor.search.mir.pressarchive_classification.tooltip"
-                              uri="xslStyle:items2options:classification:editorComplete:-1:children:documents" />
               <!-- Genre -->
                 <mir:template name="selectInput"
                   xpath="condition[@field='category.top'][4]/@value" id="inputGenre1"
