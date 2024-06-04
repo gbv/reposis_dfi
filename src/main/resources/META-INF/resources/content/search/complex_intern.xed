@@ -92,11 +92,6 @@
                   <mir:template name="textInput"
                     xpath="condition[@field='id,isbn,mods.identifier']/@value" id="inputIdentifier1"
                     i18n="editor.search.mir.identifier" tooltip="editor.search.mir.identifier.tooltip" />
-                  <!-- Presseorgan -->
-                  <mir:template name="selectInput"
-                                xpath="condition[@field='category.top'][1]/@value" id="inputPressOrgans1"
-                                i18n="editor.search.mir.press_organ" tooltip="editor.search.mir.press_organ.tooltip"
-                                uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
                   <!-- Sprachklassifikation -->
                   <mir:template name="selectInput"
                                 xpath="condition[@field='category.top'][2]/@value" id="inputLanguage1"
