@@ -24,7 +24,6 @@
       <xed:source uri="webapp:editor/search/template/complex.xml" />
       <xed:bind xpath="query">
         <xed:bind xpath="@mask" default="content/search/complex.xed" />
-        <xed:bind xpath="@qt" default="/selectPublic" />
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">
