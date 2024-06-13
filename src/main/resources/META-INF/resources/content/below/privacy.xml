@@ -83,7 +83,118 @@
         </div>
       </div>
     </section>
+    <section xml:lang="fr" title="Déclaration de confidentialité">
+      <div class="cms-page">
+        <h1>
+          <span>Déclaration de confidentialité</span>
+        </h1>
+        <div class="row">
+          <div class="col-md-12" lang="de">
+
+            <section>
+              <p>
+                L‘Institut Franco-allemand (DFI) est responsable au sens du règlement général sur la protection des données, et d'autres lois sur la protection des données en vigueur dans les États membres de l'Union européenne et d'autres dispositions à caractère juridique sur la protection des données. Le DFI se situe :<br />
+                <br />
+                Deutsch-Französisches Institut<br />
+                Asperger Straße 34<br />
+                71634 Ludwigsburg<br />
+                Allemagne<br />
+                Tel.: +49-7141-9303-0<br />
+                E-Mail: datenschutz@dfi.de<br />
+              </p>
+
+              <p>
+                Vous pouvez accéder à la banque de données et utiliser son contenu sans fournir directement des informations personnelles
+                (telles que votre nom, votre adresse postale ou votre adresse e-mail). Cependant même dans ce cas, nous devons collecter et enregistrer 
+                certaines informations afin de vous permettre d'accéder à notre site web.
+              </p>
+            </section>
+    
+            <section>
+              <h3>Donnés de connexion</h3>
+              <p>
+                Lorsque vous visitez ce site web, notre serveur web enregistre automatiquement le nom de domaine ou l'adresse
+                IP de votre ordinateur (en général votre fournisseur d'accès à Internet), y compris la date, l'heure et la durée de votre visite, les sous-pages URL que vous visitez ainsi que
+                des informations sur la ou les applications et les terminaux que vous utilisez pour consulter nos pages.
+              </p>
+            </section>
+
+            <section>
+              <h3>Cookies</h3>
+              <p>
+                Afin de rendre notre offre aussi conviviale que possible, nous utilisons - comme de nombreuses 
+                entreprises de renom - ce que l'on appelle des cookies. Les cookies sont de petits fichiers texte qui
+                sont enregistrés dans le navigateur Internet que vous utilisez. Ces fichiers nous aident à reconnaître 
+                certaines préférences de nos visiteurs lors de leur navigation et à organiser notre site en conséquence. 
+                La plupart des cookies que nous utilisons sont des cookies de session. Ils sont automatiquement supprimés à la 
+                fin de votre visite. Mais nous utilisons également des cookies permanents. Ceux-ci servent à améliorer le confort 
+                d'utilisation. Nos cookies ne collectent pas de données personnelles et ne permettent pas de vous identifier 
+                sur des sites web tiers. Vous pouvez configurer votre navigateur de manière à ce qu'il vous informe de 
+                l’utilisation de cookies. De cette manière, l'utilisation de vos cookies est transparente. Vous pouvez également 
+                refuser les cookies par principe via
+                les paramètres de votre navigateur. Toutefois, dans certaines circonstances, cela peut vous empêcher 
+                d'utiliser toutes les fonctions du site web.
+              </p>
+            </section>
+
+            <section>
+              <h3>Analyse Web avec Matomo (anciennement Piwik)</h3>
+              <p>
+                Nous utilisons également sur notre site web Matomo Open Analytics, un logiciel d'analyse web développé 
+                par InnoCraft Ltd, 150 Willis St. 6011 Wellington, New Zealand, afin d'améliorer continuellement notre 
+                site web. Matomo utilise également des cookies qui sont stockés sur votre ordinateur afin de permettre 
+                l'analyse de l'utilisation du site web. Les informations générées par les cookies concernant votre utilisation
+                de ce site web sont généralement envoyées à un serveur Matomo. L'adresse IP de votre terminal est pseudonymisation 
+                et enregistrée sur ce serveur de manière à ce qu'il soit impossible d'identifier la personne qui l'utilise.
+                Les informations collectées sont utilisées pour évaluer votre utilisation du site web et pour établir ses 
+                rapports d'activité
+              </p>
+            </section>
+
+            <section>
+              <h3>Communication</h3>
+              <p>
+                Afin de pouvoir assurer la communication avec les utilisatrices et les utilisateurs de notre banque de 
+                données, nous traitons toutes les diverses informations que vous nous communiquez lors de la prise de 
+                contact ; nous enregistrons en outre le motif de la prise de contact.
+              </p>
+              <p>
+                Pour quelles raisons et sur quelles bases juridiques sont analysées vos données ?
+              </p>
+              <ul>
+                <li>
+                  Le traitement des données, éventuellement à caractère personnel, contenues dans les données de
+                  connexion, a lieu afin de vous permettre d'utiliser notre site web ; cela se fait sur la base 
+                  de l'article 15 al. 1 de la loi allemande sur les médias électroniques (TMG).
+                  Le traitement des données collectées par le biais de cookies (y compris l'analyse web avec Matomo) 
+                  et les profils d'utilisation est effectué à des fins d'exploitation, d'amélioration et d'adaptation 
+                  aux besoins de notre site web sur la base de l'article 15, al. 3, de la TMG.
+                  Nous pouvons également traiter les données enregistrées dans le cadre de l'utilisation de notre site web et à des fins 
+                  de communication pour remplir les obligations légales auxquelles nous sommes soumis, ceci sur la base de 
+                  l'article 6, al. 1 c) du RGPD.
+                  Dans la mesure où cela est nécessaire, nous traitons également vos données au-delà des finalités 
+                  susmentionnées afin de protéger nos intérêts légitimes ou les intérêts de tiers ; cela se fait sur la 
+                  base de l'article 6, al. 1, f) du RGPD. Parmi nos intérêts légitimes figurent notamment :
+                </li>
+                <li>
+                  l'exercice de droits légaux et la défense en cas de litiges juridiques ;
+                </li>
+                <li>
+                  la garantie d'une communication conviviale dans les cas visés au point III.9 ;
+                </li>
+                <li>
+                  la prévention et l'élucidation de délits ;
+                </li>
+                <li>
+                  la gestion et le développement de nos activités commerciales, y compris la gestion des risques.
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
     <meta>
-        <log lastEditor="admin" date="2020-12-01" time="13:04"/>
+        <log lastEditor="admin" date="2024-06-13" time="13:04"/>
     </meta>
 </MyCoReWebPage>
