@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ This file is part of ***  M y C o R e  ***
+  ~ See http://www.mycore.de/ for details.
+  ~
+  ~ MyCoRe is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ MyCoRe is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with MyCoRe.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="state">
+    <label xml:lang="de" text="Objektstatus" />
+    <label xml:lang="en" text="Object state" />
+    <label xml:lang="it" text="stato dell'oggetto" />
+    <label xml:lang="x-uri" text="http://www.mycore.org/classifications/state" />
+    <categories>
+        <category ID="imported">
+            <label xml:lang="de" text="neu importiert" />
+            <label xml:lang="fr" text="nouvellement importé" />
+            <label xml:lang="x-next" text="published" />
+        </category>
+        <category ID="submitted">
+            <label xml:lang="de" text="eingereicht" />
+            <label xml:lang="en" text="submitted" />
+            <label xml:lang="fr" text="soumis" />
+            <label xml:lang="it" text="presentata" />
+        </category>
+        <category ID="review">
+            <label xml:lang="de" text="wird bearbeitet" />
+            <label xml:lang="en" text="in review" />
+            <label xml:lang="fr" text="en cours de traitement" />
+            <label xml:lang="it" text="lavorazione" />
+        </category>
+        <category ID="published">
+            <label xml:lang="de" text="veröffentlicht" />
+            <label xml:lang="en" text="published" />
+            <label xml:lang="fr" text="publié" />
+            <label xml:lang="it" text="pubblicato" />
+            <label xml:lang="x-next" text="imported" />
+        </category>
+        <category ID="blocked">
+            <label xml:lang="de" text="gesperrt" />
+            <label xml:lang="en" text="blocked" />
+            <label xml:lang="fr" text="verrouillé" />
+            <label xml:lang="it" text="bloccato" />
+        </category>
+        <category ID="deleted">
+            <label xml:lang="de" text="gelöscht" />
+            <label xml:lang="en" text="deleted" />
+            <label xml:lang="fr" text="supprimé" />
+            <label xml:lang="it" text="cancellato" />
+        </category>
+    </categories>
+</mycoreclass>
