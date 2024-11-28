@@ -338,9 +338,19 @@
     </xsl:template>
 
     <xsl:template match="mods:geographic" mode="displaySubject">
+        <xsl:variable name="content">
+          <xsl:choose>
+            <xsl:when test="string-length(@authorityURI) &gt; 0">
+              <xsl:apply-templates select="." mode="printModsClassInfo" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="."/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
         <xsl:call-template name="authorityLink">
             <xsl:with-param name="content">
-                <xsl:value-of select="."/>
+                <xsl:value-of select="$content"/>
             </xsl:with-param>
         </xsl:call-template>
         <xsl:call-template name="displayInfoIconWithBox">
@@ -368,9 +378,19 @@
     </xsl:template>
 
     <xsl:template match="mods:topic" mode="displaySubject">
+        <xsl:variable name="content">
+          <xsl:choose>
+            <xsl:when test="string-length(@authorityURI) &gt; 0">
+              <xsl:apply-templates select="." mode="printModsClassInfo" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="."/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
         <xsl:call-template name="authorityLink">
             <xsl:with-param name="content">
-                <xsl:value-of select="."/>
+                <xsl:value-of select="$content"/>
             </xsl:with-param>
         </xsl:call-template>
 
