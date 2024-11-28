@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xalan="http://xml.apache.org/xalan" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions" exclude-result-prefixes="xalan mcrxsl">
+<xsl:stylesheet version="1.0" 
+    xmlns:mods="http://www.loc.gov/mods/v3" 
+    xmlns:xalan="http://xml.apache.org/xalan" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+    xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions" 
+    xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation" xmlns:mcrmods="xalan://org.mycore.mods.classification.MCRMODSClassificationSupport"
+    exclude-result-prefixes="xalan mcrxsl">
   <xsl:param name="WebApplicationBaseURL" />
   <xsl:param name="ServletsBaseURL" select="''" />
   <xsl:variable name="relacode" select="document('resource:relacode.xml')/relacode" />
@@ -144,6 +150,24 @@
         </mods:roleTerm>
       </xsl:if>
     </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="mods:topic|mods:geographic|mods:temporal|mods:hierarchicalGeographic" mode="mods2mods">
+    <xsl:copy>
+      <xsl:copy-of select="@*" />
+      <xsl:choose>
+        <xsl:when test="string-length(@authorityURI) &gt; 0">
+          <xsl:variable name="classlink" select="mcrmods:getClassCategLink(.)" />
+          <xsl:choose>
+            <xsl:when test="string-length($classlink) &gt; 0">
+              <xsl:for-each select="document($classlink)/mycoreclass/categories/category">
+                <xsl:value-of select="label/@text"/>
+              </xsl:for-each>
+            </xsl:when> 
+          </xsl:choose>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:copy> 
   </xsl:template>
 
 </xsl:stylesheet>
