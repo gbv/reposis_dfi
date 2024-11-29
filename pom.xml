@@ -84,20 +84,6 @@
     </pluginRepository>
   </pluginRepositories>
   <dependencies>
-    <!-- enable theese if you write code using them
-        <dependency>
-            <groupId>org.mycore</groupId>
-            <artifactId>mycore-base</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mycore</groupId>
-            <artifactId>mycore-mods</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mycore</groupId>
-            <artifactId>mycore-pi</artifactId>
-        </dependency>
-        -->
     <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
@@ -117,6 +103,25 @@
     <dependency>
       <groupId>org.mycore</groupId>
       <artifactId>selenium-utils</artifactId>
+    </dependency>
+    <!-- enable theese if you write code using them
+        <dependency>
+            <groupId>org.mycore</groupId>
+            <artifactId>mycore-base</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mycore</groupId>
+            <artifactId>mycore-mods</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mycore</groupId>
+            <artifactId>mycore-pi</artifactId>
+        </dependency>
+        -->
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
