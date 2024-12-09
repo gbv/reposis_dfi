@@ -166,7 +166,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="mods:dateCreated|mods:dateOther|mods:dateIssued|mods:dateCaptured|mods:dateModified" mode="formatDate">
+  <xsl:template match="mods:dateCreated|mods:dateOther|mods:dateIssued|mods:dateCaptured|mods:dateModified|mods:date" mode="formatDate">
     <xsl:variable name="dateFormat">
       <xsl:choose>
         <xsl:when test="string-length(normalize-space(.))=4">
@@ -971,6 +971,10 @@
       <xsl:if test="mods:part/mods:detail[@type='issue']/mods:number">
         <xsl:value-of
           select="concat(i18n:translate('component.mods.metaData.dictionary.issue.shortcut'),' ',mods:part/mods:detail[@type='issue']/mods:number)" />
+      </xsl:if>
+      <xsl:if test="mods:part/mods:date">
+        <xsl:value-of select="' vom: '"/>
+        <xsl:apply-templates select="mods:part/mods:date" mode="formatDate"/>
       </xsl:if>
       <xsl:if test="mods:part/mods:detail[@type='issue']/mods:number or mods:part/mods:detail[@type='volume']/mods:number and string-length($dateIssued) &gt; 0">
         <xsl:text> </xsl:text>
