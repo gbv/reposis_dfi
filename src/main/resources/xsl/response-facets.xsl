@@ -14,6 +14,32 @@
   <xsl:variable name="facetProperties" select="document(concat('property:','MIR.Response.Facet.*'))"/>
 
   <xsl:template name="facets">
+     
+    <!-- DFI-EXTENSION time bar facet extension use timebar.js from reposis_common - START -->
+    <xsl:variable name="timebarField" select="'mods.dateIssuedDateRange'"/>
+    <div class="card facet-por" style="display: none">
+      <div class="card-header" data-toggle="collapse-next">
+        <h3 class="card-title">
+          <xsl:value-of select="i18n:translate('mir.response.facet.date.dateIssued.title')"/>
+        </h3>
+      </div>
+      <div class="card-body collapse show">
+        <script src="{$WebApplicationBaseURL}js/timebar.js" type="text/javascript"></script>
+        <div data-timebar="true"
+             data-timebar-height="100"
+             data-timebar-log="false"
+             data-search-field="{$timebarField}"
+             data-timebar-start="0001-01-01T00:00:00Z"
+             data-timebar-end="NOW"
+             data-timebar-gap="+1YEAR"
+             data-timebar-mincount="1"
+             data-timebar-show-on-ready=".facet-por"
+        >
+        </div>
+      </div>
+    </div>
+    <!-- DFI-EXTENSION time bar facet extension - END -->
+  
     <xsl:for-each select="/response/lst[@name='facet_counts']/lst[@name='facet_fields']/*">
       <xsl:variable name="facet_name" select="self::node()/@name"/>
 
@@ -26,7 +52,7 @@
         <xsl:value-of select="$facetProperties/properties/entry[@key=concat('MIR.Response.Facet.', $facet_name, '.Roles')]"/>
       </xsl:variable>
       <xsl:variable name="hasRole" select="string-length($rolesProperty)=0 or count(str:tokenize($rolesProperty,',')[mcrxsl:isCurrentUserInRole(.)])!=0"/>
-      
+
       <xsl:if test="$isEnabled and $hasRole and self::node()[@name=$facet_name]/int">
         
         <xsl:variable name="classIdProperty">

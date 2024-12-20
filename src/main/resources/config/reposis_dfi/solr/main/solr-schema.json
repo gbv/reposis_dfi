@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "add-field": {
+        "name":"rfc5646",
+        "type":"string",
+        "multiValued":true
+     }
+  },
+  {
+    "add-field": {
+        "name":"fivdfi",
+        "type":"string",
+        "multiValued":true
+    }
+  },
+  {
+    "add-field": {
+        "name":"mods.dateIssuedDateRange",
+        "type":"mods.date_range",
+        "multiValued":false
+    }
+  }
+]
