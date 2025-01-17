@@ -7,6 +7,11 @@
 // no (xl) media query necessary (desktop first)
 
 
+.card.fivdfi ul.filter {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
